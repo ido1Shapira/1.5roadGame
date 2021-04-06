@@ -56,8 +56,8 @@ function play() {
     //Init blue ball on the board
     blueBall = document.createElement('span');
     blueBall.id = "blueBall";
-    setBlueState("a6");
-    getDOM("a6").appendChild(blueBall);
+    setBlueState("a3");
+    getDOM("a3").appendChild(blueBall);
 
     //Choose behavior to the blue ball
     algorithms = ["carefulBehavior",

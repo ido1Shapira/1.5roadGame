@@ -272,7 +272,7 @@ class nonzeroMinMaxBehavior{
         if(blueState == "a1") {
             return "stay";
         }
-        var currentNode = this.#tree.findNodeByStates(redState, blueState);
+        var currentNode = this.#tree.findNodeByStates(blueState, redState);
         currentNode.print();
 
         // var data = this.minmax(root, this.#MAX_DEPTH, true);
@@ -305,12 +305,17 @@ class nonzeroMinMaxBehavior{
                 var newBluePosition = createNextPosition(action, blueState);
                 for(var i=0; i < redPossibleActions.length;i++) {
                     var newRedPosition = createNextPosition(redPossibleActions[i], redState);
-                    var node = parent.createChildNode(newBluePosition, newRedPosition,
-                        getUtilityAfterAction(newBluePosition, newRedPosition, "blue", depth),
-                        getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
-                    if(depth != this.#MAX_DEPTH && newBluePosition != "a1" && newBluePosition != newRedPosition) {
+                    var blueLastCommand = getAction(blueState, newBluePosition);
+                    var redLastCommand = getAction(redState, newRedPosition);
+                    if(depth < this.#MAX_DEPTH - 1 && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         //not a leaf node and the two ball do not colliding
+                        var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "red");
+                    }
+                    else {
+                        parent.createChildNode(newBluePosition, newRedPosition,
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "blue", depth),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
                     }
                 }
             }
@@ -318,11 +323,16 @@ class nonzeroMinMaxBehavior{
                 var newRedPosition = createNextPosition(action, redState);
                 for(var i=0; i < bluePossibleActions.length;i++) {
                     var newBluePosition = createNextPosition(bluePossibleActions[i], blueState);
-                    var node = parent.createChildNode(newBluePosition, newRedPosition,
-                        getUtilityAfterAction(newBluePosition, newRedPosition, "blue", depth),
-                        getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));                  
-                    if(depth != this.#MAX_DEPTH && newRedPosition != "a6" && newBluePosition != newRedPosition) {
+                    var blueLastCommand = getAction(blueState, newBluePosition);
+                    var redLastCommand = getAction(redState, newRedPosition);
+                    if(depth < this.#MAX_DEPTH - 1 && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                        var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "blue");
+                    }
+                    else {
+                        parent.createChildNode(newBluePosition, newRedPosition,
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "blue", depth),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
                     }
                 }
             }
@@ -403,7 +413,7 @@ class nonzeroMinMaxBehavior{
 }
 
 class randomAssumptionBehavior{
-    #MAX_DEPTH = 4;
+    #MAX_DEPTH = 3;
     #tree;
 
     #stay_prob = 0.25;
@@ -484,7 +494,7 @@ class randomAssumptionBehavior{
                     var newRedPosition = createNextPosition(redPossibleActions[i], redState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH - 1 && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.#MAX_DEPTH && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         //not a leaf node and the two ball do not colliding
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "red");
@@ -502,14 +512,14 @@ class randomAssumptionBehavior{
                     var newBluePosition = createNextPosition(bluePossibleActions[i], blueState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH - 1 && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.#MAX_DEPTH && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "blue");
                     }
                     else {
                         parent.createChildNode(newBluePosition, newRedPosition,
-                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth, redPossibleActions),
-                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
+                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth+1, redPossibleActions),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth+1));
                     }
                 }
             }
@@ -522,6 +532,14 @@ class randomAssumptionBehavior{
         }
     }
 
+    // getBestAction(root, depth, ballColor){
+    //     var leaf = this.maxMaxAlgorithm(root, depth, ballColor);
+    //     console.log("maxValue: "+leaf.blueUtility);
+    //     // var leaf = root.findNodeByBlueUtility(maxValue);
+    //     leaf.print();
+    //     return this.extractAction(leaf);
+    // }
+
     getBestAction(root, depth, ballColor){
         var maxValue = this.maxMaxAlgorithm(root, depth, ballColor);
         console.log(maxValue);
@@ -531,12 +549,42 @@ class randomAssumptionBehavior{
     }
 
     extractAction(leaf, action) {
-        if(leaf.parentNode == null) {
+        var parent = leaf.parentNode;
+        if(parent == null) {
             return action;
         }
-        action = getAction(leaf.parentNode.blueState, leaf.blueState);
+        action = getAction(parent.blueState, leaf.blueState);
         return this.extractAction(parent, action);
     }
+
+    // maxMaxAlgorithm(root, depth, ballColor){
+    //     if(root.children.length == 0 || depth == 0) { //leaf node
+    //         return root
+    //     }
+    //     var best_node, best_value, v;
+    //     if(ballColor == "blue") {
+    //         best_value = Number.NEGATIVE_INFINITY;
+    //         for(var child in root.children) {
+    //             v = this.maxMaxAlgorithm(root.children[child], depth -1, "red").blueUtility;
+    //             if(v > best_value) {
+    //                 best_value = v;
+    //                 best_node = root.children[child];
+    //             }
+    //         }
+    //         return best_node;
+    //     }
+    //     else { //ballColor == "red"
+    //         best_value = Number.NEGATIVE_INFINITY;
+    //         for(var child in root.children) {
+    //             v = this.maxMaxAlgorithm(root.children[child], depth -1, "blue").redUtility;
+    //             if(v > best_value) {
+    //                 best_value = v;
+    //                 best_node = root.children[child];
+    //             }
+    //         }
+    //         return best_node;
+    //     }
+    // }
 
     maxMaxAlgorithm(root, depth, ballColor){
         if(root.children.length == 0 || depth == 0) { //leaf node
