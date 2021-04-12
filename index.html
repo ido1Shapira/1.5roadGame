@@ -8,19 +8,16 @@
 
     <link rel="stylesheet" href="main.css">
 
-    <script src="main.js"></script>
-
-</head>
-<body onload="initializeFirebase(); play();">
     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
-    <script src="astar.js"></script>
     <script src="Tree.js"></script>
-    <script src="shortestPath.js"></script>
 
     <script src="Behaviors.js"></script>
 
-    <p class="instructions" id="instructions" style="font-size:2em"><br>
+    <script src="main.js"></script>
+</head>
+<body onload="initializeFirebase(); play();">
+    <p class="instructions" id="instructions"><br>
         Welcome!<br>
         Game instructions:<br>
         In this game you control the red circle.<br>
@@ -29,7 +26,7 @@
         You may also use the mouse to control the red circle.<br>
         It is not possible to advance to the right if you are in the bottom slots.<br>
         It is not possible to move back (left).<br>
-        Both circles moves synchronously; that is, each time you (the red circle) make a move, the blue circle player will make a move as well---at the same time.<br>
+        Both circles moves synchronously; that is, each time you (the red circle) make a move,<br> the blue circle player will make a move as well---at the same time.<br>
         Note that blue circle's goal is to reach the left side of the board.<br>
         Your score will be calculated using the following:
         Colliding with the blue ball = -100.<br>
@@ -37,34 +34,138 @@
         Reaching the right side = 10.<br>
         Good luck!<br>
     </p>
-    <button class="button" id="playagain" onclick="clickPlayagain()" style="float: left;">Play again</button>
-    <main class="main">
-        <table class="board">
-            <tr>
-                <td id="a1" onclick="moveUsingCursor(this);"></td>
-                <td id="a2" onclick="moveUsingCursor(this);"></td>
-                <td id="a3" onclick="moveUsingCursor(this);"></td>
-                <td id="a4" onclick="moveUsingCursor(this);"></td>
-                <td id="a5" onclick="moveUsingCursor(this);"></td>
-                <td id="a6" onclick="moveUsingCursor(this);"></td>
-            </tr>
-            <tr>
-                <td id="b1" class='selRight' onclick="moveUsingCursor(this);"></td>
-                <td id="b2" class='selRight' onclick="moveUsingCursor(this);"></td>
-                <td id="b3" class='selRight' onclick="moveUsingCursor(this);"></td>
-                <td id="b4" class='selRight' onclick="moveUsingCursor(this);"></td>
-                <td id="b5" class='selRight' onclick="moveUsingCursor(this);"></td>
-                <td id="b6" onclick="moveUsingCursor(this);"></td>
-            </tr>
-        </table>
-    </main>
-    <table>
-        <tr>
-            <td id="steps">Steps: 0</td>
-            <td id="score">Score: 0</td>
-        </tr>
-    </table>
-    <div class="panel" id="panel"></div>
+    <button class="button" id="showgame" onclick="showGame()">I have read the instructions</button>
 
+    <div id="step_score" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
+      <p id="steps" style="margin-right: 10px;">Steps: 0</p>
+      <p id="score" style="margin-left: 10px;">Score: 0</p>
+    </div>
+      <main class="main">
+          <table class="board" id="board" style="display:none">
+        <tr>
+            <td id="a1" onclick="moveUsingCursor(this);"></td>
+            <td id="a2" onclick="moveUsingCursor(this);"></td>
+            <td id="a3" onclick="moveUsingCursor(this);"></td>
+            <td id="a4" onclick="moveUsingCursor(this);"></td>
+            <td id="a5" onclick="moveUsingCursor(this);"></td>
+            <td id="a6" onclick="moveUsingCursor(this);"></td>
+        </tr>
+        <tr>
+            <td id="b1" class='selRight' onclick="moveUsingCursor(this);"></td>
+            <td id="b2" class='selRight' onclick="moveUsingCursor(this);"></td>
+            <td id="b3" class='selRight' onclick="moveUsingCursor(this);"></td>
+            <td id="b4" class='selRight' onclick="moveUsingCursor(this);"></td>
+            <td id="b5" class='selRight' onclick="moveUsingCursor(this);"></td>
+            <td id="b6" onclick="moveUsingCursor(this);"></td>
+        </tr>
+      </table>
+      </main>
+      <div class="panel" id="panel"></div>
+      <div id="survey" class="survey">
+      <!-- Survey content -->
+      <div class="survey-content">
+          <div class="survey-header">
+          <span class="close">&times;</span>
+          <h2 id="survey_title">Please fill the following survey:</h2>
+          <div class="container">
+              <form id="contactForm">
+                
+                <div style="flex-direction: row;">
+                  <label for="yBirth">Year of Birth:</label>
+                  <input type="number" id="yBirth" name="birthyear" min="1900" max="2021" step="1" />
+                  
+                  <label for="cBirth">Country of Birth:</label>
+                  <select id="cBirth" name="cBirth">
+                    <option value="IS">Israel</option>
+                    <option value="US">United States</option>
+                  </select>
+
+                  <label for="gender">Gender:</label>
+                  <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+
+                  <label for="education">Education:</label>
+                  <select id="education" name="education">
+                    <option value="High School">High School</option>
+                    <option value="BA">BA</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="Ph.D">Ph.D</option>
+                    <option value="none">None</option>
+                  </select>
+
+                  <label for="drivinglicense">Driving License status:</label>
+                  <select id="drivinglicense" name="drivinglicense">
+                    <option value="valid">Valid driver's license</option>
+                    <option value="invalid">Invalid driver's license</option>
+                    <option value="none">No driver's license at all</option>
+                  </select>
+                </div>
+
+                <p>To what extent do you agree with the following arguments?</p>
+                <!-- strongly disagree, disagree, slightly disagree, neutral, slightly agree, agree, strongly agree -->
+                  <div class="rating" id="aggressively">
+                      <p class="rating_lable">The blue Agent played aggressively:</p>
+
+                      <input type="radio" name="aggressively_rating" value="1">
+                      <input type="radio" name="aggressively_rating" value="2">
+                      <input type="radio" name="aggressively_rating" value="3">
+                      <input type="radio" name="aggressively_rating" value="4">
+                      <input type="radio" name="aggressively_rating" value="5">
+                      <input type="radio" name="aggressively_rating" value="6">
+                      <input type="radio" name="aggressively_rating" value="7">
+                      
+                  </div>    
+
+                  <div class="rating" id="generously">
+                      <p class="rating_lable">The blue Agent played generously:</p>
+
+                      <input type="radio" name="generously_rating" value="1">
+                      <input type="radio" name="generously_rating" value="2">
+                      <input type="radio" name="generously_rating" value="3">
+                      <input type="radio" name="generously_rating" value="4">
+                      <input type="radio" name="generously_rating" value="5">
+                      <input type="radio" name="generously_rating" value="6">
+                      <input type="radio" name="generously_rating" value="7">
+                  </div>    
+
+                  <div class="rating" id="wisely">
+                      <p class="rating_lable">The blue Agent played wisely:</p>
+
+                      <input type="radio" name="wisely_rating" value="1">
+                      <input type="radio" name="wisely_rating" value="2">
+                      <input type="radio" name="wisely_rating" value="3">
+                      <input type="radio" name="wisely_rating" value="4">
+                      <input type="radio" name="wisely_rating" value="5">
+                      <input type="radio" name="wisely_rating" value="6">
+                      <input type="radio" name="wisely_rating" value="7">
+                  </div>    
+
+                  <div class="rating" id="computer">
+                      <p class="rating_lable">Felt the blue agent was a computer:</p>
+
+                      <input type="radio" name="computer_rating" value="1">
+                      <input type="radio" name="computer_rating" value="2">
+                      <input type="radio" name="computer_rating" value="3">
+                      <input type="radio" name="computer_rating" value="4">
+                      <input type="radio" name="computer_rating" value="5">
+                      <input type="radio" name="computer_rating" value="6">
+                      <input type="radio" name="computer_rating" value="7">
+                  </div>
+            
+                  <br>
+                <label for="additionalcomments">Additional Comments</label>
+                <textarea id="additionalcomments" name="additionalcomments" placeholder="Write any additional comments if you like..." style="height:100px"></textarea>
+            
+                <input class="button" type="submit" value="Submit">
+                <p id="notFillAll" style="color: red; display:none;">did not submit, must fill all fields!</p>
+              </form>
+            </div>
+          <div class="survey-footer">
+          <h3>Thank you for your participation! </h3>
+          </div>
+      </div>
+      </div>
 </body>
 </html>

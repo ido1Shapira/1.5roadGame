@@ -261,8 +261,7 @@ class maximizeUtilitySumBehavior {
 }
 
 class nonzeroMinMaxBehavior{
-    #MAX_DEPTH = 5;
-    #bestAction;
+    #MAX_DEPTH = 7;
     #tree;
     constructor(blueState, redState) {
         this.#tree = new Tree(blueState, redState);
@@ -275,13 +274,9 @@ class nonzeroMinMaxBehavior{
         var currentNode = this.#tree.findNodeByStates(blueState, redState);
         currentNode.print();
 
-        // var data = this.minmax(root, this.#MAX_DEPTH, true);
-        // console.log(data);
-
-        var maxValue = this.getBestAction(currentNode, this.#MAX_DEPTH, "blue");
-        console.log("maxValue: "+maxValue);
-        console.log("bestAction: "+this.#bestAction);
-        switch (this.#bestAction) {
+        var action = this.getBestAction(currentNode, this.#MAX_DEPTH, "blue");
+        console.log("bestAction: "+action);
+        switch (action) {
             case "stay":
                 moveStay("blue");
                 break;
@@ -345,43 +340,51 @@ class nonzeroMinMaxBehavior{
         }
     }
 
+    extractAction(leaf, action) {
+        var parent = leaf.parentNode;
+        if(parent == null) {
+            return action;
+        }
+        action = getAction(parent.blueState, leaf.blueState);
+        return this.extractAction(parent, action);
+    }
+
     getBestAction(root, depth, ballColor){
+        var leaf = this.maxMaxAlgorithm(root, depth, ballColor);
+        console.log(leaf);
+        // leaf.print();
+        return this.extractAction(leaf, "");
+    }
+
+    maxMaxAlgorithm(root, depth, ballColor){
         if(root.children.length == 0 || depth == 0) { //leaf node
+            return root
+        }
+        var best_node, best_value, v;
+        best_value = Number.NEGATIVE_INFINITY;
+        for(var child in root.children) {
             if(ballColor == "blue") {
-                return root.blueUtility;
-            }
-            else { //ballColor == red
-                return root.redUtility;
-            }
-        }
-        var best_value, v;
-        if(ballColor == "blue") {
-            best_value = Number.NEGATIVE_INFINITY;
-            for(var child in root.children) {
-                v = this.getBestAction(root.children[child], depth +1, "red");
-                if(v > best_value) {
-                    best_value = v;
-                    this.#bestAction = getAction(root.blueState, root.children[child].blueState);
-                    if(depth == this.#MAX_DEPTH - 1) {
-                        this.#bestAction = getAction(root.blueState, root.children[child].blueState);
-                    }
+                var tempReturnNode = this.maxMaxAlgorithm(root.children[child], depth +1, "red");
+                if(tempReturnNode === undefined) { 
+                    //v was the biggest value
+                    tempReturnNode = root.children[child];
                 }
+                v = tempReturnNode.blueUtility;
             }
-            return best_value;
-        }
-        else { //ballColor == "red"
-            best_value = Number.NEGATIVE_INFINITY;
-            for(var child in root.children) {
-                v = this.getBestAction(root.children[child], depth +1, "blue");
-                if(v > best_value) {
-                    best_value = v;
-                    if(depth == this.#MAX_DEPTH - 1) {
-                        this.#bestAction = getAction(root.redState, root.children[child].redState);
-                    }
+            else { // ballColor == "red"
+                var tempReturnNode = this.maxMaxAlgorithm(root.children[child], depth +1, "blue");
+                if(tempReturnNode === undefined) { 
+                    //v was the biggest value
+                    tempReturnNode = root.children[child];
                 }
+                v = tempReturnNode.redUtility;
             }
-            return best_value;
+            if(v > best_value) {
+                best_value = v;
+                best_node = root.children[child];
+            }
         }
+        return best_node;
     }
 
     minmax(node, depth, max_player) {
@@ -477,6 +480,18 @@ class randomAssumptionBehavior{
     }
     updateStateProb(blueState, redState) {
         //In the future these data will come from the database
+        firebase.database().ref("statistics/"+blueState+" "+redState).once('value',
+        (snap) => {
+            var actions = getPossibleActions(redState, "red");
+            var sum = 0;
+            for(var i=0;i<actions.lengthl;i++){
+                sum += snap.child(redAction).val();
+            }
+            this.#stay_prob = snap.child("stay").val()/sum;
+            this.#right_prob = snap.child("right").val()/sum;
+            this.#up_prob = snap.child("up").val()/sum;
+            this.#down_prob = snap.child("down").val()/sum;
+        });
         this.#stay_prob = 0.25;
         this.#right_prob = 0.25;
         this.#up_prob = 0.25;
@@ -518,8 +533,8 @@ class randomAssumptionBehavior{
                     }
                     else {
                         parent.createChildNode(newBluePosition, newRedPosition,
-                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth+1, redPossibleActions),
-                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth+1));
+                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth, redPossibleActions),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
                     }
                 }
             }

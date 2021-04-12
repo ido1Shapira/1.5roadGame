@@ -76,17 +76,9 @@ const uniqueId = (() => {
     }
 
     set blueUtility(newUtility) {
-        if(!newUtility || typeof newUtility !== 'number') {
-          throw new Error('Cannot change name.Name must be a non-empty String');
-        }
-        
         this.#blueUtility = newUtility;
       }
     set redUtility(newUtility) {
-      if(!newUtility || typeof newUtility !== 'number') {
-        throw new Error('Cannot change name.Name must be a non-empty String');
-      }
-      
       this.#redUtility = newUtility;
     }
   

@@ -1,6 +1,18 @@
 * {
     text-align: center;
     transition: 200ms;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+html{
+  width:100%;
+  height:100%;
+}
+body{
+  width:100%;
+  height:100%;
+  background-color:#DADAD8;
 }
 
 .board {
@@ -10,11 +22,6 @@
     height: 100%;
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 5%;
-}
-
-table, td, th, tr {
-    padding: 20px;
 }
 
 td, tr {
@@ -27,24 +34,25 @@ td, tr {
 }
 
 .button {
-    background-color: #f4511e;
-    border: none;
+    background-color: #0B5862;
     color: white;
+    border: none;
     padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
+    font-size: 26px;
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
-    display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    font-size: 26px;
+    align-content: center;
   }
   
-.button:hover {opacity: 1}
+.button:hover {opacity: 2}
 
-p {
-    font-size: 14px;
+.instructions {
+  text-align: left;
+  margin-left: 500px;
 }
 
 #redBall {
@@ -62,3 +70,167 @@ p {
     height: 10px;
     color: blue;
 }
+
+/* The survey (background) */
+.survey {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+  }
+  
+  /* Survey Content */
+  .survey-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    height: fit-content;
+    align-content: center;
+    text-align: center;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .survey-header {
+    padding: 2px 16px;
+    font-size: 26px;
+    background-color: #0B5862;
+    color: white;
+  }
+  
+  .survey-body {
+    font-size: 26px;
+    padding: 2px 16px;
+  }
+  
+  .survey-footer {
+    font-size: 28px;
+    padding: 2px 16px;
+    background-color: #0B5862;
+    color: white;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+  input[type=text], input[type=number], select, textarea {
+    width: fit-content;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 26px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  input[type=radio] {
+    font-size: 26px;
+    border: 0px;
+    width: 8%;
+    height: 1.5em;
+    
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black
+  }
+
+  p {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 30px;
+  }
+
+  .rating_lable {
+    font-size: 26px;
+    color: #333;
+    height: 20px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    margin-right:15px;
+    float:left;
+  }
+
+  label {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 26px;
+    
+  }
+  .rating {
+      position: relative;
+      display: flex;
+      margin-top: 10px;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 26px;
+  }
+
+  select {
+      width: fit-content;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 26px;
+  }
