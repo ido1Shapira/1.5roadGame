@@ -60,12 +60,12 @@ function play() {
                   "aggressiveBehavior",
                   "semiAggressiveBehavior",
                   "maximizeUtilitySumBehavior",
-                  "nonzeroMinMaxBehavior",
-                  "randomAssumptionBehavior"
+                 // "nonzeroMinMaxBehavior",
+                 // "randomAssumptionBehavior"
                 ];
     selectedBehavior = algorithms[algorithms.length * Math.random() | 0];
     // console.log("Blue behavior: "+ selectedBehavior)
-    agentBehavior = new Behavior("carefulBehavior", getBlueState(), getRedState());
+    agentBehavior = new Behavior(selectedBehavior, getBlueState(), getRedState());
 
     // Generate a reference to a new location and add some data using push()
     var newPostRef = firebase.database().ref("games").push({
@@ -362,7 +362,7 @@ function submitSurvey(e) {
 
     var additional_comments = getDOM("additionalcomments").value;
 
-    if(birthYear === undefined || birthCountry === undefined || gender === undefined || education === undefined || drivinglicense === undefined ||
+    if(birthYear == '' || birthCountry == '' || gender == '' || education == '' || drivinglicense == '' ||
         aggressively_value === undefined || generously_value === undefined || wisely_value === undefined || computer_value === undefined) {
             getDOM("notFillAll").style.display = ""; 
         }
