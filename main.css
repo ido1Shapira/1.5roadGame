@@ -1,19 +1,32 @@
 * {
     text-align: center;
     transition: 200ms;
-    margin-left: auto; 
-    margin-right: auto;
+    margin: auto;
 }
 
-html{
+html, body {
   width:100%;
   height:100%;
-}
-body{
-  width:100%;
-  height:100%;
+  
   background-color:#DADAD8;
+  font-size: 14pt;
 }
+
+input[type=button] {
+  background-color: #0B5862;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  text-decoration: none;
+  cursor: pointer;
+  align-content: center;
+  font-weight: bold;
+}
+
+input[type=button]:hover {opacity: 2}
+
 
 .board {
     border-collapse: collapse;
@@ -31,28 +44,12 @@ body{
 .selRight {
     border-right: 4px solid black;
 }
-
-.button {
-    background-color: #0B5862;
-    color: white;
-    border: none;
-    padding: 16px 32px;
-    font-size: 26px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 26px;
-    align-content: center;
-  }
   
-.button:hover {opacity: 2}
 
 .instructions {
-  text-align: left;
-  margin-left: 500px;
+  text-align: center;
 }
+
 
 #redBall {
     background-color: red;
@@ -70,44 +67,50 @@ body{
     color: blue;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 25%;
+}
+
+.td-title {
+  width: 350px;
+}
+
 /* The survey (background) */
 .survey {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
+    left: -1;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    bottom: 0;
+    right: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    -webkit-animation-name: fadeIn; /* Fade in the background */
-    -webkit-animation-duration: 0.4s;
-    animation-name: fadeIn;
-    animation-duration: 0.4s;
   }
   
   /* Survey Content */
   .survey-content {
-    position: fixed;
     bottom: 0;
     background-color: #fefefe;
     width: 100%;
+    height: 100%;;
     height: fit-content;
     align-content: center;
     text-align: center;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
   }
   
   /* The Close Button */
   .close {
     color: white;
     float: right;
-    font-size: 48px;
     font-weight: bold;
   }
   
@@ -119,18 +122,16 @@ body{
   
   .survey-header {
     padding: 2px 16px;
-    font-size: 26px;
     background-color: #0B5862;
     color: white;
   }
   
   .survey-body {
-    font-size: 26px;
+    height: 100%;
     padding: 2px 16px;
   }
   
   .survey-footer {
-    font-size: 28px;
     padding: 2px 16px;
     background-color: #0B5862;
     color: white;
@@ -157,24 +158,40 @@ body{
     to {opacity: 1}
   }
 
-  input[type=text], input[type=number], select, textarea {
+  select {
     width: fit-content;
-    padding: 12px;
+    height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-size: 26px;
+  }
+
+  textarea {
+    height: 25px;
+  }
+
+  input[type=text], input[type=number] {
+    width: fit-content;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
 
   textarea {
     width: 100%;
   }
 
-  input[type='radio'] { 
-    transform: scale(3); 
+  input[type='radio'] {
+    padding: 0;
+    margin: 0;
+    transform: scale(1.5); 
   }
   
   .container {
@@ -184,40 +201,18 @@ body{
     color: black
   }
 
-  p {
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-    font-size: 30px;
-  }
-
-  label {
-    margin: 0;
-    margin-top: 20px;
-    padding: 0;
-    font-size: 26px;
-    width: fit-content;
-    height: fit-content;
-  }
-
-  td, tr {
-    width: fit-content;
-    height: fit-content;
-    border: 1px solid black;
+  .rating-table {
+    border: 0px black solid;
   }
 
   td {
-    width: 300px;
+    border: 1px black solid;
+    width: 135px;
+    height: 35px;
   }
 
-  .rating_row {
-    width: 450px;
+  tr {
+    height: 1px;
   }
 
-  select {
-      width: fit-content;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-size: 26px;
-  }
+ 

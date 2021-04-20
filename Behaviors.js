@@ -18,7 +18,7 @@ class Behavior{
                 break;
             case "maximizeUtilitySumBehavior":
                 // Moves by taking the step that will maximize its outcome at the end.
-                // In fact his behavior is like the 'semiAggressiveBehavior' only more complicated.
+                // In fact this behavior is like the 'semiAggressiveBehavior' only more complicated.
                 this.#behavior = new maximizeUtilitySumBehavior();
                 break
             case "nonzeroMinMaxBehavior":

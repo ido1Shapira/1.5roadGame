@@ -17,8 +17,9 @@
     <script src="main.js"></script>
 </head>
 <body onload="initializeFirebase(); play();">
-    <p class="instructions" id="instructions"><br>
-        Welcome!<br>
+  
+    <p class="instructions" id="instructions">
+      <label>Welcome!</label>
         Game instructions:<br>
         In this game you control the red circle.<br>
         Your goal is to reach the right side of the board without colliding with the blue circle, in a minimum number of steps.<br>
@@ -34,9 +35,12 @@
         Reaching the right side = 10.<br>
         Good luck!<br>
     </p>
-    <button class="button" id="showgame" onclick="showGame()">I have read the instructions</button>
+    <input type="button" value="I have read the instructions" id="showgame" onclick="showGame()">
+
+
 
     <div id="step_score" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
+      <p id="end-game"></p>
       <p id="steps" style="margin-right: 10px;">Steps: 0</p>
       <p id="score" style="margin-left: 10px;">Score: 0</p>
     </div>
@@ -70,47 +74,50 @@
           <div class="container">
               <form id="contactForm">
                 
-                <div style="flex-direction: row;">
-                  <label for="yBirth">Year of Birth:</label>
-                  <input type="number" id="yBirth" name="birthyear" min="1900" max="2021" step="1" />
-                  
-                  <label for="cBirth">Country of Birth:</label>
-                  <select id="cBirth" name="cBirth">
-                    <option selected disabled hidden style='display: none' value=''></option>
-                    <option value="IS">Israel</option>
-                    <option value="US">United States</option>
-                  </select>
-
-                  <label for="gender">Gender:</label>
-                  <select id="gender" name="gender">
-                    <option selected disabled hidden style='display: none' value=''></option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                  </select>
+                <div class="grid-container">
+                  <div>
+                    <label for="yBirth">Year of Birth:</label><br>
+                    <input type="number" id="yBirth" name="birthyear" min="1900" max="2021" step="1" />
+  
+                    
+                  </div>
+  
+                  <div>
+                    <label for="gender">Gender:</label><br>
+                    <select id="gender" name="gender">
+                      <option selected disabled hidden style='display: none' value=''></option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+                  </div>
+  
+                  <div>
+                    <label for="education">Education:</label><br>
+                    <select id="education" name="education">
+                      <option selected disabled hidden style='display: none' value=''></option>
+                      <option value="High School">High School</option>
+                      <option value="BA">BA</option>
+                      <option value="Master's degree">Master's degree</option>
+                      <option value="Ph.D">Ph.D</option>
+                      <option value="none">None</option>
+                    </select>
+  
+                    
+                  </div>
+  
+                  <div>
+                    <label for="drivinglicense">Driving License status:</label><br>
+                    <select id="drivinglicense" name="drivinglicense">
+                      <option selected disabled hidden style='display: none' value=''></option>
+                      <option value="valid">Valid driver's license</option>
+                      <option value="invalid">Expired driver's license</option>
+                      <option value="none">No driver's license at all</option>
+                    </select>
+                  </div>
                 </div>
 
-                <div style="flex-direction: row;">
-                  <label for="education">Education:</label>
-                  <select id="education" name="education">
-                    <option selected disabled hidden style='display: none' value=''></option>
-                    <option value="High School">High School</option>
-                    <option value="BA">BA</option>
-                    <option value="Master's degree">Master's degree</option>
-                    <option value="Ph.D">Ph.D</option>
-                    <option value="none">None</option>
-                  </select>
-
-                  <label for="drivinglicense">Driving License status:</label>
-                  <select id="drivinglicense" name="drivinglicense">
-                    <option selected disabled hidden style='display: none' value=''></option>
-                    <option value="valid">Valid driver's license</option>
-                    <option value="invalid">Expired driver's license</option>
-                    <option value="none">No driver's license at all</option>
-                  </select>
-                </div>
-
-                <p>To what extent do you agree with the following arguments?</p>
-                <table>
+                <p>To what extent do you agree with the following statments?</p>
+                <table class="rating-table">
                   <tr>
                     <td></td>
                     <td><label>Strongly agree</label></td>
@@ -122,7 +129,7 @@
                     <td><label>Strongly disagree</label></td>
                   </tr>
                   <tr>
-                      <td><p class="rating_row">The blue Agent played aggressively</p></td>
+                      <td class="td-title"><p>The blue agent played aggressively</p></td>
                       <td><input type="radio" name="aggressively_rating" value="7" id="q7" 
                                   title="strongly agree" /></td>
                       <td><input type="radio" name="aggressively_rating" value="6" id="q6" 
@@ -139,7 +146,7 @@
                                   title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td><p class="rating_row">The blue Agent played generously</p></td>
+                    <td class="td-title"><p>The blue agent played generously</p></td>
                     <td><input type="radio" name="generously_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="generously_rating" value="6" id="q6" 
@@ -156,7 +163,7 @@
                                 title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td><p class="rating_row">The blue Agent played wisely</p></td>
+                    <td class="td-title"><p>The blue agent played wisely</p></td>
                     <td><input type="radio" name="wisely_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="wisely_rating" value="6" id="q6" 
@@ -173,7 +180,7 @@
                                 title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td><p class="rating_row">Felt the blue agent was a computer</p></td>
+                    <td class="td-title"><p>I felt the blue agent was a computer</p></td>
                     <td><input type="radio" name="computer_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="computer_rating" value="6" id="q6" 
@@ -193,7 +200,7 @@
                 <label for="additionalcomments">Additional Comments:</label>
                 <textarea id="additionalcomments" name="additionalcomments" placeholder="Write any additional comments if you like..." style="height:100px"></textarea>
             
-                <input class="button" type="submit" value="Submit">
+                <input id="submit" type="button" onclick="submitSurvey()"; value="Submit">
                 <p id="notFillAll" style="color: red; display:none;">Did not submit, must fill all fields!</p>
               </form>
             </div>
@@ -204,3 +211,5 @@
       </div>
 </body>
 </html>
+
+<!-- fit to screen and geneate code in the end of the survey and new braunch for in complte games-->
