@@ -57,13 +57,13 @@ function play() {
     algorithms = ["carefulBehavior",
                   "aggressiveBehavior",
                   "semiAggressiveBehavior",
-                  "maximizeUtilitySumBehavior",
+                 // "maximizeUtilitySumBehavior",
                  // "nonzeroMinMaxBehavior",
                  // "randomAssumptionBehavior"
                 ];
     selectedBehavior = algorithms[algorithms.length * Math.random() | 0];
     // console.log("Blue behavior: "+ selectedBehavior)
-    agentBehavior = new Behavior(selectedBehavior, getBlueState(), getRedState());
+    agentBehavior = new Behavior("maximizeUtilitySumBehavior", getBlueState(), getRedState());
 
     // Generate a reference to a new location and add some data using push()
     var newPostRef = firebase.database().ref("all-games").push({

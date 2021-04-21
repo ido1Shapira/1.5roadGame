@@ -233,6 +233,55 @@ class maximizeUtilitySumBehavior {
         return this.bestAction;
     }
 
+    createDecisionTree(blueState, redState, depth, parent, ballColor) {
+        this.updateStateProb(blueState, redState);
+        var redPossibleActions = getPossibleActions(redState, "red");
+        var bluePossibleActions = getPossibleActions(blueState, "blue");
+        var buildChildNode = (action) => {
+            if(ballColor == "blue") {
+                var newBluePosition = createNextPosition(action, blueState);
+                for(var i=0; i < redPossibleActions.length;i++) {
+                    var newRedPosition = createNextPosition(redPossibleActions[i], redState);
+                    var blueLastCommand = getAction(blueState, newBluePosition);
+                    var redLastCommand = getAction(redState, newRedPosition);
+                    if(depth < this.MAX_DEPTH && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                        //not a leaf node and the two ball do not colliding
+                        var node = parent.createChildNode(newBluePosition, newRedPosition);
+                        this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "red");
+                    }
+                    else {
+                        parent.createChildNode(newBluePosition, newRedPosition,
+                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth, redPossibleActions),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
+                    }
+                }
+            }
+            else { //ballColor == "red"
+                var newRedPosition = createNextPosition(action, redState);
+                for(var i=0; i < bluePossibleActions.length;i++) {
+                    var newBluePosition = createNextPosition(bluePossibleActions[i], blueState);
+                    var blueLastCommand = getAction(blueState, newBluePosition);
+                    var redLastCommand = getAction(redState, newRedPosition);
+                    if(depth < this.MAX_DEPTH && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                        var node = parent.createChildNode(newBluePosition, newRedPosition);
+                        this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "blue");
+                    }
+                    else {
+                        parent.createChildNode(newBluePosition, newRedPosition,
+                            this.getUtilityExpectationBeforeAction(newBluePosition, redState, "blue", depth, redPossibleActions),
+                            getUtilityAfterAction(newBluePosition, newRedPosition, "red", depth));
+                    }
+                }
+            }
+        }
+        if(ballColor == "blue") {
+            bluePossibleActions.forEach(buildChildNode);
+        }
+        else { //ballColor == "red"
+            redPossibleActions.forEach(buildChildNode);
+        }
+    }
+
     createDecisionTree(blueState, redState, depth, parent) {
         var possibleActions = getPossibleActions(blueState, "blue");  
         var buildChildNode = (action) => {
