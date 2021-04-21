@@ -83,17 +83,20 @@ function getKey() {
         if(!keyEnable) {
             return false;
         }
+        // console.log(event.keyCode);
         switch (event.keyCode) {
-            case 37:
+            case 13: //enter
+            case 32: //space
+            case 37: //left
                 redMove("stay");
                 break;
-            case 38:
+            case 38: //up
                 redMove("up");
                 break;
-            case 39:
+            case 39: //right
                 redMove("right");
                 break;
-            case 40:
+            case 40: //down
                 redMove("down");
                 break;
         }
@@ -322,6 +325,14 @@ function showGame() {
     keyEnable = true;
 }
 
+function copytoclipboard() {
+    var copyText = getDOM("code");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");    
+    getDOM("myTooltip").innerHTML = "Copied: " + copyText.value;
+  }
+
 function finishGame() { //update database
     getDOM("steps").innerHTML = "Steps: "+ redCounterSteps;
     getDOM("score").innerHTML = "Score: "+ score;
@@ -383,14 +394,20 @@ function submitSurvey() {
                 firebase.database().ref("complete-games/"+postID+"/"+childKey).set(childData);
             });
         });
+
         // leadsRef.remove();
 
         survey.style.display = "none";
-        document.getElementById("instructions").style.display = "none";
-        document.getElementById("board").style.display = "none";
-        document.getElementById("panel").style.display = "none";
-        document.getElementById("end-game").innerHTML = "End Game! Copy your Code: " + postID + "ido";
-        keyEnable = false;
+        getDOM("instructions").style.display = "none";
+        getDOM("instructions-grading-h").style.display = "none";
+        getDOM("instructions-grading").style.display = "none";
+        getDOM("instructions-h").innerHTML = "Thank you for your participating!"
+        getDOM("board").style.display = "none";
+        getDOM("panel").style.display = "none";
+        getDOM("step_score").style.display = "none";
+        getDOM("end-game-code-div").style.display = "";
+        getDOM("code").value = postID.substring(1) + "ido";
+        // keyEnable = false;
     }
 }
 

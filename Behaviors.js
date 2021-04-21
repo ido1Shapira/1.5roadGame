@@ -1,49 +1,49 @@
 class Behavior{
-    #name;
-    #behavior;
+    name;
+    behavior;
     constructor(name, blueState, redState) {
-        this.#name = name;
-        switch (this.#name) {
+        this.name = name;
+        switch (this.name) {
             case "carefulBehavior":
                 // Moves towards the player and then moves down and waits until the player passes.
-                this.#behavior = new carefulBehavior();
+                this.behavior = new carefulBehavior();
                 break;
             case "aggressiveBehavior":
                 // Just moves right
-                this.#behavior = new aggressiveBehavior();
+                this.behavior = new aggressiveBehavior();
                 break;
             case "semiAggressiveBehavior":
                 // Moves left unless the other car is there, in which case it stays in place until the other car moves out of its way.
-                this.#behavior = new semiAggressiveBehavior();
+                this.behavior = new semiAggressiveBehavior();
                 break;
             case "maximizeUtilitySumBehavior":
                 // Moves by taking the step that will maximize its outcome at the end.
                 // In fact this behavior is like the 'semiAggressiveBehavior' only more complicated.
-                this.#behavior = new maximizeUtilitySumBehavior();
+                this.behavior = new maximizeUtilitySumBehavior();
                 break
             case "nonzeroMinMaxBehavior":
                 // Moves by the min-max algorithm for nonzero game
-                this.#behavior = new nonzeroMinMaxBehavior(blueState, redState);
+                this.behavior = new nonzeroMinMaxBehavior(blueState, redState);
                 break;
             case "randomAssumptionBehavior":
                 // The blue agent assumes that the red agent is behaving randomly
-                this.#behavior = new randomAssumptionBehavior(blueState, redState);
+                this.behavior = new randomAssumptionBehavior(blueState, redState);
                 break;
 
         }
     }
     makeAction(blueState, redState) {
        // Each inheriting class will implements this function
-       this.#behavior.makeAction(blueState, redState);
+       this.behavior.makeAction(blueState, redState);
     }
 }
 
 class carefulBehavior{
-    #wasmoveUp;
-    #wasmoveDown;
+    wasmoveUp;
+    wasmoveDown;
     constructor() {
-        this.#wasmoveUp = false;
-        this.#wasmoveDown = false;
+        this.wasmoveUp = false;
+        this.wasmoveDown = false;
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
@@ -51,18 +51,18 @@ class carefulBehavior{
         } else if(parseInt(redState[1]) + 1 < parseInt(blueState[1])){
             moveLeft();
         } else if(parseInt(redState[1]) > parseInt(blueState[1])) {
-            if(!this.#wasmoveUp) {
+            if(!this.wasmoveUp) {
                 moveUp("blue");
-                this.#wasmoveUp = true;
+                this.wasmoveUp = true;
             }
             else {
                 moveLeft();
             }
         }
         else {
-            if(!this.#wasmoveDown){
+            if(!this.wasmoveDown){
                 moveDown("blue");
-                this.#wasmoveDown = true;
+                this.wasmoveDown = true;
             }
             else {
                 moveStay("blue");
@@ -202,8 +202,8 @@ function cheackIfCollided(blueState, redState, blueLastCommand, redLastCommand) 
 }
 
 class maximizeUtilitySumBehavior {
-    #MAX_DEPTH = 10;
-    #bestAction;
+    MAX_DEPTH = 10;
+    bestAction;
     constructor() { }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
@@ -215,8 +215,8 @@ class maximizeUtilitySumBehavior {
         root.print(); //print the tree
         var maxValue = this.getBestAction(root, Number.NEGATIVE_INFINITY);
         console.log("maxValue: "+maxValue);
-        console.log("bestAction: "+this.#bestAction);
-        switch (this.#bestAction) {
+        console.log("bestAction: "+this.bestAction);
+        switch (this.bestAction) {
             case "stay":
                 moveStay("blue");
                 break;
@@ -230,7 +230,7 @@ class maximizeUtilitySumBehavior {
                 moveDown("blue");
                 break;
         }
-        return this.#bestAction;
+        return this.bestAction;
     }
 
     createDecisionTree(blueState, redState, depth, parent) {
@@ -238,7 +238,7 @@ class maximizeUtilitySumBehavior {
         var buildChildNode = (action) => {
             var newPosition = createNextPosition(action, blueState);
             var node = parent.createChildNode(newPosition, redState, getUtilityAfterAction(newPosition, redState, "blue", depth), 0);
-            if(depth != this.#MAX_DEPTH && newPosition != "a1" && newPosition != redState) { //if not leaf node
+            if(depth != this.MAX_DEPTH && newPosition != "a1" && newPosition != redState) { //if not leaf node
                 this.createDecisionTree(newPosition, redState, depth + 1, node);
             }
         }
@@ -252,7 +252,7 @@ class maximizeUtilitySumBehavior {
             var v = this.getBestAction(child, maxValue);
             if(v > maxValue) {
                 maxValue = v;
-                this.#bestAction = getAction(root.blueState, child.blueState);
+                this.bestAction = getAction(root.blueState, child.blueState);
             }
         }
         root.children.forEach(findMax);
@@ -261,20 +261,20 @@ class maximizeUtilitySumBehavior {
 }
 
 class nonzeroMinMaxBehavior{
-    #MAX_DEPTH = 7;
-    #tree;
+    MAX_DEPTH = 7;
+    tree;
     constructor(blueState, redState) {
-        this.#tree = new Tree(blueState, redState);
-        this.createDecisionTree(blueState, redState, 1, this.#tree, "blue");
+        this.tree = new Tree(blueState, redState);
+        this.createDecisionTree(blueState, redState, 1, this.tree, "blue");
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
             return "stay";
         }
-        var currentNode = this.#tree.findNodeByStates(blueState, redState);
+        var currentNode = this.tree.findNodeByStates(blueState, redState);
         currentNode.print();
 
-        var action = this.getBestAction(currentNode, this.#MAX_DEPTH, "blue");
+        var action = this.getBestAction(currentNode, this.MAX_DEPTH, "blue");
         console.log("bestAction: "+action);
         switch (action) {
             case "stay":
@@ -302,7 +302,7 @@ class nonzeroMinMaxBehavior{
                     var newRedPosition = createNextPosition(redPossibleActions[i], redState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH - 1 && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.MAX_DEPTH - 1 && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         //not a leaf node and the two ball do not colliding
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "red");
@@ -320,7 +320,7 @@ class nonzeroMinMaxBehavior{
                     var newBluePosition = createNextPosition(bluePossibleActions[i], blueState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH - 1 && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.MAX_DEPTH - 1 && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "blue");
                     }
@@ -416,26 +416,26 @@ class nonzeroMinMaxBehavior{
 }
 
 class randomAssumptionBehavior{
-    #MAX_DEPTH = 3;
-    #tree;
+    MAX_DEPTH = 3;
+    tree;
 
-    #stay_prob = 0.25;
-    #right_prob = 0.25;
-    #up_prob = 0.25;
-    #down_prob = 0.25;
+    stay_prob = 0.25;
+    right_prob = 0.25;
+    up_prob = 0.25;
+    down_prob = 0.25;
 
     constructor(blueState, redState) {
-        this.#tree = new Tree(blueState, redState);
-        this.createDecisionTree(blueState, redState, 1, this.#tree, "blue");
+        this.tree = new Tree(blueState, redState);
+        this.createDecisionTree(blueState, redState, 1, this.tree, "blue");
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
             return "stay";
         }
-        var currentNode = this.#tree.findNodeByStates(blueState, redState);
+        var currentNode = this.tree.findNodeByStates(blueState, redState);
         currentNode.print();
 
-        var bestAction = this.getBestAction(currentNode, this.#MAX_DEPTH, "red");
+        var bestAction = this.getBestAction(currentNode, this.MAX_DEPTH, "red");
         console.log("bestAction: "+bestAction);
         switch (bestAction) {
             case "stay":
@@ -460,16 +460,16 @@ class randomAssumptionBehavior{
             var actionProb = 0; //The probability that red would choose this "action"
             switch (redAction) {
                 case "stay":
-                    actionProb = this.#stay_prob;
+                    actionProb = this.stay_prob;
                     break;
                 case "right":
-                    actionProb = this.#right_prob;
+                    actionProb = this.right_prob;
                     break;
                 case "up":
-                    actionProb = this.#up_prob;
+                    actionProb = this.up_prob;
                     break;
                 case "down":
-                    actionProb = this.#down_prob;
+                    actionProb = this.down_prob;
                     break;
             }
             utilityExpectation += actionProb * getUtilityAfterAction(blueState, newRedPosition, ballColor, depth);
@@ -487,15 +487,15 @@ class randomAssumptionBehavior{
             for(var i=0;i<actions.lengthl;i++){
                 sum += snap.child(redAction).val();
             }
-            this.#stay_prob = snap.child("stay").val()/sum;
-            this.#right_prob = snap.child("right").val()/sum;
-            this.#up_prob = snap.child("up").val()/sum;
-            this.#down_prob = snap.child("down").val()/sum;
+            this.stay_prob = snap.child("stay").val()/sum;
+            this.right_prob = snap.child("right").val()/sum;
+            this.up_prob = snap.child("up").val()/sum;
+            this.down_prob = snap.child("down").val()/sum;
         });
-        this.#stay_prob = 0.25;
-        this.#right_prob = 0.25;
-        this.#up_prob = 0.25;
-        this.#down_prob = 0.25;
+        this.stay_prob = 0.25;
+        this.right_prob = 0.25;
+        this.up_prob = 0.25;
+        this.down_prob = 0.25;
     }
 
     createDecisionTree(blueState, redState, depth, parent, ballColor) {
@@ -509,7 +509,7 @@ class randomAssumptionBehavior{
                     var newRedPosition = createNextPosition(redPossibleActions[i], redState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.MAX_DEPTH && newBluePosition != "a1" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         //not a leaf node and the two ball do not colliding
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "red");
@@ -527,7 +527,7 @@ class randomAssumptionBehavior{
                     var newBluePosition = createNextPosition(bluePossibleActions[i], blueState);
                     var blueLastCommand = getAction(blueState, newBluePosition);
                     var redLastCommand = getAction(redState, newRedPosition);
-                    if(depth < this.#MAX_DEPTH && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
+                    if(depth < this.MAX_DEPTH && newRedPosition != "a6" && !cheackIfCollided(newBluePosition, newRedPosition, blueLastCommand, redLastCommand)) {
                         var node = parent.createChildNode(newBluePosition, newRedPosition);
                         this.createDecisionTree(newBluePosition, newRedPosition, depth + 1, node, "blue");
                     }

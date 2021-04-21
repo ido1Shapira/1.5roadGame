@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quick game</title>
 
     <link rel="stylesheet" href="main.css">
 
@@ -18,31 +18,43 @@
 </head>
 <body onload="initializeFirebase(); play();">
   
-    <p class="instructions" id="instructions">
-      <label>Welcome!</label>
-        Game instructions:<br>
-        In this game you control the red circle.<br>
-        Your goal is to reach the right side of the board without colliding with the blue circle, in a minimum number of steps.<br>
-        Use the arrow keys to move right and down. Use the left arrow to remain in place.<br>
-        You may also use the mouse to control the red circle.<br>
-        It is not possible to advance to the right if you are in the bottom slots.<br>
-        It is not possible to move back (left).<br>
-        Both circles moves synchronously; that is, each time you (the red circle) make a move,<br> the blue circle player will make a move as well---at the same time.<br>
-        Note that blue circle's goal is to reach the left side of the board.<br>
-        Your score will be calculated using the following:
-        Colliding with the blue ball = -100.<br>
-        Each step = -1.<br>
-        Reaching the right side = 10.<br>
-        Good luck!<br>
-    </p>
+    
+      <h1 id="instructions-h">Game instructions:</h1>
+      <p class="instructions" id="instructions">
+        - In this game you control the red circle.<br>
+        - Your goal is to reach the right side of the board without colliding with the blue circle, in a minimum number of steps.<br>
+        - Note that blue circle's goal is to reach the left side of the board.<br>
+       
+          - Use the arrow keys to move right and down. Use the left arrow to remain in place.<br>
+          - You may also use the mouse to control the red circle.<br>
+          - It is not possible to advance to the right if you are in the bottom slots.<br>
+          - It is not possible to move back (left).<br>
+       
+        - Both circles moves synchronously; that is, each time you (the red circle) make a move, the blue circle player will make a move as well---at the same time.<br>
+          <h3 class="instructions" id="instructions-grading-h">score will be calculated using the following: </h6>
+          <p class ="instructions" id="instructions-grading"> 
+            * Colliding with the blue ball = -100.<br>
+            * Each step = -1.<br>
+            * Reaching the right side = 10.<br>
+          </p>
+      </p>
+        
     <input type="button" value="I have read the instructions" id="showgame" onclick="showGame()">
 
-
-
     <div id="step_score" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
-      <p id="end-game"></p>
       <p id="steps" style="margin-right: 10px;">Steps: 0</p>
       <p id="score" style="margin-left: 10px;">Score: 0</p>
+    </div>
+    <div id="end-game-code-div" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
+      <p>your code is:</p>
+      <input type="text" value="" id="code" readonly style="width: 300px;">
+      <br>
+      <br>
+      <br>
+      <div class="tooltip">
+        <input type="button" value="Copy to clipboard" id="copytoclipboard" onclick="copytoclipboard()">
+        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+      </div>
     </div>
       <main class="main">
           <table class="board" id="board" style="display:none">
@@ -129,7 +141,7 @@
                     <td><label>Strongly disagree</label></td>
                   </tr>
                   <tr>
-                      <td class="td-title"><p>The blue agent played aggressively</p></td>
+                      <td class="td-title"><p>The blue circle played aggressively</p></td>
                       <td><input type="radio" name="aggressively_rating" value="7" id="q7" 
                                   title="strongly agree" /></td>
                       <td><input type="radio" name="aggressively_rating" value="6" id="q6" 
@@ -146,7 +158,7 @@
                                   title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td class="td-title"><p>The blue agent played generously</p></td>
+                    <td class="td-title"><p>The blue circle played generously</p></td>
                     <td><input type="radio" name="generously_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="generously_rating" value="6" id="q6" 
@@ -163,7 +175,7 @@
                                 title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td class="td-title"><p>The blue agent played wisely</p></td>
+                    <td class="td-title"><p>The blue circle played wisely</p></td>
                     <td><input type="radio" name="wisely_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="wisely_rating" value="6" id="q6" 
@@ -180,7 +192,7 @@
                                 title="strongly disagree" /></td>
                   </tr>
                   <tr>
-                    <td class="td-title"><p>I felt the blue agent was a computer</p></td>
+                    <td class="td-title"><p>I felt the blue circle was a computer</p></td>
                     <td><input type="radio" name="computer_rating" value="7" id="q7" 
                       title="strongly agree" /></td>
                     <td><input type="radio" name="computer_rating" value="6" id="q6" 
@@ -211,5 +223,3 @@
       </div>
 </body>
 </html>
-
-<!-- fit to screen and geneate code in the end of the survey and new braunch for in complte games-->

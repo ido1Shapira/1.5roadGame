@@ -15,13 +15,13 @@ const uniqueId = (() => {
   })()
   
   class Tree {
-    #children = new Map();
-    #parent = null;
-    #id = uniqueId();
-    #blueState;
-    #redState;
-    #blueUtility;
-    #redUtility;
+    children = new Map();
+    parent = null;
+    id = uniqueId();
+    blueState;
+    redState;
+    blueUtility;
+    redUtility;
     
     constructor(blueState, redState, blueUtility, redUtility) {
       if(!blueState || typeof blueState !== 'string' || !blueState.trim().length) {
@@ -34,30 +34,30 @@ const uniqueId = (() => {
       //   throw new Error('Utility must be a non-empty Integer');
       // }
 
-      this.#blueState = blueState;
-      this.#redState = redState;
+      this.blueState = blueState;
+      this.redState = redState;
       // if (blueUtility===undefined) { // parameter was omitted in call
       //   blueUtility= null;
       // }
       // if (redUtility===undefined) { // parameter was omitted in call
       //   redUtility= null;
       // }
-      this.#blueUtility = blueUtility;
-      this.#redUtility = redUtility;
+      this.blueUtility = blueUtility;
+      this.redUtility = redUtility;
     }
   
     get blueState() {
-      return this.#blueState;
+      return this.blueState;
     }
     get redState() {
-      return this.#redState;
+      return this.redState;
     }
 
     get blueUtility() {
-      return this.#blueUtility;
+      return this.blueUtility;
     }
     get redUtility() {
-      return this.#redUtility;
+      return this.redUtility;
     }
     
     set blueState(newState) {
@@ -65,42 +65,42 @@ const uniqueId = (() => {
         throw new Error('Cannot change name.Name must be a non-empty String');
       }
       
-      this.#blueState = newState;
+      this.blueState = newState;
     }
     set redState(newState) {
       if(!newState || typeof newState !== 'string' || !newState.trim().length) {
         throw new Error('Cannot change name.Name must be a non-empty String');
       }
       
-      this.#redState = newState;
+      this.redState = newState;
     }
 
     set blueUtility(newUtility) {
-        this.#blueUtility = newUtility;
+        this.blueUtility = newUtility;
       }
     set redUtility(newUtility) {
-      this.#redUtility = newUtility;
+      this.redUtility = newUtility;
     }
   
     get identifier() {
-      return this.#id;
+      return this.id;
     }
   
     get children() {
-      return Array.from(this.#children.values());
+      return Array.from(this.children.values());
     }
   
     get parentNode() {
-      return this.#parent;
+      return this.parent;
     }
   
     set parentNode(newParent) {
       if(newParent !== this.parentNode && (newParent === null || newParent instanceof Tree)) {
-        if(this.#parent) {
-           this.#parent.removeChildNode(this);
+        if(this.parent) {
+           this.parent.removeChildNode(this);
         }
         
-        this.#parent = newParent;
+        this.parent = newParent;
         
         if(newParent) {
           newParent.appendChildNode(this);
@@ -109,12 +109,12 @@ const uniqueId = (() => {
     }
   
     get childrenCount() {
-      return this.#children.size;
+      return this.children.size;
     }
   
     createChildNode(blueState, redState ,blueUtility, redUtility) {
       const newNode = new Tree(blueState, redState, blueUtility, redUtility);
-      this.#children.set(newNode.identifier, newNode);
+      this.children.set(newNode.identifier, newNode);
       newNode.parentNode = this;
       
       return newNode;
@@ -131,13 +131,13 @@ const uniqueId = (() => {
         parent = parent.parentNode;
       }
       
-      this.#children.set(node.identifier, node);
+      this.children.set(node.identifier, node);
       node.parentNode = this;
     }
 
     hasChildNode(needle) {
       if(needle instanceof Tree) {
-        return this.#children.has(needle.identifier);
+        return this.children.has(needle.identifier);
       }
       
       for(let child of this.children) {
@@ -149,7 +149,7 @@ const uniqueId = (() => {
       return false;
     }
   
-    // #getTreeString = (node, spaceCount = 0, color = false) => {
+    // getTreeString = (node, spaceCount = 0, color = false) => {
     //   let str= ""; 
     //   node.children.forEach((child) => {
     //     var str ="";
@@ -165,21 +165,21 @@ const uniqueId = (() => {
     //     else {
     //       console.log("%c"+str, "color:red;");
     //     }
-    //     this.#getTreeString(child, spaceCount + 4, !color);
+    //     this.getTreeString(child, spaceCount + 4, !color);
     //   })
 
     //   return str;
     // }
 
-    #getTreeString = (node, spaceCount = 0) => {
+    getTreeString = (node, spaceCount = 0) => {
       let str = "\n";
     
       node.children.forEach((child) => {
         if (child.blueUtility===undefined || child.redUtility===undefined) { // parameter was omitted in call
-          str += `${" ".repeat(spaceCount)}${child.blueState} ${child.redState}${this.#getTreeString(child, spaceCount + 4)}`
+          str += `${" ".repeat(spaceCount)}${child.blueState} ${child.redState}${this.getTreeString(child, spaceCount + 4)}`
         }
         else {
-          str += `${" ".repeat(spaceCount)}${child.blueState} ${child.redState} ${child.blueUtility} ${child.redUtility}${this.#getTreeString(child, spaceCount + 4)}`
+          str += `${" ".repeat(spaceCount)}${child.blueState} ${child.redState} ${child.blueUtility} ${child.redUtility}${this.getTreeString(child, spaceCount + 4)}`
         }
       })
   
@@ -193,15 +193,15 @@ const uniqueId = (() => {
     //   else {
     //     console.log("%c"+`\n${this.blueState} ${this.redState} ${this.blueUtility} ${this.redUtility}`, "color:blue");
     //   }
-    //   this.#getTreeString(this, 4, false);
+    //   this.getTreeString(this, 4, false);
     // }
 
     print() {
       if (this.blueUtility===undefined || this.redUtility===undefined) { // parameter was omitted in call
-        console.log(`\n${this.blueState} ${this.redState}${this.#getTreeString(this, 4)}`);
+        console.log(`\n${this.blueState} ${this.redState}${this.getTreeString(this, 4)}`);
       }
       else {
-        console.log(`\n${this.blueState} ${this.redState} ${this.blueUtility} ${this.redUtility}${this.#getTreeString(this, 4)}`);
+        console.log(`\n${this.blueState} ${this.redState} ${this.blueUtility} ${this.redUtility}${this.getTreeString(this, 4)}`);
       }
     }
   
