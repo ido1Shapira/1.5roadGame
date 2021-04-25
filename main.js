@@ -81,7 +81,10 @@ function play() {
 function getKey() {
     document.onkeydown = function (event) {
         if(!keyEnable) {
-            return false;
+            if(event.keyCode == 13 || event.keyCode == 32 || event.keyCode == 37 ||
+                event.keyCode == 38 || event.keyCode == 39 || event.keyCode == 40) {
+                    return false;
+                }
         }
         // console.log(event.keyCode);
         switch (event.keyCode) {
@@ -323,6 +326,7 @@ function showGame() {
     getDOM("step_score").style.display = "flex";
     getDOM("showgame").style.display = "none";
     keyEnable = true;
+    firebase.database().ref("all-games/"+postID+"/press-the-read-instructions-button").set(true);
 }
 
 function copytoclipboard() {
@@ -354,6 +358,8 @@ function finishGame() { //update database
             keyEnable = false;
         }
     }
+    
+    keyEnable = false;
 }
 
 function submitSurvey() {
@@ -372,9 +378,15 @@ function submitSurvey() {
     var additional_comments = getDOM("additionalcomments").value;
 
     if(birthYear == '' || gender == '' || education == '' || drivinglicense == '' ||
-        aggressively_value === undefined || generously_value === undefined || wisely_value === undefined || computer_value === undefined) {
-            getDOM("notFillAll").style.display = ""; 
-        }
+        aggressively_value === undefined || generously_value === undefined ||
+        wisely_value === undefined || computer_value === undefined) {
+            getDOM("notFillAll").innerHTML = "Did not submit, please fill all fields."
+            getDOM("notFillAll").style.display = "";
+    }
+    else if(birthYear < 1900 || birthYear > 2021) {
+        getDOM("notFillAll").innerHTML = "Enter your vallid birth of year."
+        getDOM("notFillAll").style.display = "";
+    }
     else {
         firebase.database().ref("all-games/"+postID+"/birthYear").set(birthYear);
         firebase.database().ref("all-games/"+postID+"/gender").set(gender);
@@ -384,7 +396,7 @@ function submitSurvey() {
         firebase.database().ref("all-games/"+postID+"/generously_value").set(generously_value);
         firebase.database().ref("all-games/"+postID+"/wisely_value").set(wisely_value);
         firebase.database().ref("all-games/"+postID+"/computer_value").set(computer_value);
-        firebase.database().ref("all-games/"+postID+"/additional_comments").set(birthYear);
+        firebase.database().ref("all-games/"+postID+"/additional_comments").set(additional_comments);
 
         var leadsRef = firebase.database().ref("all-games/"+postID);
         leadsRef.once('value', function(snapshot) {
@@ -407,7 +419,6 @@ function submitSurvey() {
         getDOM("step_score").style.display = "none";
         getDOM("end-game-code-div").style.display = "";
         getDOM("code").value = postID.substring(1) + "ido";
-        // keyEnable = false;
     }
 }
 
