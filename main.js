@@ -5,7 +5,8 @@
 //---------------- global variables------------------------------
 let redCounterSteps = 0;
 let blueCounterSteps = 0;
-let score = 0;
+let score = 0; // redScore
+let blueScore = 0;
 let postID;
 let win = true;
 
@@ -191,6 +192,7 @@ function redMove(to) {
         if(cheackIfLoss()) {
             win = false;
             score += crushing;
+            blueScore += crushing;
             getDOM("survey_title").innerHTML = "Game ended!<br>You collided with the blue ball. Your score is: "+score+ "<br>Please fill the following survey:";
             finishGame();
         }
@@ -200,11 +202,18 @@ function redMove(to) {
             getDOM("survey_title").innerHTML = "Well done, you reached your destination safely!<br>Your score is: "+score+ " point(s).\n"+ "<br>Please fill the following survey:";
             finishGame();
         }
+        console.log("blueScore: "+ blueScore)
     }
 }
 function blueMove() {
     previousBluePos = getBlueState();
     agentBehavior.makeAction(getBlueState(), getRedState());
+    if(getBlueState() != "a1") {
+        blueScore += step;
+    }
+    if(getBlueState() == "a1" && previousBluePos != "a1") {
+        blueScore += richToDestination;
+    }
 }
 
 function cheackIfLoss() { //if red and blue ball in the same position
@@ -337,12 +346,24 @@ function copytoclipboard() {
     getDOM("myTooltip").innerHTML = "Copied: " + copyText.value;
   }
 
+  function updateBlueScore(){
+      var blueState = getBlueState();
+      var current = parseInt(blueState[1]);
+      var moreSteps = current-1;
+      if(blueState[0] == 'b') {
+        moreSteps++;
+      }
+      blueScore += moreSteps*step;
+  }
+
 function finishGame() { //update database
     getDOM("steps").innerHTML = "Steps: "+ redCounterSteps;
     getDOM("score").innerHTML = "Score: "+ score;
     getDOM("panel").innerHTML += "<br> end game <br>";
     firebase.database().ref("all-games/"+postID+"/steps").set(redCounterSteps);
-    firebase.database().ref("all-games/"+postID+"/score").set(score);
+    firebase.database().ref("all-games/"+postID+"/redScore").set(score);
+    updateBlueScore();
+    firebase.database().ref("all-games/"+postID+"/blueScore").set(blueScore);
     firebase.database().ref("all-games/"+postID+"/win").set(win);
     // Get the survey
     var survey = document.getElementById("survey");
@@ -360,6 +381,7 @@ function finishGame() { //update database
     }
     
     keyEnable = false;
+    console.log("blueScore: "+ blueScore);
 }
 
 function submitSurvey() {
