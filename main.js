@@ -202,7 +202,7 @@ function redMove(to) {
             getDOM("survey_title").innerHTML = "Well done, you reached your destination safely!<br>Your score is: "+score+ " point(s).\n"+ "<br>Please fill the following survey:";
             finishGame();
         }
-        console.log("blueScore: "+ blueScore)
+        console.log("blueScore: "+ blueScore);
     }
 }
 function blueMove() {
@@ -245,26 +245,26 @@ function moveStay(ballColor) {
 }
 
 function moveRight() { //must be red ball (blue ball can't go right)
+    updateHTMLmetaData("right", "red");
     saveToFirebase("right");
     var redState = getRedState();
     var num = parseInt(redState[1]);
     num++;
     var newRedState =  "a" + num;
     moveOnboard(redState, newRedState, "red");
-    updateHTMLmetaData("right", "red");
-    
 }
 
 function moveLeft() { //must be blue ball (red ball can't go right)
+    updateHTMLmetaData("left", "blue");
     var blueState = getBlueState();
     var num = parseInt(blueState[1]);
     num--;
     var newBlueState =  "a" + num;
     moveOnboard(blueState, newBlueState, "blue");
-    updateHTMLmetaData("left", "blue");
 }
 
 function moveUp(ballColor) {
+    updateHTMLmetaData("up", ballColor);
     if(ballColor == "red") { // update firebase only on blue move
         saveToFirebase("up");
     }
@@ -277,11 +277,10 @@ function moveUp(ballColor) {
     }
     newPosition =  "a" + parseInt(currentPosition[1]);
     moveOnboard(currentPosition, newPosition, ballColor);
-    updateHTMLmetaData("up", ballColor);
-    
 }
 
 function moveDown(ballColor) {
+    updateHTMLmetaData("down", ballColor);
     if(ballColor == "red") { // update firebase only on blue move
         saveToFirebase("down");
     }
@@ -294,8 +293,6 @@ function moveDown(ballColor) {
     }
     newPosition =  "b" + parseInt(currentPosition[1]);
     moveOnboard(currentPosition, newPosition, ballColor);
-    updateHTMLmetaData("down", ballColor);
-    
 }
 
 function updateHTMLmetaData(action, ballColor) {
@@ -315,19 +312,25 @@ function updateHTMLmetaData(action, ballColor) {
 }
 
 function saveToFirebase(redAction) {
-    var blueState = getBlueState();
-    var redState = getRedState();
+    var blueState = getBlueState(); //after action
+    var redState = getRedState(); //before action
 
-    firebase.database().ref("all-games/"+postID+"/"+blueCounterSteps).set({
-        "blue": blueBall.id + " move to: " + blueState +", action: " + blueLastCommand,
-        "red": redBall.id + " move to: " + redState +", action: " + redLastCommand
+    firebase.database().ref("all-games/"+postID+"/log/"+blueCounterSteps).set({
+        "blue": "from: " + previousBluePos + ", action: " + blueLastCommand,
+        "red": "from: " + redState + ", action: " + redLastCommand,
     });
 
-    firebase.database().ref("statistics/"+blueState+" "+redState).once('value',
+    firebase.database().ref("statistics/"+previousBluePos+" "+redState).once('value',
     (snap) => {
         var number = snap.child(redAction).val();
         firebase.database().ref("statistics/"+previousBluePos+" "+redState+"/"+redAction).set(number+1);
     });
+    
+    // firebase.database().ref("statistics/"+blueState+" "+redState).once('value',
+    // (snap) => {
+    //     var number = snap.child(redAction).val();
+    //     firebase.database().ref("statistics/"+previousBluePos+" "+redState+"/"+redAction).set(number+1);
+    // });
 }
 
 function showGame() {
