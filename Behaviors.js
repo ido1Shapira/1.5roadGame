@@ -683,4 +683,8 @@ class randomAssumptionBehavior{
             return best_value;
         }
     }
+
+    // https://annisap.medium.com/searching-for-optimal-policies-in-python-an-intro-to-optimization-7182d6fe4dba
+
+    // https://towardsdatascience.com/how-to-code-the-value-iteration-algorithm-for-reinforcement-learning-8fb806e117d1
 }

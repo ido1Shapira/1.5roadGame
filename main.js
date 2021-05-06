@@ -295,6 +295,26 @@ function moveDown(ballColor) {
     moveOnboard(currentPosition, newPosition, ballColor);
 }
 
+function createNextPosition(action, state) {
+    var nextPosition;
+    if(action == "left") {
+        nextPosition = "a" + (parseInt(state[1])-1);
+    }
+    else if(action == "right") {
+        nextPosition = "a" + (parseInt(state[1])+1);
+    }
+    else if(action == "down") {
+        nextPosition = "b" + parseInt(state[1]);
+    }
+    else if(action == "up") {
+        nextPosition = "a" + parseInt(state[1]);
+    }
+    else if(action == "stay") {
+        nextPosition = blueState;
+    }
+    return nextPosition;
+}
+
 function updateHTMLmetaData(action, ballColor) {
     if(ballColor == "red") {
         redCounterSteps++;
@@ -302,7 +322,7 @@ function updateHTMLmetaData(action, ballColor) {
         score += step;
         getDOM("steps").innerHTML = "Steps: "+ redCounterSteps;
         getDOM("score").innerHTML = "Score: "+ score;
-        getDOM("panel").innerHTML += redCounterSteps + ". " + redBall.id + " move to: " + getRedState() + " action: " + action + "<br>";
+        getDOM("panel").innerHTML += redCounterSteps + ". " + redBall.id + " move to: " + createNextPosition(action, getRedState()) + " action: " + action + "<br>";
     }
     else { // ballColor == blue
         blueCounterSteps++;
