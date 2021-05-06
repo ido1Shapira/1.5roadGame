@@ -4,6 +4,9 @@ class Behavior{
     constructor(name, blueState, redState) {
         this.name = name;
         switch (this.name) {
+            case "randomBehavior":
+                this.behavior = new randomBehavior();
+                break;
             case "carefulBehavior":
                 // Moves towards the player and then moves down and waits until the player passes.
                 this.behavior = new carefulBehavior();
@@ -35,6 +38,38 @@ class Behavior{
     makeAction(blueState, redState) {
        // Each inheriting class will implements this function
        this.behavior.makeAction(blueState, redState);
+    }
+}
+
+class randomBehavior{
+    constructor() { }
+    makeAction(blueState, redState) {
+        var actionsArray;
+        if(parseInt(redState[1]) == parseInt(blueState[1])) {
+            actionsArray = ["left","up"];
+        } else if(blueState == "a1") {
+            actionsArray = ["stay"]; //blueBall has reached to destination
+        } else {
+            actionsArray = ["stay", "down", "up", "left"];
+        }
+        var randomAction = actionsArray[actionsArray.length * Math.random() | 0];
+        while(!checkAction(randomAction, "blue")) { //find valid action 
+            randomAction = actionsArray[actionsArray.length * Math.random() | 0];
+        }
+        switch (randomAction) {
+            case "stay":
+                moveStay("blue")
+                break;
+            case "up":
+                moveUp("blue");
+                break;
+            case "down":
+                moveDown("blue");
+                break;
+            case "left":
+                moveLeft();
+                break;
+        }
     }
 }
 

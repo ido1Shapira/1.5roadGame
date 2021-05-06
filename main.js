@@ -55,7 +55,8 @@ function play() {
     getDOM("a6").appendChild(blueBall);
 
     //Choose behavior to the blue ball
-    algorithms = ["carefulBehavior",
+    algorithms = ["randomBehavior",
+                  "carefulBehavior",
                   "aggressiveBehavior",
                   "semiAggressiveBehavior",
                  // "maximizeUtilitySumBehavior",
@@ -202,7 +203,6 @@ function redMove(to) {
             getDOM("survey_title").innerHTML = "Well done, you reached your destination safely!<br>Your score is: "+score+ " point(s).\n"+ "<br>Please fill the following survey:";
             finishGame();
         }
-        console.log("blueScore: "+ blueScore);
     }
 }
 function blueMove() {
@@ -295,26 +295,6 @@ function moveDown(ballColor) {
     moveOnboard(currentPosition, newPosition, ballColor);
 }
 
-function createNextPosition(action, state) {
-    var nextPosition;
-    if(action == "left") {
-        nextPosition = "a" + (parseInt(state[1])-1);
-    }
-    else if(action == "right") {
-        nextPosition = "a" + (parseInt(state[1])+1);
-    }
-    else if(action == "down") {
-        nextPosition = "b" + parseInt(state[1]);
-    }
-    else if(action == "up") {
-        nextPosition = "a" + parseInt(state[1]);
-    }
-    else if(action == "stay") {
-        nextPosition = blueState;
-    }
-    return nextPosition;
-}
-
 function updateHTMLmetaData(action, ballColor) {
     if(ballColor == "red") {
         redCounterSteps++;
@@ -322,12 +302,12 @@ function updateHTMLmetaData(action, ballColor) {
         score += step;
         getDOM("steps").innerHTML = "Steps: "+ redCounterSteps;
         getDOM("score").innerHTML = "Score: "+ score;
-        getDOM("panel").innerHTML += redCounterSteps + ". " + redBall.id + " move to: " + createNextPosition(action, getRedState()) + " action: " + action + "<br>";
+        getDOM("panel").innerHTML += redCounterSteps + ". " + redBall.id + " move from: " + getRedState() + " action: " + action + "<br>";
     }
     else { // ballColor == blue
         blueCounterSteps++;
         blueLastCommand = action;
-        getDOM("panel").innerHTML += blueCounterSteps + ". " + blueBall.id + " move to: " + getBlueState() + " action: " + action + "<br>";
+        getDOM("panel").innerHTML += blueCounterSteps + ". " + blueBall.id + " move from: " + getBlueState() + " action: " + action + "<br>";
     }
 }
 
@@ -340,13 +320,7 @@ function saveToFirebase(redAction) {
         "red": "from: " + redState + ", action: " + redLastCommand,
     });
 
-    firebase.database().ref("statistics/"+previousBluePos+" "+redState).once('value',
-    (snap) => {
-        var number = snap.child(redAction).val();
-        firebase.database().ref("statistics/"+previousBluePos+" "+redState+"/"+redAction).set(number+1);
-    });
-    
-    // firebase.database().ref("statistics/"+blueState+" "+redState).once('value',
+    // firebase.database().ref("statistics/"+previousBluePos+" "+redState).once('value',
     // (snap) => {
     //     var number = snap.child(redAction).val();
     //     firebase.database().ref("statistics/"+previousBluePos+" "+redState+"/"+redAction).set(number+1);
@@ -404,7 +378,6 @@ function finishGame() { //update database
     }
     
     keyEnable = false;
-    console.log("blueScore: "+ blueScore);
 }
 
 function submitSurvey() {
