@@ -737,35 +737,50 @@ class policyIterationBasedBehavior{
         this.env = new Environment(blueState, redState);
         this.states = this.env.getStates();
 
-        // initialize V,policy
-        this.V = Array(this.env.ns).fill(0);
-        this.policy = Array(this.env.ns).fill("stay");
+        // // initialize V,policy
+        // this.V = Array(this.env.ns).fill(0);
+        // this.policy = Array(this.env.ns).fill("stay");
 
-        var stable = false;
-        var i = 0;
-        while(!stable) {
-            console.log("Iteration: "+ ++i);
-            // valuate policy:
-            this.evaluatePolicy();
-            // improve policy:
-            var newPolicy = this.updatePolicy();
-            if(this.policy.every(function(value, index) { return value === newPolicy[index];})) {
-                stable = true;
-            }
-            else {
-                // console.log("newPolicy: "+ newPolicy);
-                this.policy = newPolicy;
-                // console.log(this.policy);
-            }
-        }
+        // var stable = false;
+        // var i = 0;
+        // while(!stable) {
+        //     console.log("Iteration: "+ ++i);
+        //     // valuate policy:
+        //     this.evaluatePolicy();
+        //     // improve policy:
+        //     var newPolicy = this.updatePolicy();
+        //     if(this.policy.every(function(value, index) { return value === newPolicy[index];})) {
+        //         stable = true;
+        //     }
+        //     else {
+        //         // console.log("newPolicy: "+ newPolicy);
+        //         this.policy = newPolicy;
+        //         // console.log(this.policy);
+        //     }
+        // }
         
-        console.log("policy: "+this.policy);
-        console.log("V: "+this.V);
+        // console.log("policy: "+this.policy);
+        // console.log("V: "+this.V);
 
-        console.log("V(a6 a1)= "+ this.V[this.states.indexOf("a6 a1")]);
-        // console.log("policy(a6 a1)= "+this.policy[this.states.indexOf("a6 a1")]);
+        // console.log("V(a6 a1)= "+ this.V[this.states.indexOf("a6 a1")]);
+        // // console.log("policy(a6 a1)= "+this.policy[this.states.indexOf("a6 a1")]);
 
-        var [policy, V] = this.policy_improvement();
+        // var [policy, V] = this.policy_improvement();
+
+        firebase.database().ref("Value Iteration behavior").once('value',
+        (snap) => {
+            this.policy = snap.val();
+            console.log(this.policy);
+            // var actions = getPossibleActions(redState, "red");
+            // var sum = 0;
+            // for(var i=0;i<actions.lengthl;i++){
+            //     sum += snap.child(redAction).val();
+            // }
+            // this.stay_prob = snap.child("stay").val()/sum;
+            // this.right_prob = snap.child("right").val()/sum;
+            // this.up_prob = snap.child("up").val()/sum;
+            // this.down_prob = snap.child("down").val()/sum;
+        });
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
@@ -775,7 +790,7 @@ class policyIterationBasedBehavior{
         this.env.blueState = blueState;
         this.env.redState = redState;
 
-        var bestAction = this.bestAction(blueState + " " + redState);
+        var bestAction = this.policy[blueState + " " + redState];
         console.log("bestAction: "+bestAction);
         switch (bestAction) {
             case "stay":
@@ -878,109 +893,5 @@ class policyIterationBasedBehavior{
         console.log(state);
         var s_i = this.states.indexOf(state);
         return this.policy[s_i];
-    }
-
-    /*
-        __Args__:
-                1. policy: [S, A] shaped matrix representing the policy.
-                2. env: OpenAI env. 
-                    i.  env.P transition probabilities of the environment.
-                    ii. env.P[s][a] is a list of transition tuples P[s][a] == [(probability, nextstate, reward, done), ...].
-                    iii.env.nS is a number of states in the environment. 
-                    iv. env.nA is a number of actions in the environment.
-                3. discount_factor: Gamma discount factor.
-                4. theta: We stop evaluation once our value function change is less than theta for all states.
-        
-        __Returns__:
-            Vector of length env.nS representing the value function.
-            Matrix of length env.nSxenv.nA representing the policy.
-            
-        MDP env:
-            - env.nS = 16 
-            s ∈ S = {0...15}, where 0 and 15 are terminal states
-            - env.nA = 4, 
-            a ∈ A = {UP = 0,RIGHT = 1,DOWN = 2,LEFT = 3} 
-            - P[s][a]= {P[s][UP],P[s][RIGHT], P[s][DOWN], P[s][LEFT]}  : state transition function specifying P(ns_up|s,UP). 
-            i.e. P[s][UP] = [(1.0, ns_up, reward, is_done(ns_up))] # Not a terminal state
-                P[s][UP] = [(1.0, s, reward, True)] # A terminal state
-            - R is a reward function R(s,a,s')
-            reward = 0.0 if we are stuck in a terminal state, else -1.0 
-
-        Local Variables
-        - policy[s]: action array
-        - chosen_a: a real number ∈ {0,1,2,3}
-        - action_values: action values array
-        - best_a: integer variable 
-        - policy_stable: boolean variable 
-        - delta: integer variable
-        - V[S]: real array 
-    */
-
-    policy_eval(policy, discount_factor = 0.99, theta=0.00001) {
-        // Initialize thel value function
-        console.log(this.gamma);
-        var V = Array(this.env_nS).fill(0);
-        console.log(V);
-        // While our value function is worse than the threshold theta
-        while (true) {
-            // Keep track of the update done in value function
-            var delta = 0
-            // For each state, look ahead one step at each possible action and next state
-            for (var s=0; s<this.env_nS; s++) {
-                var v = 0
-                // The possible next actions, policy[s]:[a,action_prob]
-                for (const [a, action_prob] of policy[s].entries()) {
-                    // For each action, look at the possible next states, 
-                    for (const [prob, next_state, reward, done] of this.env_P[s][a]) { // state transition P[s][a] == [(prob, nextstate, reward, done), ...]
-                        // Calculate the expected value function
-                        v += action_prob * prob * (reward + discount_factor * V[next_state]) // P[s, a, s']*(R(s,a,s')+γV[s'])
-                        // How much our value function changed across any states .
-                    }
-                } 
-                delta = max(delta, np.abs(v - V[s]))
-                V[s] = v
-            }
-            // Stop evaluating once our value function update is below a threshold
-            if (delta < theta) {
-                break;
-            }
-        }
-        return np.array(V);
-    }
-
-    policy_improvement( policy_eval_fn=this.policy_eval, discount_factor=0.99) {
-        // Initiallize a policy arbitarily
-        var policy = Array(this.env_nS).fill( Array(this.env_nA).fill(1.0 / this.env_nA));
-        while (true) {
-            // Compute the Value Function for the current policy
-            var V = policy_eval_fn(policy, discount_factor);
-            
-            // Will be set to false if we update the policy
-            var policy_stable = true;
-            
-            // Improve the policy at each state
-            for ( var s=0; s<this.env_nS; s++) {
-                // The best action we would take under the currect policy
-                var chosen_a = policy[s].reduce((iMax, x, i, arr) => x > arr[iMax] ? i : iMax, 0);
-                // Find the best action by one-step lookahead
-                var action_values = Array(this.env_nA).fill(0);
-                for (var a=0; a<this.env_nA; a++) {
-                    for ([prob, next_state, reward, done] of this.env_P[s][a]) {
-                        action_values[a] += prob * (reward + discount_factor * V[next_state])
-                    }
-                }
-                best_a = action_values.reduce((iMax, x, i, arr) => x > arr[iMax] ? i : iMax, 0);
-                
-                // Greedily (max in the above line) update the policy
-                if (chosen_a != best_a) {
-                    policy_stable = false;
-                }
-                policy[s] = math.identity(this.env_nA)[best_a];
-            }
-            // Until we've found an optimal policy. Return it
-            if (policy_stable) {
-                return [policy, V];
-            }
-        }
     }
 }
