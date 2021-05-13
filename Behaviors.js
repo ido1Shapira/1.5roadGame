@@ -790,6 +790,7 @@ class policyIterationBasedBehavior{
         this.env.blueState = blueState;
         this.env.redState = redState;
 
+        console.log("State: "+blueState + " " + redState)
         var bestAction = this.policy[blueState + " " + redState];
         console.log("bestAction: "+bestAction);
         switch (bestAction) {
