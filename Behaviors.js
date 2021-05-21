@@ -35,6 +35,9 @@ class Behavior{
             case "policyIterationBasedBehavior":
                 this.behavior = new policyIterationBasedBehavior(blueState, redState);
                 break;
+            case "policyIterationBasedBehavior_v2":
+                this.behavior = new policyIterationBasedBehavior_v2(blueState, redState);
+                break;
         }
     }
     makeAction(blueState, redState) {
@@ -728,8 +731,6 @@ class randomAssumptionBehavior{
 
 class policyIterationBasedBehavior{
     env;
-    gamma = 0.99;
-    V;
     policy;
     states;
 
@@ -737,49 +738,10 @@ class policyIterationBasedBehavior{
         this.env = new Environment(blueState, redState);
         this.states = this.env.getStates();
 
-        // // initialize V,policy
-        // this.V = Array(this.env.ns).fill(0);
-        // this.policy = Array(this.env.ns).fill("stay");
-
-        // var stable = false;
-        // var i = 0;
-        // while(!stable) {
-        //     console.log("Iteration: "+ ++i);
-        //     // valuate policy:
-        //     this.evaluatePolicy();
-        //     // improve policy:
-        //     var newPolicy = this.updatePolicy();
-        //     if(this.policy.every(function(value, index) { return value === newPolicy[index];})) {
-        //         stable = true;
-        //     }
-        //     else {
-        //         // console.log("newPolicy: "+ newPolicy);
-        //         this.policy = newPolicy;
-        //         // console.log(this.policy);
-        //     }
-        // }
-        
-        // console.log("policy: "+this.policy);
-        // console.log("V: "+this.V);
-
-        // console.log("V(a6 a1)= "+ this.V[this.states.indexOf("a6 a1")]);
-        // // console.log("policy(a6 a1)= "+this.policy[this.states.indexOf("a6 a1")]);
-
-        // var [policy, V] = this.policy_improvement();
-
         firebase.database().ref("Value Iteration behavior").once('value',
         (snap) => {
             this.policy = snap.val();
-            console.log(this.policy);
-            // var actions = getPossibleActions(redState, "red");
-            // var sum = 0;
-            // for(var i=0;i<actions.lengthl;i++){
-            //     sum += snap.child(redAction).val();
-            // }
-            // this.stay_prob = snap.child("stay").val()/sum;
-            // this.right_prob = snap.child("right").val()/sum;
-            // this.up_prob = snap.child("up").val()/sum;
-            // this.down_prob = snap.child("down").val()/sum;
+            // console.log(this.policy);
         });
     }
     makeAction(blueState, redState) {
@@ -808,91 +770,45 @@ class policyIterationBasedBehavior{
                 break;
         }
     }
+}
 
-    evaluatePolicy() {
-        // perform a synchronous update of the value function
-        var Vnew = Array(this.states.length).fill(0); // initialize new value function array for each state
-        for(var s_i in this.states) {
-            var s = this.states[s_i];
-            // console.log("s: "+s);
-            var v = 0.0;
-            var poss = this.env.allowedActions(s, "blue"); // fetch all possible actions
-            // console.log(poss);
-            for(var a of poss) {
-                var prob = this.env.transition_function(s,a); // probability of taking action under current policy
-                if(prob === undefined) { // there is no information for s
-                    prob = 1 / poss.length;
-                }
-                // console.log(prob);
-                var s_ = this.env.nextStateDistribution(s,a); // look up the next state
-                if(this.states.indexOf(s_) == -1) {
-                    // there is no information for s_
-                    console.warn("state with no information: "+ s_)
-                    // Set random probability
-                }
-                // console.log("s_: "+s_);
-                var rs = this.env.reward(s,a,s_); // get reward for s->a->s_ transition
-                // console.log("rs: "+rs);
-                // console.log("gamma: "+this.gamma);
-                // console.log("index of s_: "+this.states.indexOf(s_))
-                // console.log("V(s_): "+this.V[this.states.indexOf(s_)]);
-                v += prob * (rs + this.gamma * this.V[this.states.indexOf(s_)]);
-                // console.log(v);
-            }
-            Vnew[s_i] = v;
-            // console.log("Vnew(s): "+ Vnew[s_i]);
-        }
-        this.V = Vnew; // swap
-        // console.log("Vnew: "+ Vnew);
+class policyIterationBasedBehavior_v2{
+    policy;
+    previousBlueState;
+    previousRedState;
+    constructor(blueState, redState) {
+        firebase.database().ref("Value Iteration behavior v2").once('value',
+        (snap) => {
+            this.policy = snap.val();
+            // console.log(this.policy);
+        });
+        this.previousBlueState = blueState;
+        this.previousRedState = redState;
     }
-
-    updatePolicy() {
-        var policy = Array(this.env.ns).fill("stay");
-        // update policy to be greedy w.r.t. learned Value function
-        // iterate over all states...
-        for(var s_i in this.states) {
-            var s = this.states[s_i];
-            // console.log("s: "+s);
-            var poss = this.env.allowedActions(s, "blue");
-            // console.log(poss);
-            // compute value of taking each allowed action
-            var vmax, nmax;
-            var vs = [];
-            const actions = Object.freeze({0: "stay", 1: "left", 2: "down", 3: "up"});
-            for(var i=0,n=poss.length;i < n;i++) {
-                var a = poss[i];
-                // console.log("a: "+ a);
-                // compute the value of taking action a
-                var s_ = this.env.nextStateDistribution(s,a);
-                // console.log("s_: "+s_);
-                var rs = this.env.reward(s,a,s_);
-                // console.log("rs: "+rs);
-                var v = rs + this.gamma * this.V[this.states.indexOf(s_)];
-                // bookeeping: store it and maintain max
-                vs.push(v);
-                if(i === 0 || v > vmax) {
-                    vmax = v;
-                    nmax = 1;
-                }
-                else if(v === vmax) {
-                    nmax += 1;
-                }
-            }
-            // console.log("vs: "+vs);
-            // console.log("vs_i: "+ vs.indexOf(vmax));
-            // console.log("vmax: "+vmax);
-            // policy[s_i] = actions[vs.indexOf(vmax)];
-            // console.log("vs_i: "+ vs.reduce((iMax, x, i, arr) => x > arr[iMax] ? i : iMax, 0));
-            // update policy smoothly across all argmaxy actions
-            policy[s_i] = actions[vs.reduce((iMax, x, i, arr) => x > arr[iMax] ? i : iMax, 0)];
-            // console.log("vs(v): "+ vs[i]);
+    makeAction(blueState, redState) {
+        if(blueState == "a1") {
+            return "stay";
         }
-        return policy;
-    }
-
-    bestAction(state) {
-        console.log(state);
-        var s_i = this.states.indexOf(state);
-        return this.policy[s_i];
+        var state = blueState + " " + redState + "," + this.previousBlueState + " " + this.previousRedState
+        console.log("State: "+ state)
+        var bestAction = this.policy[state];
+        console.log("bestAction: "+bestAction);
+        switch (bestAction) {
+            case "stay":
+                moveStay("blue");
+                break;
+            case "left":
+                moveLeft();
+                break;
+            case "up":
+                moveUp("blue");
+                break;
+            case "down":
+                moveDown("blue");
+                break;
+        }
+        // Update current state of the two agents
+        this.previousBlueState = blueState;
+        this.previousRedState = redState;
     }
 }
