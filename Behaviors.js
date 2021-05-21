@@ -32,11 +32,11 @@ class Behavior{
                 // The blue agent assumes that the red agent is behaving randomly
                 this.behavior = new randomAssumptionBehavior(blueState, redState);
                 break;
-            case "policyIterationBasedBehavior":
-                this.behavior = new policyIterationBasedBehavior(blueState, redState);
+            case "valueIterationBasedBehavior":
+                this.behavior = new valueIterationBasedBehavior(blueState, redState);
                 break;
-            case "policyIterationBasedBehavior_v2":
-                this.behavior = new policyIterationBasedBehavior_v2(blueState, redState);
+            case "valueIterationBasedBehavior_v2":
+                this.behavior = new valueIterationBasedBehavior_v2(blueState, redState);
                 break;
         }
     }
@@ -729,7 +729,7 @@ class randomAssumptionBehavior{
 
 // https://towardsdatascience.com/how-to-code-the-value-iteration-algorithm-for-reinforcement-learning-8fb806e117d1
 
-class policyIterationBasedBehavior{
+class valueIterationBasedBehavior{
     env;
     policy;
     states;
@@ -772,7 +772,7 @@ class policyIterationBasedBehavior{
     }
 }
 
-class policyIterationBasedBehavior_v2{
+class valueIterationBasedBehavior_v2{
     policy;
     previousBlueState;
     previousRedState;
