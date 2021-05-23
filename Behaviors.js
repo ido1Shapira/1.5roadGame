@@ -782,8 +782,8 @@ class valueIterationBasedBehavior_v2{
             this.policy = snap.val();
             // console.log(this.policy);
         });
-        this.previousBlueState = blueState;
-        this.previousRedState = redState;
+        this.previousBlueState = 'a-9';
+        this.previousRedState = 'a-9';
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
