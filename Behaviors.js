@@ -358,7 +358,7 @@ class nonzeroMinMaxBehavior{
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
-            return "stay";
+            moveStay("blue");
         }
         var currentNode = this.tree.findNodeByStates(blueState, redState);
         currentNode.print();
@@ -519,7 +519,7 @@ class randomAssumptionBehavior{
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
-            return "stay";
+            moveStay("blue");
         }
         var currentNode = this.tree.findNodeByStates(blueState, redState);
         currentNode.print();
@@ -746,7 +746,7 @@ class valueIterationBasedBehavior{
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
-            return "stay";
+            moveStay("blue");
         }
         // Update current state of the two agents
         this.env.blueState = blueState;
@@ -787,7 +787,7 @@ class valueIterationBasedBehavior_v2{
     }
     makeAction(blueState, redState) {
         if(blueState == "a1") {
-            return "stay";
+            moveStay("blue");
         }
         var state = blueState + " " + redState + "," + this.previousBlueState + " " + this.previousRedState
         console.log("State: "+ state)

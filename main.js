@@ -210,7 +210,7 @@ function redMove(to) {
 function blueMove() {
     previousBluePos = getBlueState();
     agentBehavior.makeAction(getBlueState(), getRedState());
-    if(getBlueState() != "a1") {
+    if(previousBluePos != "a1") {
         blueScore += step;
     }
     if(getBlueState() == "a1" && previousBluePos != "a1") {

@@ -122,6 +122,609 @@
     "b6 b4" : "up",
     "b6 b5" : "up"
   },
+  "Value Iteration behavior v2" : {
+    "a2 a1,a2 a1" : "down",
+    "a2 a1,a2 b1" : "down",
+    "a2 a1,a3 a1" : "down",
+    "a2 a1,a3 b1" : "down",
+    "a2 a1,b2 a1" : "down",
+    "a2 a1,b2 b1" : "down",
+    "a2 a3,a2 a3" : "left",
+    "a2 a3,a2 b3" : "left",
+    "a2 a3,a3 a2" : "left",
+    "a2 a3,a3 b3" : "left",
+    "a2 a3,b2 a2" : "left",
+    "a2 a3,b2 a3" : "left",
+    "a2 a3,b2 b3" : "left",
+    "a2 a4,a2 a3" : "left",
+    "a2 a4,a2 a4" : "left",
+    "a2 a4,a2 b4" : "left",
+    "a2 a4,a3 a4" : "left",
+    "a2 a4,a3 b4" : "left",
+    "a2 a4,b2 a3" : "left",
+    "a2 a4,b2 a4" : "left",
+    "a2 a4,b2 b4" : "left",
+    "a2 a5,a2 a4" : "left",
+    "a2 a5,a2 a5" : "left",
+    "a2 a5,a2 b5" : "left",
+    "a2 a5,a3 a4" : "left",
+    "a2 a5,a3 a5" : "left",
+    "a2 a5,a3 b5" : "left",
+    "a2 a5,b2 a4" : "left",
+    "a2 a5,b2 a5" : "left",
+    "a2 a5,b2 b5" : "left",
+    "a2 a6,a2 a5" : "left",
+    "a2 a6,a2 a6" : "left",
+    "a2 a6,a2 b6" : "left",
+    "a2 a6,a3 a5" : "left",
+    "a2 a6,a3 a6" : "left",
+    "a2 a6,a3 b6" : "left",
+    "a2 a6,b2 a5" : "left",
+    "a2 a6,b2 a6" : "left",
+    "a2 a6,b2 b6" : "left",
+    "a2 b1,a2 a1" : "down",
+    "a2 b1,a2 b1" : "down",
+    "a2 b1,a3 a1" : "down",
+    "a2 b1,a3 b1" : "down",
+    "a2 b1,b2 a1" : "down",
+    "a2 b1,b2 b1" : "down",
+    "a2 b2,a2 b2" : "left",
+    "a2 b2,a3 a2" : "left",
+    "a2 b2,a3 b2" : "left",
+    "a2 b2,b2 a2" : "left",
+    "a2 b3,a2 a3" : "left",
+    "a2 b3,a2 b3" : "left",
+    "a2 b3,a3 b3" : "left",
+    "a2 b3,b2 a3" : "left",
+    "a2 b3,b2 b3" : "left",
+    "a2 b4,a2 a4" : "left",
+    "a2 b4,a2 b4" : "left",
+    "a2 b4,a3 a4" : "left",
+    "a2 b4,a3 b4" : "left",
+    "a2 b4,b2 a4" : "left",
+    "a2 b4,b2 b4" : "left",
+    "a2 b5,a2 a5" : "left",
+    "a2 b5,a2 b5" : "left",
+    "a2 b5,a3 a5" : "left",
+    "a2 b5,a3 b5" : "left",
+    "a2 b5,b2 a5" : "left",
+    "a2 b5,b2 b5" : "left",
+    "a2 b6,a2 b6" : "left",
+    "a2 b6,a3 b6" : "left",
+    "a2 b6,b2 b6" : "left",
+    "a3 a1,a3 a1" : "down",
+    "a3 a1,a3 b1" : "down",
+    "a3 a1,a4 a1" : "down",
+    "a3 a1,a4 b1" : "down",
+    "a3 a1,b3 a1" : "down",
+    "a3 a1,b3 b1" : "down",
+    "a3 a2,a3 a1" : "down",
+    "a3 a2,a3 a2" : "down",
+    "a3 a2,a3 b2" : "down",
+    "a3 a2,a4 a1" : "left",
+    "a3 a2,a4 a2" : "down",
+    "a3 a2,a4 b2" : "left",
+    "a3 a2,b3 a1" : "down",
+    "a3 a2,b3 a2" : "down",
+    "a3 a2,b3 b2" : "down",
+    "a3 a4,a3 a4" : "left",
+    "a3 a4,a3 b4" : "left",
+    "a3 a4,a4 a3" : "left",
+    "a3 a4,a4 b4" : "left",
+    "a3 a4,b3 a3" : "left",
+    "a3 a4,b3 a4" : "left",
+    "a3 a4,b3 b4" : "left",
+    "a3 a5,a3 a4" : "left",
+    "a3 a5,a3 a5" : "left",
+    "a3 a5,a3 b5" : "left",
+    "a3 a5,a4 a5" : "left",
+    "a3 a5,a4 b5" : "left",
+    "a3 a5,b3 a4" : "left",
+    "a3 a5,b3 a5" : "left",
+    "a3 a5,b3 b5" : "left",
+    "a3 a6,a3 a5" : "left",
+    "a3 a6,a3 a6" : "left",
+    "a3 a6,a3 b6" : "left",
+    "a3 a6,a4 a5" : "left",
+    "a3 a6,a4 a6" : "left",
+    "a3 a6,a4 b6" : "left",
+    "a3 a6,b3 a5" : "left",
+    "a3 a6,b3 a6" : "left",
+    "a3 a6,b3 b6" : "left",
+    "a3 b1,a3 a1" : "down",
+    "a3 b1,a3 b1" : "down",
+    "a3 b1,a4 a1" : "down",
+    "a3 b1,a4 b1" : "down",
+    "a3 b1,b3 a1" : "down",
+    "a3 b1,b3 b1" : "down",
+    "a3 b2,a3 a2" : "down",
+    "a3 b2,a3 b2" : "down",
+    "a3 b2,a4 a2" : "down",
+    "a3 b2,a4 b2" : "down",
+    "a3 b2,b3 a2" : "down",
+    "a3 b2,b3 b2" : "down",
+    "a3 b3,a3 b3" : "left",
+    "a3 b3,a4 a3" : "left",
+    "a3 b3,a4 b3" : "left",
+    "a3 b3,b3 a3" : "left",
+    "a3 b4,a3 a4" : "left",
+    "a3 b4,a3 b4" : "left",
+    "a3 b4,a4 b4" : "left",
+    "a3 b4,b3 a4" : "left",
+    "a3 b4,b3 b4" : "left",
+    "a3 b5,a3 a5" : "left",
+    "a3 b5,a3 b5" : "left",
+    "a3 b5,a4 a5" : "left",
+    "a3 b5,a4 b5" : "left",
+    "a3 b5,b3 a5" : "left",
+    "a3 b5,b3 b5" : "left",
+    "a3 b6,a3 b6" : "left",
+    "a3 b6,a4 b6" : "left",
+    "a3 b6,b3 b6" : "left",
+    "a4 a1,a4 a1" : "down",
+    "a4 a1,a4 b1" : "down",
+    "a4 a1,a5 a1" : "down",
+    "a4 a1,a5 b1" : "down",
+    "a4 a1,b4 a1" : "down",
+    "a4 a1,b4 b1" : "down",
+    "a4 a2,a4 a1" : "down",
+    "a4 a2,a4 a2" : "down",
+    "a4 a2,a4 b2" : "down",
+    "a4 a2,a5 a1" : "down",
+    "a4 a2,a5 a2" : "down",
+    "a4 a2,a5 b2" : "down",
+    "a4 a2,b4 a1" : "down",
+    "a4 a2,b4 a2" : "down",
+    "a4 a2,b4 b2" : "down",
+    "a4 a3,a4 a2" : "down",
+    "a4 a3,a4 a3" : "down",
+    "a4 a3,a4 b3" : "down",
+    "a4 a3,a5 a2" : "left",
+    "a4 a3,a5 a3" : "down",
+    "a4 a3,a5 b3" : "down",
+    "a4 a3,b4 a2" : "down",
+    "a4 a3,b4 a3" : "down",
+    "a4 a3,b4 b3" : "down",
+    "a4 a5,a4 a5" : "left",
+    "a4 a5,a4 b5" : "left",
+    "a4 a5,a5 a4" : "left",
+    "a4 a5,a5 b5" : "left",
+    "a4 a5,b4 a4" : "left",
+    "a4 a5,b4 a5" : "left",
+    "a4 a5,b4 b5" : "left",
+    "a4 a6,a4 a5" : "left",
+    "a4 a6,a4 a6" : "left",
+    "a4 a6,a4 b6" : "left",
+    "a4 a6,a5 a6" : "left",
+    "a4 a6,a5 b6" : "left",
+    "a4 a6,b4 a5" : "left",
+    "a4 a6,b4 a6" : "left",
+    "a4 a6,b4 b6" : "left",
+    "a4 b1,a4 a1" : "down",
+    "a4 b1,a4 b1" : "down",
+    "a4 b1,a5 a1" : "down",
+    "a4 b1,a5 b1" : "down",
+    "a4 b1,b4 a1" : "down",
+    "a4 b1,b4 b1" : "down",
+    "a4 b2,a4 a2" : "stay",
+    "a4 b2,a4 b2" : "stay",
+    "a4 b2,a5 a2" : "stay",
+    "a4 b2,a5 b2" : "stay",
+    "a4 b2,b4 a2" : "stay",
+    "a4 b2,b4 b2" : "stay",
+    "a4 b3,a4 a3" : "down",
+    "a4 b3,a4 b3" : "down",
+    "a4 b3,a5 a3" : "down",
+    "a4 b3,a5 b3" : "down",
+    "a4 b3,b4 a3" : "down",
+    "a4 b3,b4 b3" : "down",
+    "a4 b4,a4 b4" : "left",
+    "a4 b4,a5 a4" : "left",
+    "a4 b4,a5 b4" : "left",
+    "a4 b4,b4 a4" : "left",
+    "a4 b5,a4 a5" : "left",
+    "a4 b5,a4 b5" : "left",
+    "a4 b5,a5 b5" : "left",
+    "a4 b5,b4 a5" : "left",
+    "a4 b5,b4 b5" : "left",
+    "a4 b6,a4 b6" : "left",
+    "a4 b6,a5 b6" : "left",
+    "a4 b6,b4 b6" : "left",
+    "a5 a1,a5 a1" : "stay",
+    "a5 a1,a5 b1" : "stay",
+    "a5 a1,a6 a1" : "stay",
+    "a5 a1,a6 b1" : "stay",
+    "a5 a1,b5 a1" : "stay",
+    "a5 a1,b5 b1" : "stay",
+    "a5 a2,a5 a1" : "left",
+    "a5 a2,a5 a2" : "left",
+    "a5 a2,a5 b2" : "left",
+    "a5 a2,a6 a1" : "left",
+    "a5 a2,a6 a2" : "left",
+    "a5 a2,a6 b2" : "left",
+    "a5 a2,b5 a1" : "left",
+    "a5 a2,b5 a2" : "left",
+    "a5 a2,b5 b2" : "left",
+    "a5 a3,a5 a2" : "stay",
+    "a5 a3,a5 a3" : "stay",
+    "a5 a3,a5 b3" : "stay",
+    "a5 a3,a6 a2" : "stay",
+    "a5 a3,a6 a3" : "stay",
+    "a5 a3,a6 b3" : "stay",
+    "a5 a3,b5 a2" : "stay",
+    "a5 a3,b5 a3" : "stay",
+    "a5 a3,b5 b3" : "stay",
+    "a5 a4,a5 a3" : "left",
+    "a5 a4,a5 a4" : "down",
+    "a5 a4,a5 b4" : "down",
+    "a5 a4,a6 a3" : "down",
+    "a5 a4,a6 a4" : "down",
+    "a5 a4,a6 b4" : "down",
+    "a5 a4,b5 a3" : "left",
+    "a5 a4,b5 a4" : "down",
+    "a5 a4,b5 b4" : "down",
+    "a5 a6,a5 a6" : "left",
+    "a5 a6,a5 b6" : "left",
+    "a5 a6,a6 a5" : "left",
+    "a5 a6,a6 b6" : "left",
+    "a5 a6,b5 a5" : "left",
+    "a5 a6,b5 a6" : "left",
+    "a5 a6,b5 b6" : "left",
+    "a5 b1,a5 a1" : "stay",
+    "a5 b1,a5 b1" : "stay",
+    "a5 b1,a6 a1" : "stay",
+    "a5 b1,a6 b1" : "stay",
+    "a5 b1,b5 a1" : "stay",
+    "a5 b1,b5 b1" : "stay",
+    "a5 b2,a5 a2" : "stay",
+    "a5 b2,a5 b2" : "stay",
+    "a5 b2,a6 a2" : "stay",
+    "a5 b2,a6 b2" : "stay",
+    "a5 b2,b5 a2" : "stay",
+    "a5 b2,b5 b2" : "stay",
+    "a5 b3,a5 a3" : "left",
+    "a5 b3,a5 b3" : "left",
+    "a5 b3,a6 a3" : "left",
+    "a5 b3,a6 b3" : "left",
+    "a5 b3,b5 a3" : "left",
+    "a5 b3,b5 b3" : "left",
+    "a5 b4,a5 a4" : "down",
+    "a5 b4,a5 b4" : "down",
+    "a5 b4,a6 a4" : "down",
+    "a5 b4,a6 b4" : "down",
+    "a5 b4,b5 a4" : "down",
+    "a5 b4,b5 b4" : "down",
+    "a5 b5,a5 b5" : "left",
+    "a5 b5,a6 a5" : "left",
+    "a5 b5,a6 b5" : "left",
+    "a5 b5,b5 a5" : "left",
+    "a5 b6,a5 b6" : "left",
+    "a5 b6,a6 b6" : "left",
+    "a5 b6,b5 b6" : "left",
+    "a6 a1,a-9 a-9" : "left",
+    "a6 a1,a6 a1" : "left",
+    "a6 a1,a6 b1" : "left",
+    "a6 a1,b6 a1" : "left",
+    "a6 a1,b6 b1" : "left",
+    "a6 a2,a6 a1" : "left",
+    "a6 a2,a6 a2" : "left",
+    "a6 a2,a6 b2" : "left",
+    "a6 a2,b6 a1" : "left",
+    "a6 a2,b6 a2" : "left",
+    "a6 a2,b6 b2" : "left",
+    "a6 a3,a6 a2" : "left",
+    "a6 a3,a6 a3" : "left",
+    "a6 a3,a6 b3" : "left",
+    "a6 a3,b6 a2" : "left",
+    "a6 a3,b6 a3" : "left",
+    "a6 a3,b6 b3" : "left",
+    "a6 a4,a6 a3" : "stay",
+    "a6 a4,a6 a4" : "stay",
+    "a6 a4,a6 b4" : "stay",
+    "a6 a4,b6 a3" : "stay",
+    "a6 a4,b6 a4" : "stay",
+    "a6 a4,b6 b4" : "stay",
+    "a6 a5,a6 a4" : "left",
+    "a6 a5,a6 a5" : "left",
+    "a6 a5,a6 b5" : "left",
+    "a6 a5,b6 a4" : "left",
+    "a6 a5,b6 a5" : "left",
+    "a6 a5,b6 b5" : "left",
+    "a6 b1,a6 a1" : "left",
+    "a6 b1,a6 b1" : "left",
+    "a6 b1,b6 a1" : "stay",
+    "a6 b1,b6 b1" : "left",
+    "a6 b2,a6 a2" : "left",
+    "a6 b2,a6 b2" : "left",
+    "a6 b2,b6 a2" : "left",
+    "a6 b2,b6 b2" : "left",
+    "a6 b3,a6 a3" : "left",
+    "a6 b3,a6 b3" : "left",
+    "a6 b3,b6 a3" : "left",
+    "a6 b3,b6 b3" : "left",
+    "a6 b4,a6 a4" : "left",
+    "a6 b4,a6 b4" : "left",
+    "a6 b4,b6 a4" : "left",
+    "a6 b4,b6 b4" : "left",
+    "a6 b5,a6 a5" : "stay",
+    "a6 b5,a6 b5" : "stay",
+    "a6 b5,b6 a5" : "stay",
+    "a6 b5,b6 b5" : "stay",
+    "a6 b6,a6 b6" : "left",
+    "b1 a1,b1 a1" : "up",
+    "b1 a2,b1 a1" : "up",
+    "b1 a2,b1 a2" : "up",
+    "b1 a2,b1 b2" : "up",
+    "b1 a3,b1 a2" : "up",
+    "b1 a3,b1 a3" : "up",
+    "b1 a3,b1 b3" : "up",
+    "b1 a4,b1 a3" : "up",
+    "b1 a4,b1 a4" : "up",
+    "b1 a4,b1 b4" : "up",
+    "b1 a5,b1 a4" : "up",
+    "b1 a5,b1 a5" : "up",
+    "b1 a5,b1 b5" : "up",
+    "b1 a6,b1 a5" : "up",
+    "b1 a6,b1 a6" : "up",
+    "b1 a6,b1 b6" : "up",
+    "b1 b2,b1 a2" : "up",
+    "b1 b2,b1 b2" : "up",
+    "b1 b3,b1 a3" : "up",
+    "b1 b3,b1 b3" : "up",
+    "b1 b4,b1 a4" : "up",
+    "b1 b4,b1 b4" : "up",
+    "b1 b5,b1 a5" : "up",
+    "b1 b5,b1 b5" : "up",
+    "b1 b6,b1 b6" : "up",
+    "b2 a1,a2 a1" : "stay",
+    "b2 a1,a2 b1" : "stay",
+    "b2 a1,b2 a1" : "stay",
+    "b2 a1,b2 b1" : "stay",
+    "b2 a2,a2 a1" : "up",
+    "b2 a2,a2 b2" : "up",
+    "b2 a2,b2 a1" : "up",
+    "b2 a2,b2 a2" : "up",
+    "b2 a3,a2 a3" : "up",
+    "b2 a3,a2 b3" : "up",
+    "b2 a3,b2 a2" : "up",
+    "b2 a3,b2 a3" : "up",
+    "b2 a3,b2 b3" : "up",
+    "b2 a4,a2 a3" : "up",
+    "b2 a4,a2 a4" : "up",
+    "b2 a4,a2 b4" : "up",
+    "b2 a4,b2 a3" : "up",
+    "b2 a4,b2 a4" : "up",
+    "b2 a4,b2 b4" : "up",
+    "b2 a5,a2 a4" : "up",
+    "b2 a5,a2 a5" : "up",
+    "b2 a5,a2 b5" : "up",
+    "b2 a5,b2 a4" : "up",
+    "b2 a5,b2 a5" : "up",
+    "b2 a5,b2 b5" : "up",
+    "b2 a6,a2 a5" : "up",
+    "b2 a6,a2 a6" : "up",
+    "b2 a6,a2 b6" : "up",
+    "b2 a6,b2 a5" : "up",
+    "b2 a6,b2 a6" : "up",
+    "b2 a6,b2 b6" : "up",
+    "b2 b1,a2 a1" : "stay",
+    "b2 b1,a2 b1" : "stay",
+    "b2 b1,b2 a1" : "stay",
+    "b2 b1,b2 b1" : "up",
+    "b2 b3,a2 a3" : "up",
+    "b2 b3,a2 b3" : "up",
+    "b2 b3,b2 a3" : "up",
+    "b2 b3,b2 b3" : "up",
+    "b2 b4,a2 a4" : "up",
+    "b2 b4,a2 b4" : "up",
+    "b2 b4,b2 a4" : "up",
+    "b2 b4,b2 b4" : "up",
+    "b2 b5,a2 a5" : "up",
+    "b2 b5,a2 b5" : "up",
+    "b2 b5,b2 a5" : "up",
+    "b2 b5,b2 b5" : "up",
+    "b2 b6,a2 b6" : "up",
+    "b2 b6,b2 b6" : "up",
+    "b3 a1,a3 a1" : "stay",
+    "b3 a1,a3 b1" : "stay",
+    "b3 a1,b3 a1" : "stay",
+    "b3 a1,b3 b1" : "stay",
+    "b3 a2,a3 a1" : "stay",
+    "b3 a2,a3 a2" : "stay",
+    "b3 a2,a3 b2" : "stay",
+    "b3 a2,b3 a1" : "stay",
+    "b3 a2,b3 a2" : "stay",
+    "b3 a2,b3 b2" : "stay",
+    "b3 a3,a3 a2" : "up",
+    "b3 a3,a3 b3" : "up",
+    "b3 a3,b3 a2" : "up",
+    "b3 a3,b3 a3" : "up",
+    "b3 a4,a3 a4" : "up",
+    "b3 a4,a3 b4" : "up",
+    "b3 a4,b3 a3" : "up",
+    "b3 a4,b3 a4" : "up",
+    "b3 a4,b3 b4" : "up",
+    "b3 a5,a3 a4" : "up",
+    "b3 a5,a3 a5" : "up",
+    "b3 a5,a3 b5" : "up",
+    "b3 a5,b3 a4" : "up",
+    "b3 a5,b3 a5" : "up",
+    "b3 a5,b3 b5" : "up",
+    "b3 a6,a3 a5" : "up",
+    "b3 a6,a3 a6" : "up",
+    "b3 a6,a3 b6" : "up",
+    "b3 a6,b3 a5" : "up",
+    "b3 a6,b3 a6" : "up",
+    "b3 a6,b3 b6" : "up",
+    "b3 b1,a3 a1" : "stay",
+    "b3 b1,a3 b1" : "stay",
+    "b3 b1,b3 a1" : "stay",
+    "b3 b1,b3 b1" : "stay",
+    "b3 b2,a3 a2" : "stay",
+    "b3 b2,a3 b2" : "stay",
+    "b3 b2,b3 a2" : "stay",
+    "b3 b2,b3 b2" : "stay",
+    "b3 b4,a3 a4" : "up",
+    "b3 b4,a3 b4" : "up",
+    "b3 b4,b3 a4" : "up",
+    "b3 b4,b3 b4" : "up",
+    "b3 b5,a3 a5" : "up",
+    "b3 b5,a3 b5" : "up",
+    "b3 b5,b3 a5" : "up",
+    "b3 b5,b3 b5" : "up",
+    "b3 b6,a3 b6" : "up",
+    "b3 b6,b3 b6" : "up",
+    "b4 a1,a4 a1" : "stay",
+    "b4 a1,a4 b1" : "stay",
+    "b4 a1,b4 a1" : "stay",
+    "b4 a1,b4 b1" : "stay",
+    "b4 a2,a4 a1" : "stay",
+    "b4 a2,a4 a2" : "stay",
+    "b4 a2,a4 b2" : "stay",
+    "b4 a2,b4 a1" : "stay",
+    "b4 a2,b4 a2" : "stay",
+    "b4 a2,b4 b2" : "stay",
+    "b4 a3,a4 a2" : "stay",
+    "b4 a3,a4 a3" : "stay",
+    "b4 a3,a4 b3" : "stay",
+    "b4 a3,b4 a2" : "stay",
+    "b4 a3,b4 a3" : "stay",
+    "b4 a3,b4 b3" : "stay",
+    "b4 a4,a4 a3" : "stay",
+    "b4 a4,a4 b4" : "up",
+    "b4 a4,b4 a3" : "up",
+    "b4 a4,b4 a4" : "stay",
+    "b4 a5,a4 a5" : "up",
+    "b4 a5,a4 b5" : "up",
+    "b4 a5,b4 a4" : "up",
+    "b4 a5,b4 a5" : "up",
+    "b4 a5,b4 b5" : "up",
+    "b4 a6,a4 a5" : "up",
+    "b4 a6,a4 a6" : "up",
+    "b4 a6,a4 b6" : "up",
+    "b4 a6,b4 a5" : "up",
+    "b4 a6,b4 a6" : "up",
+    "b4 a6,b4 b6" : "up",
+    "b4 b1,a4 a1" : "stay",
+    "b4 b1,a4 b1" : "stay",
+    "b4 b1,b4 a1" : "stay",
+    "b4 b1,b4 b1" : "stay",
+    "b4 b2,a4 a2" : "up",
+    "b4 b2,a4 b2" : "up",
+    "b4 b2,b4 a2" : "up",
+    "b4 b2,b4 b2" : "up",
+    "b4 b3,a4 a3" : "stay",
+    "b4 b3,a4 b3" : "stay",
+    "b4 b3,b4 a3" : "stay",
+    "b4 b3,b4 b3" : "stay",
+    "b4 b5,a4 a5" : "up",
+    "b4 b5,a4 b5" : "up",
+    "b4 b5,b4 a5" : "up",
+    "b4 b5,b4 b5" : "up",
+    "b4 b6,a4 b6" : "up",
+    "b4 b6,b4 b6" : "up",
+    "b5 a1,a5 a1" : "up",
+    "b5 a1,a5 b1" : "up",
+    "b5 a1,b5 a1" : "up",
+    "b5 a1,b5 b1" : "up",
+    "b5 a2,a5 a1" : "up",
+    "b5 a2,a5 a2" : "up",
+    "b5 a2,a5 b2" : "up",
+    "b5 a2,b5 a1" : "up",
+    "b5 a2,b5 a2" : "up",
+    "b5 a2,b5 b2" : "up",
+    "b5 a3,a5 a2" : "up",
+    "b5 a3,a5 a3" : "up",
+    "b5 a3,a5 b3" : "up",
+    "b5 a3,b5 a2" : "up",
+    "b5 a3,b5 a3" : "up",
+    "b5 a3,b5 b3" : "up",
+    "b5 a4,a5 a3" : "stay",
+    "b5 a4,a5 a4" : "stay",
+    "b5 a4,a5 b4" : "stay",
+    "b5 a4,b5 a3" : "stay",
+    "b5 a4,b5 a4" : "stay",
+    "b5 a4,b5 b4" : "stay",
+    "b5 a5,a5 a4" : "up",
+    "b5 a5,a5 b5" : "up",
+    "b5 a5,b5 a4" : "up",
+    "b5 a5,b5 a5" : "up",
+    "b5 a6,a5 a6" : "up",
+    "b5 a6,a5 b6" : "up",
+    "b5 a6,b5 a5" : "up",
+    "b5 a6,b5 a6" : "up",
+    "b5 a6,b5 b6" : "up",
+    "b5 b1,a5 a1" : "up",
+    "b5 b1,a5 b1" : "up",
+    "b5 b1,b5 a1" : "up",
+    "b5 b1,b5 b1" : "up",
+    "b5 b2,a5 a2" : "up",
+    "b5 b2,a5 b2" : "up",
+    "b5 b2,b5 a2" : "up",
+    "b5 b2,b5 b2" : "up",
+    "b5 b3,a5 a3" : "up",
+    "b5 b3,a5 b3" : "up",
+    "b5 b3,b5 a3" : "up",
+    "b5 b3,b5 b3" : "up",
+    "b5 b4,a5 a4" : "stay",
+    "b5 b4,a5 b4" : "stay",
+    "b5 b4,b5 a4" : "stay",
+    "b5 b4,b5 b4" : "stay",
+    "b5 b6,a5 b6" : "up",
+    "b5 b6,b5 b6" : "up",
+    "b6 a1,a6 a1" : "up",
+    "b6 a1,a6 b1" : "up",
+    "b6 a1,b6 a1" : "up",
+    "b6 a1,b6 b1" : "up",
+    "b6 a2,a6 a1" : "up",
+    "b6 a2,a6 a2" : "up",
+    "b6 a2,a6 b2" : "up",
+    "b6 a2,b6 a1" : "up",
+    "b6 a2,b6 a2" : "up",
+    "b6 a2,b6 b2" : "up",
+    "b6 a3,a6 a2" : "stay",
+    "b6 a3,a6 a3" : "up",
+    "b6 a3,a6 b3" : "up",
+    "b6 a3,b6 a2" : "stay",
+    "b6 a3,b6 a3" : "up",
+    "b6 a3,b6 b3" : "up",
+    "b6 a4,a6 a3" : "up",
+    "b6 a4,a6 a4" : "up",
+    "b6 a4,a6 b4" : "up",
+    "b6 a4,b6 a3" : "up",
+    "b6 a4,b6 a4" : "up",
+    "b6 a4,b6 b4" : "up",
+    "b6 a5,a6 a4" : "up",
+    "b6 a5,a6 a5" : "up",
+    "b6 a5,a6 b5" : "up",
+    "b6 a5,b6 a4" : "stay",
+    "b6 a5,b6 a5" : "up",
+    "b6 a5,b6 b5" : "up",
+    "b6 a6,a6 a5" : "stay",
+    "b6 a6,a6 b6" : "stay",
+    "b6 a6,b6 a5" : "stay",
+    "b6 a6,b6 a6" : "stay",
+    "b6 b1,a6 a1" : "up",
+    "b6 b1,a6 b1" : "up",
+    "b6 b1,b6 a1" : "up",
+    "b6 b1,b6 b1" : "up",
+    "b6 b2,a6 a2" : "up",
+    "b6 b2,a6 b2" : "up",
+    "b6 b2,b6 a2" : "up",
+    "b6 b2,b6 b2" : "up",
+    "b6 b3,a6 a3" : "up",
+    "b6 b3,a6 b3" : "up",
+    "b6 b3,b6 a3" : "up",
+    "b6 b3,b6 b3" : "up",
+    "b6 b4,a6 a4" : "stay",
+    "b6 b4,a6 b4" : "up",
+    "b6 b4,b6 a4" : "up",
+    "b6 b4,b6 b4" : "up",
+    "b6 b5,a6 a5" : "up",
+    "b6 b5,a6 b5" : "up",
+    "b6 b5,b6 a5" : "up",
+    "b6 b5,b6 b5" : "up"
+  },
   "all-games" : {
     "-MZiWIwdnrn8TJ034z2w" : {
       "additional_comments" : "",
@@ -242,7 +845,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1990",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -513,7 +1116,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1951",
-      "blueScore" : 2,
+      "blueScore" : 1,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -621,7 +1224,7 @@
       "aggressively_value" : "1",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -660,7 +1263,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -843,7 +1446,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1035,7 +1638,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1969",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1193,7 +1796,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1993",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1301,7 +1904,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1445,7 +2048,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1535,7 +2138,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1586,7 +2189,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1628,7 +2231,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1980",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1879,7 +2482,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "1976",
-      "blueScore" : -6,
+      "blueScore" : -5,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2083,7 +2686,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1946",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Ph.D",
@@ -2128,7 +2731,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2203,7 +2806,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -2344,7 +2947,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 6,
+      "blueScore" : 4,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -2419,7 +3022,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -2536,7 +3139,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2704,7 +3307,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -2803,7 +3406,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2980,7 +3583,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1995",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -3106,7 +3709,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3310,7 +3913,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1955",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3388,7 +3991,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3520,7 +4123,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1976",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3685,7 +4288,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3724,7 +4327,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -3856,7 +4459,7 @@
     },
     "-MZiy7wjTdaC6h35oph7" : {
       "behavior" : "aggressiveBehavior",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -3892,7 +4495,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1977",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -4054,7 +4657,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1985",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -4099,7 +4702,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1991",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4258,7 +4861,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1972",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4375,7 +4978,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6277,6 +6880,1792 @@
       "steps" : 7,
       "win" : false,
       "wisely_value" : "7"
+    },
+    "-MaP8qk8HO3u2tN9wNQ6" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1997",
+      "blueScore" : -105,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "2"
+    },
+    "-MaP8r5dNb9-SbqQmtgP" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8rTlzGRrv6XRysj1" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1983",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "1"
+    },
+    "-MaP8rdVbR1ApYl16Qd4" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : 5,
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true
+    },
+    "-MaP8rnCc0Jt1t3XJJpT" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1982",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "3",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8sQiUJEjUfCbbO9E" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaP8sS78IiQP7BvkhXX" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1969",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaP8t6i9qMKJDBFDJTy" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaP8v0vXgKGyezjqMnd" : {
+      "additional_comments" : "Ilikethegameanditwasinteresting.",
+      "aggressively_value" : "4",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1979",
+      "blueScore" : -109,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: stay"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -107,
+      "steps" : 7,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-MaP8wWLhNJOqzzvmelK" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1974",
+      "blueScore" : -110,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -108,
+      "steps" : 8,
+      "win" : false,
+      "wisely_value" : "7"
+    },
+    "-MaP8yNZ598I-MCA4R87" : {
+      "additional_comments" : "Thanks!",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1981",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8zdtmxdJbYE3bQiF" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1994",
+      "blueScore" : -105,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-MaP90RSU8uI13_JOlhJ" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : 5,
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true
+    },
+    "-MaP97y7BJptKSCUQRRb" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1982",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9CJpqrtt91FzMmIV" : {
+      "additional_comments" : "no comments",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1997",
+      "blueScore" : -2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b5, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -3,
+      "steps" : 13,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9Nv2HmcwzNtscf3U" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 4,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 0,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-MaP9PBPh9CwcH4IOX6f" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP9Pfh8sOCLdMLPagG" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaP9fIGFWIB5vZj5TnA" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1978",
+      "blueScore" : -19,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -7,
+      "steps" : 17,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9uHcuxt1FlrvYUU2" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1994",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPA4weuky7ozXZxK8E" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "press-the-read-instructions-button" : true
+    },
+    "-MaPAdRAK23Zs3KoCouz" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 5,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPAjIGmCbgEMv0VarG" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaPApVWQZrwCehgGpFi" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "press-the-read-instructions-button" : true
+    },
+    "-MaPAsaewiGDb48WGeel" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1963",
+      "blueScore" : -9,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPAyMqgpbnhZbIPriM" : {
+      "additional_comments" : "no",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1970",
+      "blueScore" : 2,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPBBxOIKIISWKjE5qu" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaPBGLfTQdiNN3odEjB" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : -111,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -109,
+      "steps" : 9,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-MaPBM5WHe08Pw0zeP0A" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaPBQW0bnc7kughXxZF" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1985",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPBVOKKXaeQTOcjK15" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1985",
+      "blueScore" : 2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -1,
+      "steps" : 11,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPBdbFJQ6J4lYckpMa" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1991",
+      "blueScore" : -2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -6,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPC0FiDk3c0wGrbAdW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1953",
+      "blueScore" : 4,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPDZREJam-zD5bjrpW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPEyq01NO9b1ZlYjIM" : {
+      "behavior" : "valueIterationBasedBehavior_v2"
+    },
+    "-MaPF3BMpiEB589n4g92" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1976",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPF6F2Wz01SMwq06Ld" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : -19,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -7,
+      "steps" : 17,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaPFllCPvEAMgXA5CAF" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1992",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPFmSTpCeQQhF3HgU1" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      } ],
+      "press-the-read-instructions-button" : true
+    },
+    "-MaPG96uYkOdcUzqnxrB" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : -148,
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: stay"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -145,
+      "steps" : 45,
+      "win" : false
+    },
+    "-MaPGfr1BwxHPCGCMkhk" : {
+      "additional_comments" : "No",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1992",
+      "blueScore" : 4,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-MaPH5KBsU7RDJpf2oVr" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1991",
+      "blueScore" : -9,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPJfeUmvbEGCQCRUwW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : -11,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPKuo06cZOeyu4RrFj" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPN-Egh_7bvfhUYhVy" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1993",
+      "blueScore" : -6,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a4, action: stay"
+      }, {
+		"blue" : "from: a2, action: left",
+        "red" : "from: a4, action: stay"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -6,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPNmoTTEjtlDiI4x2f" : {
+      "additional_comments" : "difficult",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1980",
+      "blueScore" : -105,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "7"
+    },
+    "-MaPTmV5uVtE5fJV1g7v" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1965",
+      "blueScore" : -12,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 0,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaPYT-RwC7GZktF365a" : {
+      "additional_comments" : "Howareyouevensupposedtododgethebluecircle",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1993",
+      "blueScore" : 3,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "2"
     }
   },
   "complete-games" : {
@@ -6399,7 +8788,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1990",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -6720,7 +9109,7 @@
       "aggressively_value" : "1",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6759,7 +9148,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -6915,7 +9304,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7101,7 +9490,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1969",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -7197,7 +9586,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1993",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7302,7 +9691,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -7419,7 +9808,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7509,7 +9898,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7560,7 +9949,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7599,7 +9988,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1980",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8016,7 +10405,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1946",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Ph.D",
@@ -8061,7 +10450,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8136,7 +10525,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -8247,7 +10636,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8322,7 +10711,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -8400,7 +10789,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8568,7 +10957,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8667,7 +11056,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8814,7 +11203,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1995",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -8916,7 +11305,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9054,7 +11443,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1955",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9132,7 +11521,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9261,7 +11650,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1976",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9426,7 +11815,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9465,7 +11854,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -9576,7 +11965,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1977",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -9738,7 +12127,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1985",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -9783,7 +12172,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1991",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9942,7 +12331,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1972",
-      "blueScore" : 6,
+      "blueScore" : 5,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -10059,7 +12448,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 5,
+      "blueScore" : 4,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11670,6 +14059,1746 @@
       "steps" : 7,
       "win" : false,
       "wisely_value" : "7"
+    },
+	  "-MaP8qk8HO3u2tN9wNQ6" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1997",
+      "blueScore" : -105,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "2"
+    },
+    "-MaP8r5dNb9-SbqQmtgP" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8rTlzGRrv6XRysj1" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1983",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "1"
+    },
+    "-MaP8rdVbR1ApYl16Qd4" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : 5,
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true
+    },
+    "-MaP8rnCc0Jt1t3XJJpT" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1982",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "3",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8sS78IiQP7BvkhXX" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1969",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaP8v0vXgKGyezjqMnd" : {
+      "additional_comments" : "Ilikethegameanditwasinteresting.",
+      "aggressively_value" : "4",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1979",
+      "blueScore" : -109,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: stay"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -107,
+      "steps" : 7,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-MaP8wWLhNJOqzzvmelK" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1974",
+      "blueScore" : -110,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -108,
+      "steps" : 8,
+      "win" : false,
+      "wisely_value" : "7"
+    },
+    "-MaP8yNZ598I-MCA4R87" : {
+      "additional_comments" : "Thanks!",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1981",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP8zdtmxdJbYE3bQiF" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1994",
+      "blueScore" : -105,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-MaP90RSU8uI13_JOlhJ" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : 5,
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: stay"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true
+    },
+    "-MaP97y7BJptKSCUQRRb" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1982",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+		"blue" : "from: a6, action: left",
+		"red" : "from: a1, action: right"
+	  }, {
+		"blue" : "from: a5, action: left",
+		"red" : "from: a2, action: right"
+	  }, {
+		"blue" : "from: a4, action: left",
+		"red" : "from: a3, action: down"
+	  }, {
+		"blue" : "from: a3, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9CJpqrtt91FzMmIV" : {
+      "additional_comments" : "no comments",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1997",
+      "blueScore" : -2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b5, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -3,
+      "steps" : 13,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9Nv2HmcwzNtscf3U" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 4,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 0,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-MaP9PBPh9CwcH4IOX6f" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaP9fIGFWIB5vZj5TnA" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1978",
+      "blueScore" : -19,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -7,
+      "steps" : 17,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaP9uHcuxt1FlrvYUU2" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1994",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPAdRAK23Zs3KoCouz" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 5,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPAsaewiGDb48WGeel" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1963",
+      "blueScore" : -9,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPAyMqgpbnhZbIPriM" : {
+      "additional_comments" : "no",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1970",
+      "blueScore" : 2,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPBGLfTQdiNN3odEjB" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : -111,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -109,
+      "steps" : 9,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-MaPBQW0bnc7kughXxZF" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1985",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPBVOKKXaeQTOcjK15" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1985",
+      "blueScore" : 2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -1,
+      "steps" : 11,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPBdbFJQ6J4lYckpMa" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1991",
+      "blueScore" : -2,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -6,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPC0FiDk3c0wGrbAdW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1953",
+      "blueScore" : 4,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPDZREJam-zD5bjrpW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPF3BMpiEB589n4g92" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1976",
+      "blueScore" : 5,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPF6F2Wz01SMwq06Ld" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1986",
+      "blueScore" : -19,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -7,
+      "steps" : 17,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaPFllCPvEAMgXA5CAF" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1992",
+      "blueScore" : 5,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 2,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPG96uYkOdcUzqnxrB" : {
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "blueScore" : -148,
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: stay"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -145,
+      "steps" : 45,
+      "win" : false
+    },
+    "-MaPGfr1BwxHPCGCMkhk" : {
+      "additional_comments" : "No",
+      "aggressively_value" : "6",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1992",
+      "blueScore" : 4,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: b3, action: up"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-MaPH5KBsU7RDJpf2oVr" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1991",
+      "blueScore" : -9,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-MaPJfeUmvbEGCQCRUwW" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1989",
+      "blueScore" : -11,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "7",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-MaPKuo06cZOeyu4RrFj" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1987",
+      "blueScore" : 5,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 3,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPN-Egh_7bvfhUYhVy" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1993",
+      "blueScore" : -6,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a4, action: stay"
+      }, {
+		"blue" : "from: a2, action: left",
+        "red" : "from: a4, action: stay"
+      }, {
+        "blue" : "from: a1, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -6,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-MaPNmoTTEjtlDiI4x2f" : {
+      "additional_comments" : "difficult",
+      "aggressively_value" : "7",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1980",
+      "blueScore" : -105,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "7"
+    },
+    "-MaPTmV5uVtE5fJV1g7v" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1965",
+      "blueScore" : -12,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 0,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-MaPYT-RwC7GZktF365a" : {
+      "additional_comments" : "Howareyouevensupposedtododgethebluecircle",
+      "aggressively_value" : "2",
+      "behavior" : "valueIterationBasedBehavior_v2",
+      "birthYear" : "1993",
+      "blueScore" : 3,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+		"red" : "from: a3, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a4, action: right"
+	  }, {
+		"blue" : "from: a1, action: stay",
+		"red" : "from: a5, action: right"
+	  } ],
+      "press-the-read-instructions-button" : true,
+      "redScore" : 1,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "2"
     }
   }
 }
