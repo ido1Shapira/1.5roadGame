@@ -71,7 +71,7 @@ function play() {
     firebase.database().ref("chosen-policy").once('value',
     (snap) => {
         selectedBehavior = snap.val();
-        console.log("Blue behavior: "+ selectedBehavior)
+        // console.log("Blue behavior: "+ selectedBehavior)
 
         if(selectedBehavior == -1) { // choose random behavior
             selectedBehavior = algorithms[algorithms.length * Math.random() | 0];
