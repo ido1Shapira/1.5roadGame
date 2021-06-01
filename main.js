@@ -398,8 +398,8 @@ function submitQuiz() {
     var q3 = getRating("q3");
 
     if(q1 === undefined || q2 === undefined || q3 === undefined) {
-            getDOM("notFillAll").innerHTML = "Did not submit, please fill all fields."
-            getDOM("notFillAll").style.display = "";
+            getDOM("notFillAll1").innerHTML = "Did not submit, please fill all fields."
+            getDOM("notFillAll1").style.display = "";
     }
     else {
         if(q1 == "true" && q2 == "true" && q3 == "true") {
@@ -409,8 +409,8 @@ function submitQuiz() {
 
         }
         else {
-            getDOM("notFillAll").innerHTML = "At least one answer is incorrect, please read the instructions again."
-            getDOM("notFillAll").style.display = "";
+            getDOM("notFillAll1").innerHTML = "At least one answer is incorrect, please read the instructions again."
+            getDOM("notFillAll1").style.display = "";
         }
     }
 }
@@ -434,12 +434,12 @@ function submitSurvey() {
     if(birthYear == '' || gender == '' || education == '' || drivinglicense == '' ||
         aggressively_value === undefined || generously_value === undefined ||
         wisely_value === undefined || computer_value === undefined || predictable_value === undefined) {
-            getDOM("notFillAll").innerHTML = "Did not submit, please fill all fields."
-            getDOM("notFillAll").style.display = "";
+            getDOM("notFillAll2").innerHTML = "Did not submit, please fill all fields."
+            getDOM("notFillAll2").style.display = "";
     }
     else if(birthYear < 1920 || birthYear > 2021) {
-        getDOM("notFillAll").innerHTML = "Enter your vallid birth of year."
-        getDOM("notFillAll").style.display = "";
+        getDOM("notFillAll2").innerHTML = "Enter your vallid birth of year."
+        getDOM("notFillAll2").style.display = "";
     }
     else {
         firebase.database().ref("all-games/"+postID+"/birthYear").set(birthYear);
