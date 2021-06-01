@@ -1,53 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick game</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick game</title>
 
-    <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.css">
 
-    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
-    <script src="Tree.js"></script>
-    <script src="environment.js"></script>
-    
-    <script src="Behaviors.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+  <script src="Tree.js"></script>
 
-    <script src="main.js"></script>
+  <script src="Behaviors.js"></script>
+
+  <script src="main.js"></script>
 </head>
-<body onload="initializeFirebase(); play();">
-  
-    
-      <h1 id="instructions-h">Game instructions:</h1>
-      <p class="instructions" id="instructions">
-        - In this game you control the red circle.<br>
-        - Your goal is to reach the right side of the board without colliding with the blue circle, in a minimum number of steps.<br>
-        - Note that blue circle's goal is to reach the left side of the board.<br>
-       
-        - Use the arrow keys to move right and down.<br>
-        - Use the left arrow, spacebar, or enter, to remain in place.<br>
-        - You may also use the mouse to control the red circle.<br>
-        - It is not possible to advance to the right if you are in the bottom slots.<br>
-        - It is not possible to move back (left).<br>
-       
-        - Both circles moves synchronously; that is, each time you (the red circle) make a move, the blue circle player will make a move as well---at the same time.<br>
-          <h3 class="instructions" id="instructions-grading-h">Score will be calculated using the following: </h6>
-          <p class ="instructions" id="instructions-grading"> 
-            * Colliding with the blue ball = -100.<br>
-            * Each step = -1.<br>
-            * Reaching the right side = 10.<br>
-          </p>
-      </p>
-        
-    <input type="button" value="I have read the instructions" id="showgame" onclick="showGame()">
 
-    <div id="step_score" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
+<body onload="initializeFirebase(); play();">
+
+
+  <h1 id="instructions-h">Game instructions:</h1>
+  <p class="instructions" id="instructions">
+    - In this game you control the red circle.<br>
+    - Your goal is to reach the right side of the board without colliding with the blue circle, in a minimum number of
+    steps.<br>
+    - Note that blue circle's goal is to reach the left side of the board without colliding with you, in a minimum number of
+    steps.<br>
+
+    - Use the arrow keys to move right and down.<br>
+    - Use the left arrow, spacebar, or enter, to remain in place.<br>
+    - You may also use the mouse to control the red circle.<br>
+    - It is not possible to advance to the right if you are in the bottom slots.<br>
+    - It is not possible to move back (left).<br>
+
+    - Both circles moves synchronously; that is, each time you (the red circle) make a move, the blue circle player will
+    make a move as well---at the same time.<br>
+  <h3 class="instructions" id="instructions-grading-h">The score will be calculated using the following: </h6>
+    <p class="instructions" id="instructions-grading">
+      * Colliding with the blue ball = -100.<br>
+      * Each step = -1.<br>
+      * Reaching the right side = 30.<br>
+    </p>
+    </p>
+
+    <input type="button" value="I have read the instructions" id="showgameButton" onclick="showGame()">
+
+    <div id="quiz" class="survey" style="display:none">
+      <!-- Survey content -->
+      <div class="survey-content">
+        <div class="survey-header">
+          <span class="close">&times;</span>
+          <h2>Please answer the following quiz:</h2>
+          <div class="container">
+            <form>
+              <table class="rating-table">
+                <p>1. How can you (the red circle) move on the board?</p>
+                <input type="radio" id="1_1" name="q1" value="false"/>
+                <label for="1_1">I can allways move up, down, left and right</label><br>
+                <input type="radio" id="1_2" name="q1" value="false"/>
+                <label for="1_2">In the upper slots I can't advance to the right</label><br>
+                <input type="radio" id="1_3" name="q1" value="true"/>
+                <label for="1_3">In the upper slots I can move down, right and stay and in the lower slots I can either move up or stay</label>
+
+                <br>
+                <hr>
+
+                <p>2. What is your (the red circle's) goal?</p>
+                <input type="radio" id="2_1" name="q2" value="false"/>
+                <label for="2_1">The goal is to stay in place and not allow the blue circle to pass</label><br>
+                <input type="radio" id="2_2" name="q2" value="true"/>
+                <label for="2_2">The goal is to reach the right side without colliding with the blue circle, in a minimum number of steps</label><br>
+                <input type="radio" id="2_3" name="q2" value="false"/>
+                <label for="2_3">The goal is to collide with the blue circle</label>
+
+                <br>
+                <hr>
+
+                <p>3. What is the blue circle goal?</p>
+                <input type="radio" id="3_1" name="q3" value="false"/>
+                <label for="3_1">Its goal is to stay in place and not allow me to pass</label><br>
+                <input type="radio" id="3_2" name="q3" value="true"/>
+                <label for="3_2">Its goal is to reach the left side without colliding with me, in a minimum number of steps </label><br>
+                <input type="radio" id="3_3" name="q3" value="false"/>
+                <label for="3_3">Its goal is to collide with me</label>
+
+                <br>
+                <hr>
+
+                <input type="button" onclick="submitQuiz()" ; value="Submit"/>
+                <p id="notFillAll" style="color: red; display:none;">Did not submit, please fill all fields!</p>
+				</table>
+				</form>
+          </div>
+          <div class="survey-footer">
+            <h3>After answering all questions correctly you will be able to play the game.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="step_score"
+      style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
       <p id="steps" style="margin-right: 10px;">Steps: 0</p>
       <p id="score" style="margin-left: 10px;">Score: 0</p>
     </div>
-    <div id="end-game-code-div" style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
+
+    <div id="end-game-code-div"
+      style="display:none; flex-direction: row; margin-top: 2%; justify-content: center; align-items: center;">
       <p>your code is:</p>
       <input type="text" value="" id="code" readonly style="width: 300px;">
       <br>
@@ -58,187 +119,167 @@
         <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
       </div>
     </div>
-      <main class="main">
-          <table class="board" id="board" style="display:none">
+
+    <div id="board" style="display:none" >
+      <table class="board">
         <tr>
-            <td id="a1" class="board_td" onclick="moveUsingCursor(this);"></td>
-            <td id="a2" class="board_td" onclick="moveUsingCursor(this);"></td>
-            <td id="a3" class="board_td" onclick="moveUsingCursor(this);"></td>
-            <td id="a4" class="board_td" onclick="moveUsingCursor(this);"></td>
-            <td id="a5" class="board_td" onclick="moveUsingCursor(this);"></td>
-            <td id="a6" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a1" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a2" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a3" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a4" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a5" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="a6" class="board_td" onclick="moveUsingCursor(this);"></td>
         </tr>
         <tr class="board_td_tr">
-            <td id="b1" class='selRight' onclick="moveUsingCursor(this);"></td>
-            <td id="b2" class='selRight' onclick="moveUsingCursor(this);"></td>
-            <td id="b3" class='selRight' onclick="moveUsingCursor(this);"></td>
-            <td id="b4" class='selRight' onclick="moveUsingCursor(this);"></td>
-            <td id="b5" class='selRight' onclick="moveUsingCursor(this);"></td>
-            <td id="b6" class="board_td" onclick="moveUsingCursor(this);"></td>
+          <td id="b1" class='selRight' onclick="moveUsingCursor(this);"></td>
+          <td id="b2" class='selRight' onclick="moveUsingCursor(this);"></td>
+          <td id="b3" class='selRight' onclick="moveUsingCursor(this);"></td>
+          <td id="b4" class='selRight' onclick="moveUsingCursor(this);"></td>
+          <td id="b5" class='selRight' onclick="moveUsingCursor(this);"></td>
+          <td id="b6" class="board_td" onclick="moveUsingCursor(this);"></td>
         </tr>
       </table>
-      </main>
-      <div class="panel" id="panel"></div>
-      <div id="survey" class="survey">
+    </div>
+
+    <div class="panel" id="panel"></div>
+
+    <div id="survey" class="survey" style="display:none">
       <!-- Survey content -->
       <div class="survey-content">
-          <div class="survey-header">
+        <div class="survey-header">
           <span class="close">&times;</span>
           <h2 id="survey_title">Please fill the following survey:</h2>
           <div class="container">
-              <form id="contactForm">
-                
-                <div class="grid-container">
-                  <div>
-                    <label for="yBirth">Year of Birth:</label><br>
-                    <input type="number" id="yBirth" name="birthyear" min="1920" max="2021" step="1" />
-  
-                    
-                  </div>
-  
-                  <div>
-                    <label for="gender">Gender:</label><br>
-                    <select id="gender" name="gender">
-                      <option selected disabled hidden style='display: none' value=''></option>
-                      <option value="male">Male</option>
-                      <option value="female">Female</option>
-                    </select>
-                  </div>
-  
-                  <div>
-                    <label for="education">Education:</label><br>
-                    <select id="education" name="education">
-                      <option selected disabled hidden style='display: none' value=''></option>
-                      <option value="High School">High School</option>
-                      <option value="BA">BA</option>
-                      <option value="Master's degree">Master's degree</option>
-                      <option value="Ph.D">Ph.D</option>
-                      <option value="none">None</option>
-                    </select>
-  
-                    
-                  </div>
-  
-                  <div>
-                    <label for="drivinglicense">Driving License status:</label><br>
-                    <select id="drivinglicense" name="drivinglicense">
-                      <option selected disabled hidden style='display: none' value=''></option>
-                      <option value="valid">Valid driver's license</option>
-                      <option value="invalid">Expired driver's license</option>
-                      <option value="none">No driver's license at all</option>
-                    </select>
-                  </div>
+            <form id="contactForm">
+
+              <div class="grid-container">
+                <div>
+                  <label for="yBirth">Year of Birth:</label><br>
+                  <input type="number" id="yBirth" name="birthyear" min="1920" max="2021" step="1" />
+
+
                 </div>
 
-                <p>To what extent do you agree with the following statments?</p>
-                <table class="rating-table">
-                  <tr>
-                    <td></td>
-                    <td><label>Strongly agree</label></td>
-                    <td><label>Agree</label></td>
-                    <td><label>Slightly agree</label></td>
-                    <td><label>Neutral</label></td>
-                    <td><label>Slightly disagree</label></td>
-                    <td><label>Disagree</label></td>
-                    <td><label>Strongly disagree</label></td>
-                  </tr>
-                  <tr>
-                      <td class="td-title"><p>The blue circle played aggressively</p></td>
-                      <td><input type="radio" name="aggressively_rating" value="7" id="q7" 
-                                  title="strongly agree" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="6" id="q6" 
-                                  title="agree" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="5" id="q5" 
-                                  title="slightly agree" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="4" id="q4"
-                                  title="neutral" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="3" id="q3"
-                                  title="slightly disagree" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="2" id="q2"
-                                  title="disagree" /></td>
-                      <td><input type="radio" name="aggressively_rating" value="1" id="q1"
-                                  title="strongly disagree" /></td>
-                  </tr>
-                  <tr>
-                    <td class="td-title"><p>The blue circle played generously</p></td>
-                    <td><input type="radio" name="generously_rating" value="7" id="q7" 
-                      title="strongly agree" /></td>
-                    <td><input type="radio" name="generously_rating" value="6" id="q6" 
-                                title="agree" /></td>
-                    <td><input type="radio" name="generously_rating" value="5" id="q5" 
-                                title="slightly agree" /></td>
-                    <td><input type="radio" name="generously_rating" value="4" id="q4"
-                                title="neutral" /></td>
-                    <td><input type="radio" name="generously_rating" value="3" id="q3"
-                                title="slightly disagree" /></td>
-                    <td><input type="radio" name="generously_rating" value="2" id="q2"
-                                title="disagree" /></td>
-                    <td><input type="radio" name="generously_rating" value="1" id="q1"
-                                title="strongly disagree" /></td>
-                  </tr>
-                  <tr>
-                    <td class="td-title"><p>The blue circle played wisely</p></td>
-                    <td><input type="radio" name="wisely_rating" value="7" id="q7" 
-                      title="strongly agree" /></td>
-                    <td><input type="radio" name="wisely_rating" value="6" id="q6" 
-                                title="agree" /></td>
-                    <td><input type="radio" name="wisely_rating" value="5" id="q5" 
-                                title="slightly agree" /></td>
-                    <td><input type="radio" name="wisely_rating" value="4" id="q4"
-                                title="neutral" /></td>
-                    <td><input type="radio" name="wisely_rating" value="3" id="q3"
-                                title="slightly disagree" /></td>
-                    <td><input type="radio" name="wisely_rating" value="2" id="q2"
-                                title="disagree" /></td>
-                    <td><input type="radio" name="wisely_rating" value="1" id="q1"
-                                title="strongly disagree" /></td>
-                  </tr>
-                  <tr>
-                    <td class="td-title"><p>The blue circle was predictable</p></td>
-                    <td><input type="radio" name="predictable_rating" value="7" id="q7" 
-                      title="strongly agree" /></td>
-                    <td><input type="radio" name="predictable_rating" value="6" id="q6" 
-                                title="agree" /></td>
-                    <td><input type="radio" name="predictable_rating" value="5" id="q5" 
-                                title="slightly agree" /></td>
-                    <td><input type="radio" name="predictable_rating" value="4" id="q4"
-                                title="neutral" /></td>
-                    <td><input type="radio" name="predictable_rating" value="3" id="q3"
-                                title="slightly disagree" /></td>
-                    <td><input type="radio" name="predictable_rating" value="2" id="q2"
-                                title="disagree" /></td>
-                    <td><input type="radio" name="predictable_rating" value="1" id="q1"
-                                title="strongly disagree" /></td>
-                  </tr>
-                  <tr>
-                    <td class="td-title"><p>I felt the blue circle was a computer</p></td>
-                    <td><input type="radio" name="computer_rating" value="7" id="q7" 
-                      title="strongly agree" /></td>
-                    <td><input type="radio" name="computer_rating" value="6" id="q6" 
-                                title="agree" /></td>
-                    <td><input type="radio" name="computer_rating" value="5" id="q5" 
-                                title="slightly agree" /></td>
-                    <td><input type="radio" name="computer_rating" value="4" id="q4"
-                                title="neutral" /></td>
-                    <td><input type="radio" name="computer_rating" value="3" id="q3"
-                                title="slightly disagree" /></td>
-                    <td><input type="radio" name="computer_rating" value="2" id="q2"
-                                title="disagree" /></td>
-                    <td><input type="radio" name="computer_rating" value="1" id="q1"
-                                title="strongly disagree" /></td>
-                  </tr>
-                </table>            
-                <label for="additionalcomments">Additional Comments:</label>
-                <textarea id="additionalcomments" name="additionalcomments" placeholder="Write any additional comments if you like..." style="height:100px"></textarea>
-            
-                <input id="submit" type="button" onclick="submitSurvey()"; value="Submit">
-                <p id="notFillAll" style="color: red; display:none;">Did not submit, please fill all fields!</p>
-              </form>
-            </div>
-          <div class="survey-footer">
-          <h3></h3>
+                <div>
+                  <label for="gender">Gender:</label><br>
+                  <select id="gender" name="gender">
+                    <option selected disabled hidden style='display: none' value=''></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="education">Education:</label><br>
+                  <select id="education" name="education">
+                    <option selected disabled hidden style='display: none' value=''></option>
+                    <option value="High School">High School</option>
+                    <option value="BA">BA</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="Ph.D">Ph.D</option>
+                    <option value="none">None</option>
+                  </select>
+
+
+                </div>
+
+                <div>
+                  <label for="drivinglicense">Driving License status:</label><br>
+                  <select id="drivinglicense" name="drivinglicense">
+                    <option selected disabled hidden style='display: none' value=''></option>
+                    <option value="valid">Valid driver's license</option>
+                    <option value="invalid">Expired driver's license</option>
+                    <option value="none">No driver's license at all</option>
+                  </select>
+                </div>
+              </div>
+
+              <p>To what extent do you agree with the following statments?</p>
+              <table class="rating-table">
+                <tr>
+                  <td></td>
+                  <td><label>Strongly agree</label></td>
+                  <td><label>Agree</label></td>
+                  <td><label>Slightly agree</label></td>
+                  <td><label>Neutral</label></td>
+                  <td><label>Slightly disagree</label></td>
+                  <td><label>Disagree</label></td>
+                  <td><label>Strongly disagree</label></td>
+                </tr>
+                <tr>
+                  <td class="td-title">
+                    <p>The blue circle played aggressively</p>
+                  </td>
+                  <td><input type="radio" name="aggressively_rating" value="7" id="q7" title="strongly agree" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="6" id="q6" title="agree" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="5" id="q5" title="slightly agree" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="4" id="q4" title="neutral" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="3" id="q3" title="slightly disagree" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="2" id="q2" title="disagree" /></td>
+                  <td><input type="radio" name="aggressively_rating" value="1" id="q1" title="strongly disagree" /></td>
+                </tr>
+                <tr>
+                  <td class="td-title">
+                    <p>The blue circle played generously</p>
+                  </td>
+                  <td><input type="radio" name="generously_rating" value="7" id="q7" title="strongly agree" /></td>
+                  <td><input type="radio" name="generously_rating" value="6" id="q6" title="agree" /></td>
+                  <td><input type="radio" name="generously_rating" value="5" id="q5" title="slightly agree" /></td>
+                  <td><input type="radio" name="generously_rating" value="4" id="q4" title="neutral" /></td>
+                  <td><input type="radio" name="generously_rating" value="3" id="q3" title="slightly disagree" /></td>
+                  <td><input type="radio" name="generously_rating" value="2" id="q2" title="disagree" /></td>
+                  <td><input type="radio" name="generously_rating" value="1" id="q1" title="strongly disagree" /></td>
+                </tr>
+                <tr>
+                  <td class="td-title">
+                    <p>The blue circle played wisely</p>
+                  </td>
+                  <td><input type="radio" name="wisely_rating" value="7" id="q7" title="strongly agree" /></td>
+                  <td><input type="radio" name="wisely_rating" value="6" id="q6" title="agree" /></td>
+                  <td><input type="radio" name="wisely_rating" value="5" id="q5" title="slightly agree" /></td>
+                  <td><input type="radio" name="wisely_rating" value="4" id="q4" title="neutral" /></td>
+                  <td><input type="radio" name="wisely_rating" value="3" id="q3" title="slightly disagree" /></td>
+                  <td><input type="radio" name="wisely_rating" value="2" id="q2" title="disagree" /></td>
+                  <td><input type="radio" name="wisely_rating" value="1" id="q1" title="strongly disagree" /></td>
+                </tr>
+                <tr>
+                  <td class="td-title">
+                    <p>The blue circle was predictable</p>
+                  </td>
+                  <td><input type="radio" name="predictable_rating" value="7" id="q7" title="strongly agree" /></td>
+                  <td><input type="radio" name="predictable_rating" value="6" id="q6" title="agree" /></td>
+                  <td><input type="radio" name="predictable_rating" value="5" id="q5" title="slightly agree" /></td>
+                  <td><input type="radio" name="predictable_rating" value="4" id="q4" title="neutral" /></td>
+                  <td><input type="radio" name="predictable_rating" value="3" id="q3" title="slightly disagree" /></td>
+                  <td><input type="radio" name="predictable_rating" value="2" id="q2" title="disagree" /></td>
+                  <td><input type="radio" name="predictable_rating" value="1" id="q1" title="strongly disagree" /></td>
+                </tr>
+                <tr>
+                  <td class="td-title">
+                    <p>I felt the blue circle was a computer</p>
+                  </td>
+                  <td><input type="radio" name="computer_rating" value="7" id="q7" title="strongly agree" /></td>
+                  <td><input type="radio" name="computer_rating" value="6" id="q6" title="agree" /></td>
+                  <td><input type="radio" name="computer_rating" value="5" id="q5" title="slightly agree" /></td>
+                  <td><input type="radio" name="computer_rating" value="4" id="q4" title="neutral" /></td>
+                  <td><input type="radio" name="computer_rating" value="3" id="q3" title="slightly disagree" /></td>
+                  <td><input type="radio" name="computer_rating" value="2" id="q2" title="disagree" /></td>
+                  <td><input type="radio" name="computer_rating" value="1" id="q1" title="strongly disagree" /></td>
+                </tr>
+              </table>
+              <label for="additionalcomments">Additional Comments:</label>
+              <textarea id="additionalcomments" name="additionalcomments"
+                placeholder="Write any additional comments if you like..." style="height:100px"></textarea>
+
+              <input id="submit" type="button" onclick="submitSurvey()" ; value="Submit">
+              <p id="notFillAll" style="color: red; display:none;">Did not submit, please fill all fields!</p>
+            </form>
           </div>
-      </div>
+          <div class="survey-footer">
+            <h3></h3>
+          </div>
+        </div>
       </div>
 </body>
+
 </html>

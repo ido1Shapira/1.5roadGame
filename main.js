@@ -22,7 +22,7 @@ let agentBehavior;
 let keyEnable = false;
 //To calculate the score:
 const crushing = -100;
-const richToDestination = 10;
+const richToDestination = 30;
 const step = -1;
 // ---------------helper functions-------------------------------
 function getDOM(id) {
@@ -56,7 +56,7 @@ function play() {
 
     //Choose behavior to the blue ball
     algorithms = ["randomBehavior",
-                  "carefulBehavior", // Moves towards the player and then moves down and waits until the player passes.
+                //   "carefulBehavior", // Moves towards the player and then moves down and waits until the player passes.
                   "semiCarefulBehavior",
                   "aggressiveBehavior", // Just moves right
                   "semiAggressiveBehavior", // Moves left unless the other car is there, in which case it stays in place until the other car moves out of its way.
@@ -64,8 +64,8 @@ function play() {
                                                     // In fact this behavior is like the 'semiAggressiveBehavior' only more complicated.
                  // "nonzeroMinMaxBehavior", // Moves by the min-max algorithm for nonzero game
                  // "randomAssumptionBehavior", // The blue agent assumes that the red agent is behaving randomly
-                 "valueIterationBehavior",
-                 "valueIterationBasedBehavior_v2"
+                //  "valueIterationBehavior",
+                //  "valueIterationBasedBehavior_v2"
                 ];
         
     firebase.database().ref("chosen-policy").once('value',
@@ -74,8 +74,10 @@ function play() {
         // console.log("Blue behavior: "+ selectedBehavior)
 
         if(selectedBehavior == -1) { // choose random behavior
-            selectedBehavior = algorithms[algorithms.length * Math.random() | 0];
+            selectedBehavior = algorithms[Math.floor(Math.random() * algorithms.length)];
         }
+        // console.log("Blue behavior: "+ selectedBehavior)
+
         agentBehavior = new Behavior(selectedBehavior);
 
         // Generate a reference to a new location and add some data using push()
@@ -340,10 +342,20 @@ function saveToFirebase(redAction) {
 }
 
 function showGame() {
+    // Get the survey
+    var quiz = document.getElementById("quiz");
+    quiz.style.display = "block";
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        quiz.style.display = "none";
+        getDOM("showgameButton").style.display = "";
+        keyEnable = false;
+    }
+
+    getDOM("quiz").style.display = "";
     getDOM("board").style.display = "";
     getDOM("step_score").style.display = "flex";
-    getDOM("showgame").style.display = "none";
-    keyEnable = true;
+    getDOM("showgameButton").style.display = "none";
     firebase.database().ref("all-games/"+postID+"/press-the-read-instructions-button").set(true);
 }
 
@@ -363,6 +375,7 @@ function copytoclipboard() {
         moreSteps++;
       }
       blueScore += moreSteps*step;
+      blueScore += richToDestination;
   }
 
 function finishGame() { //update database
@@ -375,21 +388,31 @@ function finishGame() { //update database
     firebase.database().ref("all-games/"+postID+"/blueScore").set(blueScore);
     firebase.database().ref("all-games/"+postID+"/win").set(win);
     // Get the survey
-    var survey = document.getElementById("survey");
-    survey.style.display = "block";
-    var span = document.getElementsByClassName("close")[0];
-    span.onclick = function() {
-        survey.style.display = "none";
-        keyEnable = false;
+    getDOM("survey").style.display = "block";
+    keyEnable = false;
+}
+
+function submitQuiz() {
+    var q1 = getRating("q1");
+    var q2 = getRating("q2");
+    var q3 = getRating("q3");
+
+    if(q1 === undefined || q2 === undefined || q3 === undefined) {
+            getDOM("notFillAll").innerHTML = "Did not submit, please fill all fields."
+            getDOM("notFillAll").style.display = "";
     }
-    window.onclick = function(event) {
-        if (event.target == survey) {
-            survey.style.display = "none";
-            keyEnable = false;
+    else {
+        if(q1 == "true" && q2 == "true" && q3 == "true") {
+            keyEnable = true;
+            firebase.database().ref("all-games/"+postID+"/answer-the-quiz").set(true);
+            getDOM("quiz").style.display = "none";
+
+        }
+        else {
+            getDOM("notFillAll").innerHTML = "At least one answer is incorrect, please read the instructions again."
+            getDOM("notFillAll").style.display = "";
         }
     }
-    
-    keyEnable = false;
 }
 
 function submitSurvey() {
@@ -426,7 +449,7 @@ function submitSurvey() {
         firebase.database().ref("all-games/"+postID+"/aggressively_value").set(aggressively_value);
         firebase.database().ref("all-games/"+postID+"/generously_value").set(generously_value);
         firebase.database().ref("all-games/"+postID+"/wisely_value").set(wisely_value);
-        firebase.database().ref("all-games/"+postID+"/wisely_value").set(predictable_value);
+        firebase.database().ref("all-games/"+postID+"/predictable_value").set(predictable_value);
         firebase.database().ref("all-games/"+postID+"/computer_value").set(computer_value);
         firebase.database().ref("all-games/"+postID+"/additional_comments").set(additional_comments);
 
