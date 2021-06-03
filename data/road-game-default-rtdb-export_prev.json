@@ -608,7 +608,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1961",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -637,8 +637,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -647,7 +647,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1982",
-      "blueScore" : -11,
+      "blueScore" : 19.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -679,8 +679,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -689,7 +689,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1953",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -712,8 +712,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -722,7 +722,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1990",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -757,8 +757,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -767,7 +767,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1953",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -790,8 +790,8 @@
         "red" : "from: a1, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "1"
     },
@@ -826,7 +826,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1979",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -843,8 +843,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "3"
     },
@@ -853,7 +853,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1976",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -873,8 +873,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -886,7 +886,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1988",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -915,8 +915,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -954,7 +954,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1950",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -983,8 +983,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -993,7 +993,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1951",
-      "blueScore" : 1,
+      "blueScore" : 31.0,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1031,8 +1031,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -1041,7 +1041,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1058,8 +1058,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -1068,7 +1068,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1091,8 +1091,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -1101,7 +1101,7 @@
       "aggressively_value" : "1",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1130,8 +1130,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -1140,7 +1140,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1181,8 +1181,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -1194,7 +1194,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1957",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1217,8 +1217,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -1227,7 +1227,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1256,8 +1256,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -1269,7 +1269,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1996",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1292,14 +1292,14 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "2"
     },
     "-MZiXDWx7gN5e88GDwb5" : {
       "behavior" : "semiAggressiveBehavior",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -1314,8 +1314,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-MZiXJvyR4l2pFzpjTp9" : {
@@ -1323,7 +1323,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1358,8 +1358,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -1371,7 +1371,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1963",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1400,8 +1400,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -107,
-      "steps" : 7,
+      "redScore" : -107.0,
+      "steps" : 7.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -1410,7 +1410,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1439,8 +1439,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -1449,7 +1449,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -1469,8 +1469,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -1479,7 +1479,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "6",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -1502,8 +1502,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -1515,7 +1515,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1969",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1544,8 +1544,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -1554,7 +1554,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1982",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1571,8 +1571,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -1643,7 +1643,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1966",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -1663,8 +1663,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -1673,7 +1673,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1993",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1705,8 +1705,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -1715,7 +1715,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1990",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1735,8 +1735,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -1748,7 +1748,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1771,8 +1771,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -1781,7 +1781,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1989",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -1816,8 +1816,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -1826,7 +1826,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1997",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1846,8 +1846,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -1859,7 +1859,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : -95,
+      "blueScore" : -95.0,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -1891,8 +1891,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -108,
-      "steps" : 8,
+      "redScore" : -108.0,
+      "steps" : 8.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -1901,7 +1901,7 @@
     },
     "-MZiZIDEYRVs0649O645" : {
       "behavior" : "carefulBehavior",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: down"
@@ -1916,8 +1916,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-MZiZv3QVIQTT9K421-H" : {
@@ -1925,7 +1925,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -1966,8 +1966,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -1976,7 +1976,7 @@
       "aggressively_value" : "4",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2005,8 +2005,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -2015,7 +2015,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -2056,8 +2056,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -2066,7 +2066,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2095,8 +2095,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -2108,7 +2108,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1980",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2137,8 +2137,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -2161,7 +2161,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2190,8 +2190,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -2200,7 +2200,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1991",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2223,8 +2223,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -2233,7 +2233,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1978",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -2253,8 +2253,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -2263,7 +2263,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2313,8 +2313,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -114,
-      "steps" : 14,
+      "redScore" : -114.0,
+      "steps" : 14.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -2326,7 +2326,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1998",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2349,8 +2349,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -2359,7 +2359,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "1976",
-      "blueScore" : -5,
+      "blueScore" : 25.0,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2421,8 +2421,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -8,
-      "steps" : 18,
+      "redScore" : 12.0,
+      "steps" : 18.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -2431,7 +2431,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2454,8 +2454,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -2464,7 +2464,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -2493,8 +2493,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -2503,7 +2503,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1976",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2532,14 +2532,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "2"
     },
     "-MZikzBJEOV7lhflK4ov" : {
       "behavior" : "semiAggressiveBehavior",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -2554,8 +2554,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-MZimWhrY7blPT7BAHJ0" : {
@@ -2563,7 +2563,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1946",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Ph.D",
@@ -2598,8 +2598,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -2608,7 +2608,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2643,8 +2643,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -2653,7 +2653,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1995",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2673,8 +2673,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -2683,7 +2683,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -2718,8 +2718,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -2731,7 +2731,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -2748,14 +2748,14 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "4"
     },
     "-MZiuon8FVtv7Gy6as_q" : {
       "behavior" : "aggressiveBehavior",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: down"
@@ -2776,8 +2776,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -106,
-      "steps" : 6,
+      "redScore" : -106.0,
+      "steps" : 6.0,
       "win" : false
     },
     "-MZiuqxVUqKJO3JWCgA6" : {
@@ -2785,7 +2785,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2814,8 +2814,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -2824,7 +2824,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -2856,8 +2856,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -2866,7 +2866,7 @@
       "aggressively_value" : "3",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2889,8 +2889,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -2899,7 +2899,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -2934,8 +2934,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -2944,7 +2944,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1956",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -2967,8 +2967,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -2977,7 +2977,7 @@
     },
     "-MZivB1ac5iGhpa0bBhA" : {
       "behavior" : "carefulBehavior",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -3001,8 +3001,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MZivDHRgIui_MxzlPnY" : {
@@ -3016,7 +3016,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3045,8 +3045,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -3055,7 +3055,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1956",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3090,8 +3090,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -3100,7 +3100,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1962",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3120,8 +3120,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -3130,7 +3130,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "2002",
-      "blueScore" : -15,
+      "blueScore" : 15.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3174,8 +3174,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -3184,7 +3184,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3216,8 +3216,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -3226,7 +3226,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : -94,
+      "blueScore" : -94.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3273,8 +3273,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -113,
-      "steps" : 13,
+      "redScore" : -113.0,
+      "steps" : 13.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -3283,7 +3283,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3318,14 +3318,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "3"
     },
     "-MZiv_UdtnrRI_16nsND" : {
       "behavior" : "semiAggressiveBehavior",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: down"
@@ -3349,8 +3349,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -107,
-      "steps" : 7,
+      "redScore" : -107.0,
+      "steps" : 7.0,
       "win" : false
     },
     "-MZivd-Py7N3MTct9fPm" : {
@@ -3358,7 +3358,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3378,8 +3378,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -3388,7 +3388,7 @@
       "aggressively_value" : "4",
       "behavior" : "carefulBehavior",
       "birthYear" : "1979",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3423,8 +3423,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -3433,7 +3433,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1982",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -3450,8 +3450,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "1"
     },
@@ -3460,7 +3460,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1995",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -3492,8 +3492,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -3502,7 +3502,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1943",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3522,8 +3522,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -3532,7 +3532,7 @@
     },
     "-MZiw3Raxe80cyUyMg5F" : {
       "behavior" : "aggressiveBehavior",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: down"
@@ -3547,8 +3547,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-MZiw9TEzc0ijCyPQiSJ" : {
@@ -3556,7 +3556,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3576,8 +3576,8 @@
         "red" : "from: a2, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -3586,7 +3586,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3627,14 +3627,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "1"
     },
     "-MZiwGQ4CWV_u9WAYXxP" : {
       "behavior" : "carefulBehavior",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -3658,8 +3658,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MZiwGtvrhMxQAJg3AcK" : {
@@ -3673,7 +3673,7 @@
     },
     "-MZiwWsSx2RsydPmHVWq" : {
       "behavior" : "semiAggressiveBehavior",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -3691,8 +3691,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false
     },
     "-MZiwf3Ie3CvNjzayJcQ" : {
@@ -3700,7 +3700,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1972",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3717,8 +3717,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -3727,7 +3727,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -3747,8 +3747,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -3757,7 +3757,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1988",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3777,8 +3777,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -3790,7 +3790,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1955",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3819,8 +3819,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -3829,7 +3829,7 @@
       "aggressively_value" : "3",
       "behavior" : "carefulBehavior",
       "birthYear" : "1990",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3858,8 +3858,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -3868,7 +3868,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3900,8 +3900,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -3910,7 +3910,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3927,8 +3927,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -3940,7 +3940,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -3960,8 +3960,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -3970,7 +3970,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1978",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -3990,8 +3990,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -4000,7 +4000,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1976",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4029,8 +4029,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -4039,7 +4039,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1966",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4062,8 +4062,8 @@
         "red" : "from: b2, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "2"
     },
@@ -4072,7 +4072,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4101,8 +4101,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -4111,7 +4111,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1974",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4128,8 +4128,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -4138,7 +4138,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1988",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -4155,8 +4155,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "1"
     },
@@ -4165,7 +4165,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4194,8 +4194,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -4204,7 +4204,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -4236,8 +4236,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4246,7 +4246,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4275,14 +4275,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
     "-MZixzwnI7S-UhmdERQp" : {
       "behavior" : "carefulBehavior",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -4300,8 +4300,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true
     },
     "-MZiy7p02qmggGFPkx35" : {
@@ -4309,7 +4309,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1958",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -4329,14 +4329,14 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "3"
     },
     "-MZiy7wjTdaC6h35oph7" : {
       "behavior" : "aggressiveBehavior",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -4363,8 +4363,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true
     },
     "-MZiy8gsTOGaUIDxrrgN" : {
@@ -4372,7 +4372,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1977",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -4413,8 +4413,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4423,7 +4423,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4452,8 +4452,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -4462,7 +4462,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4485,8 +4485,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -4495,7 +4495,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1962",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4524,8 +4524,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -4534,7 +4534,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1985",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -4569,8 +4569,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4579,7 +4579,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1991",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4611,8 +4611,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -4621,7 +4621,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4656,8 +4656,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4666,7 +4666,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1982",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -4689,8 +4689,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4699,7 +4699,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4728,8 +4728,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4738,7 +4738,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1972",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4770,8 +4770,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4780,7 +4780,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1978",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4815,8 +4815,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -4825,7 +4825,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4845,8 +4845,8 @@
         "red" : "from: b3, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -4855,7 +4855,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -4890,8 +4890,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -4900,7 +4900,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1972",
-      "blueScore" : 2,
+      "blueScore" : 32.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -4938,8 +4938,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -4948,7 +4948,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1970",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -4971,8 +4971,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -4981,7 +4981,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1996",
-      "blueScore" : -124,
+      "blueScore" : -124.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5094,8 +5094,8 @@
         "red" : "from: a1, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -135,
-      "steps" : 35,
+      "redScore" : -135.0,
+      "steps" : 35.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -5104,7 +5104,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1988",
-      "blueScore" : -112,
+      "blueScore" : -112.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5142,8 +5142,8 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -110,
-      "steps" : 10,
+      "redScore" : -110.0,
+      "steps" : 10.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -5152,7 +5152,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1979",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5172,14 +5172,14 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "2"
     },
     "-M_HP4_SgNzUAi47OA-r" : {
       "behavior" : "randomBehavior",
-      "blueScore" : -114,
+      "blueScore" : -114.0,
       "log" : [ null, {
         "blue" : "from: a6, action: stay",
         "red" : "from: a1, action: down"
@@ -5218,13 +5218,13 @@
         "red" : "from: a2, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -112,
-      "steps" : 12,
+      "redScore" : -112.0,
+      "steps" : 12.0,
       "win" : false
     },
     "-M_HP5VrQHsWsOxG5bze" : {
       "behavior" : "randomBehavior",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "log" : [ null, {
         "blue" : "from: a6, action: stay",
         "red" : "from: a1, action: right"
@@ -5239,8 +5239,8 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-M_HPGR843O5g0pMqaTY" : {
@@ -5248,7 +5248,7 @@
       "aggressively_value" : "7",
       "behavior" : "randomBehavior",
       "birthYear" : "1945",
-      "blueScore" : -112,
+      "blueScore" : -112.0,
       "computer_value" : "2",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -5289,8 +5289,8 @@
         "red" : "from: a2, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -111,
-      "steps" : 11,
+      "redScore" : -111.0,
+      "steps" : 11.0,
       "win" : false,
       "wisely_value" : "1"
     },
@@ -5299,7 +5299,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1989",
-      "blueScore" : -13,
+      "blueScore" : 17.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -5337,8 +5337,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -5347,7 +5347,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1990",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5403,8 +5403,8 @@
         "red" : "from: a1, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -116,
-      "steps" : 16,
+      "redScore" : -116.0,
+      "steps" : 16.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -5413,7 +5413,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1980",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -5436,8 +5436,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "1"
     },
@@ -5446,7 +5446,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1995",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5475,8 +5475,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -5485,7 +5485,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1989",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -5508,8 +5508,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -5518,7 +5518,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1981",
-      "blueScore" : -15,
+      "blueScore" : 15.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5562,14 +5562,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true,
       "wisely_value" : "6"
     },
     "-M_HQ2o9CpxX4F2RiBic" : {
       "behavior" : "randomBehavior",
-      "blueScore" : -27,
+      "blueScore" : 3.0,
       "log" : [ null, {
         "blue" : "from: a6, action: down",
         "red" : "from: a1, action: stay"
@@ -5719,8 +5719,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -39,
-      "steps" : 49,
+      "redScore" : -19.0,
+      "steps" : 49.0,
       "win" : true
     },
     "-M_HQfewe8qbtJJkijLj" : {
@@ -5728,7 +5728,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1968",
-      "blueScore" : -112,
+      "blueScore" : -112.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5763,8 +5763,8 @@
         "red" : "from: b4, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -109,
-      "steps" : 9,
+      "redScore" : -109.0,
+      "steps" : 9.0,
       "win" : false,
       "wisely_value" : "5"
     },
@@ -5773,7 +5773,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1988",
-      "blueScore" : -113,
+      "blueScore" : -113.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5808,8 +5808,8 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -109,
-      "steps" : 9,
+      "redScore" : -109.0,
+      "steps" : 9.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -5818,7 +5818,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1976",
-      "blueScore" : -99,
+      "blueScore" : -99.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5856,8 +5856,8 @@
         "red" : "from: a1, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -110,
-      "steps" : 10,
+      "redScore" : -110.0,
+      "steps" : 10.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -5866,7 +5866,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1988",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5889,8 +5889,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -5899,7 +5899,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1986",
-      "blueScore" : -106,
+      "blueScore" : -106.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5916,8 +5916,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "2"
     },
@@ -5926,7 +5926,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "2001",
-      "blueScore" : -99,
+      "blueScore" : -99.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -5964,8 +5964,8 @@
         "red" : "from: b1, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -110,
-      "steps" : 10,
+      "redScore" : -110.0,
+      "steps" : 10.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -5977,7 +5977,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1994",
-      "blueScore" : -14,
+      "blueScore" : 16.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -6015,8 +6015,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -6025,7 +6025,7 @@
       "aggressively_value" : "7",
       "behavior" : "randomBehavior",
       "birthYear" : "1990",
-      "blueScore" : -112,
+      "blueScore" : -112.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6057,8 +6057,8 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -108,
-      "steps" : 8,
+      "redScore" : -108.0,
+      "steps" : 8.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -6067,7 +6067,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1976",
-      "blueScore" : -17,
+      "blueScore" : 13.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -6117,8 +6117,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -4,
-      "steps" : 14,
+      "redScore" : 16.0,
+      "steps" : 14.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -6127,7 +6127,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1959",
-      "blueScore" : -9,
+      "blueScore" : 21.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -6150,8 +6150,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -6160,7 +6160,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1961",
-      "blueScore" : -11,
+      "blueScore" : 19.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6189,8 +6189,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -6199,7 +6199,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1994",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "6",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -6225,8 +6225,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
-      "steps" : 6,
+      "redScore" : 24.0,
+      "steps" : 6.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -6235,7 +6235,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1979",
-      "blueScore" : -123,
+      "blueScore" : -93.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6282,8 +6282,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 13,
+      "redScore" : -83.0,
+      "steps" : 13.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -6295,7 +6295,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1992",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "computer_value" : "6",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -6318,8 +6318,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -6328,7 +6328,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1984",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6348,8 +6348,8 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false,
       "wisely_value" : "2"
     },
@@ -6365,7 +6365,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1982",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6400,8 +6400,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "3"
     },
@@ -6413,7 +6413,7 @@
       "aggressively_value" : "7",
       "behavior" : "randomBehavior",
       "birthYear" : "1987",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6436,8 +6436,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -6446,7 +6446,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1969",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6472,8 +6472,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
-      "steps" : 6,
+      "redScore" : 24.0,
+      "steps" : 6.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -6482,7 +6482,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1960",
-      "blueScore" : -132,
+      "blueScore" : -102.0,
       "computer_value" : "5",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -6556,8 +6556,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -112,
-      "steps" : 22,
+      "redScore" : -92.0,
+      "steps" : 22.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -6566,7 +6566,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1990",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "none",
@@ -6589,8 +6589,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "4"
     },
@@ -6628,7 +6628,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1994",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6651,14 +6651,14 @@
         "red" : "from: b4, action: up"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false,
       "wisely_value" : "4"
     },
     "-M_HjdTiD968L4YLDiNr" : {
       "behavior" : "randomBehavior",
-      "blueScore" : -115,
+      "blueScore" : -85.0,
       "log" : [ null, {
         "blue" : "from: a6, action: stay",
         "red" : "from: a1, action: right"
@@ -6676,8 +6676,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
-      "steps" : 5,
+      "redScore" : -75.0,
+      "steps" : 5.0,
       "win" : true
     },
     "-M_Hl4knjjAplOUpBQgF" : {
@@ -6685,7 +6685,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1979",
-      "blueScore" : -13,
+      "blueScore" : 17.0,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -6714,8 +6714,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -6724,7 +6724,7 @@
       "aggressively_value" : "7",
       "behavior" : "randomBehavior",
       "birthYear" : "1977",
-      "blueScore" : -111,
+      "blueScore" : -111.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6753,8 +6753,8 @@
         "red" : "from: a4, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -107,
-      "steps" : 7,
+      "redScore" : -107.0,
+      "steps" : 7.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -6763,7 +6763,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1997",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6780,8 +6780,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "2"
     },
@@ -6790,7 +6790,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -6819,8 +6819,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -6829,7 +6829,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1983",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -6858,14 +6858,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "1"
     },
     "-MaP8rdVbR1ApYl16Qd4" : {
       "behavior" : "valueIterationBasedBehavior_v2",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -6889,8 +6889,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MaP8rnCc0Jt1t3XJJpT" : {
@@ -6898,7 +6898,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1982",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6930,8 +6930,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -6943,7 +6943,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1969",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -6975,8 +6975,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -6988,7 +6988,7 @@
       "aggressively_value" : "4",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1979",
-      "blueScore" : -109,
+      "blueScore" : -109.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7017,8 +7017,8 @@
         "red" : "from: a3, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -107,
-      "steps" : 7,
+      "redScore" : -107.0,
+      "steps" : 7.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -7027,7 +7027,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1974",
-      "blueScore" : -110,
+      "blueScore" : -110.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7059,8 +7059,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -108,
-      "steps" : 8,
+      "redScore" : -108.0,
+      "steps" : 8.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -7069,7 +7069,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7101,8 +7101,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7111,7 +7111,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1994",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7128,14 +7128,14 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "5"
     },
     "-MaP90RSU8uI13_JOlhJ" : {
       "behavior" : "valueIterationBasedBehavior_v2",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -7162,8 +7162,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true
     },
     "-MaP97y7BJptKSCUQRRb" : {
@@ -7171,7 +7171,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1982",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7200,8 +7200,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7210,7 +7210,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1997",
-      "blueScore" : -2,
+      "blueScore" : 28.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7257,8 +7257,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
-      "steps" : 13,
+      "redScore" : 17.0,
+      "steps" : 13.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7267,7 +7267,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7305,8 +7305,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -7315,7 +7315,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7347,8 +7347,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7360,7 +7360,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1978",
-      "blueScore" : -19,
+      "blueScore" : 11.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7419,8 +7419,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
-      "steps" : 17,
+      "redScore" : 13.0,
+      "steps" : 17.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7429,7 +7429,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1994",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7452,8 +7452,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7466,7 +7466,7 @@
       "aggressively_value" : "3",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7489,8 +7489,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -7506,7 +7506,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1963",
-      "blueScore" : -9,
+      "blueScore" : 21.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -7535,8 +7535,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7545,7 +7545,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1970",
-      "blueScore" : 2,
+      "blueScore" : 32.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7580,8 +7580,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7593,7 +7593,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1986",
-      "blueScore" : -111,
+      "blueScore" : -111.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7628,8 +7628,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -109,
-      "steps" : 9,
+      "redScore" : -109.0,
+      "steps" : 9.0,
       "win" : false,
       "wisely_value" : "6"
     },
@@ -7641,7 +7641,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1985",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -7670,8 +7670,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7680,7 +7680,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1985",
-      "blueScore" : 2,
+      "blueScore" : 32.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7721,8 +7721,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7731,7 +7731,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1991",
-      "blueScore" : -2,
+      "blueScore" : 28.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7787,8 +7787,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -6,
-      "steps" : 16,
+      "redScore" : 14.0,
+      "steps" : 16.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -7797,7 +7797,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1953",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -7832,8 +7832,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -7842,7 +7842,7 @@
       "aggressively_value" : "3",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7874,8 +7874,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -7887,7 +7887,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1976",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7916,8 +7916,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -7926,7 +7926,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1986",
-      "blueScore" : -19,
+      "blueScore" : 11.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -7985,8 +7985,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
-      "steps" : 17,
+      "redScore" : 13.0,
+      "steps" : 17.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -7995,7 +7995,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1992",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8024,8 +8024,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -8048,7 +8048,7 @@
     },
     "-MaPG96uYkOdcUzqnxrB" : {
       "behavior" : "valueIterationBasedBehavior_v2",
-      "blueScore" : -148,
+      "blueScore" : -148.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: stay"
@@ -8186,8 +8186,8 @@
         "red" : "from: a4, action: stay"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -145,
-      "steps" : 45,
+      "redScore" : -145.0,
+      "steps" : 45.0,
       "win" : false
     },
     "-MaPGfr1BwxHPCGCMkhk" : {
@@ -8195,7 +8195,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1992",
-      "blueScore" : 4,
+      "blueScore" : 34.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8230,8 +8230,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "7"
     },
@@ -8240,7 +8240,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1991",
-      "blueScore" : -9,
+      "blueScore" : 21.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8269,8 +8269,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "6"
     },
@@ -8279,7 +8279,7 @@
       "aggressively_value" : "1",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : -11,
+      "blueScore" : 19.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8314,8 +8314,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "4"
     },
@@ -8324,7 +8324,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8353,8 +8353,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -8363,7 +8363,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1993",
-      "blueScore" : -6,
+      "blueScore" : 24.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8419,8 +8419,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -6,
-      "steps" : 16,
+      "redScore" : 14.0,
+      "steps" : 16.0,
       "win" : true,
       "wisely_value" : "5"
     },
@@ -8429,7 +8429,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1980",
-      "blueScore" : -105,
+      "blueScore" : -105.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8446,8 +8446,8 @@
         "red" : "from: a3, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
-      "steps" : 3,
+      "redScore" : -103.0,
+      "steps" : 3.0,
       "win" : false,
       "wisely_value" : "7"
     },
@@ -8456,7 +8456,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1965",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8494,8 +8494,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -8504,7 +8504,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1993",
-      "blueScore" : 3,
+      "blueScore" : 33.0,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -8539,8 +8539,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true,
       "wisely_value" : "2"
     },
@@ -8549,7 +8549,7 @@
     },
     "-Majsc6UB6PDBkcrl5n1" : {
       "behavior" : "semiCarefulBehavior",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -8564,8 +8564,8 @@
         "red" : "from: a4, action: down"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-Majseg4QUg1TtH_ew7v" : {
@@ -8573,7 +8573,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -9,
+      "blueScore" : 21.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8654,8 +8654,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -14,
-      "steps" : 24,
+      "redScore" : 6.0,
+      "steps" : 24.0,
       "win" : true
     },
     "-MajsfplbkG3tJ8GXddD" : {
@@ -8663,7 +8663,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8693,8 +8693,8 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MajsgnxwTU0Pi2kSyXR" : {
@@ -8740,7 +8740,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8776,8 +8776,8 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-Majss9mdL3S7KqSmMk9" : {
@@ -8785,7 +8785,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -20,
+      "blueScore" : 10.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8845,8 +8845,8 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
-      "steps" : 17,
+      "redScore" : 13.0,
+      "steps" : 17.0,
       "win" : true
     },
     "-Majt477IWiowI-hlOpE" : {
@@ -8854,7 +8854,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1990",
-      "blueScore" : -11,
+      "blueScore" : 19.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8887,8 +8887,8 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true
     },
     "-Majt5NKP-NWRkVJFQU5" : {
@@ -8896,7 +8896,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -8938,8 +8938,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true
     },
     "-Majt7PL4DLzsZIQCjGV" : {
@@ -8951,7 +8951,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1978",
-      "blueScore" : 2,
+      "blueScore" : 32.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -8996,8 +8996,8 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true
     },
     "-MajtJRPUF8lgkMA60i9" : {
@@ -9005,7 +9005,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -16,
+      "blueScore" : 14.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -9053,8 +9053,8 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
-      "steps" : 13,
+      "redScore" : 17.0,
+      "steps" : 13.0,
       "win" : true
     },
     "-Maju2UpoYvkY0Pk6Ju4" : {
@@ -9062,7 +9062,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1990",
-      "blueScore" : -137,
+      "blueScore" : -137.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9170,8 +9170,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -133,
-      "steps" : 33,
+      "redScore" : -133.0,
+      "steps" : 33.0,
       "win" : false
     },
     "-Majv1vvkN-32grkCRpu" : {
@@ -9179,7 +9179,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1998",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9200,8 +9200,8 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : -104,
-      "steps" : 4,
+      "redScore" : -104.0,
+      "steps" : 4.0,
       "win" : false
     },
     "-Majv_Pnr2MJ_yBDM8Ef" : {
@@ -9209,7 +9209,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9245,8 +9245,8 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-Majw3Yz30IGFr-XiDiK" : {
@@ -9254,7 +9254,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -24,
+      "blueScore" : 6.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9326,8 +9326,8 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : -11,
-      "steps" : 21,
+      "redScore" : 9.0,
+      "steps" : 21.0,
       "win" : true
     },
     "-MajxM1VkKGR1mBTXk7w" : {
@@ -9345,7 +9345,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1995",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9381,8 +9381,8 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-Mak5_oxHpAb6vlfSm76" : {
@@ -9390,7 +9390,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -15,
+      "blueScore" : 15.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9435,8 +9435,8 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true
     },
     "-Mak5pFr1fy7X1SXOwrk" : {
@@ -9444,7 +9444,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9468,8 +9468,8 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true
     },
     "-Mak5ulnYoRB7927AK4m" : {
@@ -9477,7 +9477,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9513,8 +9513,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-Mak6KkHcoPbjx925r9S" : {
@@ -9525,7 +9525,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1975",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9561,8 +9561,8 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-Mak7QZXvAO_wNqX24PO" : {
@@ -9570,7 +9570,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -14,
+      "blueScore" : 16.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9618,8 +9618,8 @@
       } ],
       "predictable_value" : "2",
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
-      "steps" : 13,
+      "redScore" : 17.0,
+      "steps" : 13.0,
       "win" : true
     },
     "-Mak7S8P3B4xlO6Dme_O" : {
@@ -9627,7 +9627,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -15,
+      "blueScore" : 15.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9672,8 +9672,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true
     },
     "-Mak7WCXH80AOsHC9_VB" : {
@@ -9681,7 +9681,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1991",
-      "blueScore" : -9,
+      "blueScore" : 21.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9708,8 +9708,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
-      "steps" : 6,
+      "redScore" : 24.0,
+      "steps" : 6.0,
       "win" : true
     },
     "-Mak85OF6HBSFz4iz1Jk" : {
@@ -9717,7 +9717,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9741,13 +9741,13 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true
     },
     "-Mak8Tn1--Mw2Bg74sMe" : {
       "behavior" : "semiCarefulBehavior",
-      "blueScore" : -6,
+      "blueScore" : 24.0,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: stay"
@@ -9801,8 +9801,8 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
-      "steps" : 17,
+      "redScore" : 13.0,
+      "steps" : 17.0,
       "win" : true
     },
     "-Mak8f_BWIvkkQsQr2lR" : {
@@ -9810,7 +9810,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1977",
-      "blueScore" : -11,
+      "blueScore" : 19.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9843,8 +9843,8 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
-      "steps" : 8,
+      "redScore" : 22.0,
+      "steps" : 8.0,
       "win" : true
     },
     "-Mak9N9H2r8DrVgFg7eX" : {
@@ -9852,7 +9852,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1996",
-      "blueScore" : -13,
+      "blueScore" : 17.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -9891,8 +9891,8 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true
     },
     "-Mak9lgeZR29ighZWPZU" : {
@@ -9903,7 +9903,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -16,
+      "blueScore" : 14.0,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -9957,8 +9957,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -5,
-      "steps" : 15,
+      "redScore" : 15.0,
+      "steps" : 15.0,
       "win" : true
     },
     "-MakAm-d6mxqDyuFqoFb" : {
@@ -9966,7 +9966,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1996",
-      "blueScore" : -108,
+      "blueScore" : -108.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -9990,8 +9990,8 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : -105,
-      "steps" : 5,
+      "redScore" : -105.0,
+      "steps" : 5.0,
       "win" : false
     },
     "-MakBfCShkaoSAHcVNqe" : {
@@ -9999,7 +9999,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1996",
-      "blueScore" : -12,
+      "blueScore" : 18.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -10041,8 +10041,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
-      "steps" : 11,
+      "redScore" : 19.0,
+      "steps" : 11.0,
       "win" : true
     },
     "-MakBmaRGOkfu6kCm7Sn" : {
@@ -10050,7 +10050,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -15,
+      "blueScore" : 15.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -10095,8 +10095,8 @@
       } ],
       "predictable_value" : "2",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
-      "steps" : 12,
+      "redScore" : 18.0,
+      "steps" : 12.0,
       "win" : true
     },
     "-MakCCyCcObUkepc99nf" : {
@@ -10104,7 +10104,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -10134,8 +10134,8 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MakKXYZVoNCSOz68yFn" : {
@@ -10143,7 +10143,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1989",
-      "blueScore" : -7,
+      "blueScore" : 23.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -10242,8 +10242,8 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -20,
-      "steps" : 30,
+      "redScore" : 0.0,
+      "steps" : 30.0,
       "win" : true
     },
     "-MakPJ1G9tNrkoBRDI8i" : {
@@ -10254,7 +10254,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1973",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -10284,8 +10284,8 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-MakS6Dyo6Jcmaq_pS71" : {
@@ -10293,7 +10293,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1989",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -10329,8 +10329,8 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
-      "steps" : 9,
+      "redScore" : 21.0,
+      "steps" : 9.0,
       "win" : true
     },
     "-MakZ9oJVeLbwgnjXRO7" : {
@@ -10338,7 +10338,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -10368,8 +10368,8 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
-      "steps" : 7,
+      "redScore" : 23.0,
+      "steps" : 7.0,
       "win" : true
     },
     "-Mak_Kg3O-sdzwfOL9dm" : {
@@ -10380,7 +10380,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -13,
+      "blueScore" : 17.0,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -10419,8 +10419,8 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
-      "steps" : 10,
+      "redScore" : 20.0,
+      "steps" : 10.0,
       "win" : true
     },
     "-MakeCI0TCh7XgPW2PDj" : {
@@ -10439,7 +10439,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -8,
+      "blueScore" : 22.0,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -10463,8 +10463,8 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
-      "steps" : 5,
+      "redScore" : 25.0,
+      "steps" : 5.0,
       "win" : true
     }
   },
@@ -11078,7 +11078,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1961",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11107,7 +11107,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "1"
@@ -11117,7 +11117,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1982",
-      "blueScore" : -11,
+      "blueScore" : 19,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11149,7 +11149,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -11192,7 +11192,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1990",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -11227,7 +11227,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "2"
@@ -11327,7 +11327,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1988",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11356,7 +11356,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -11366,7 +11366,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1950",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11395,7 +11395,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -11405,7 +11405,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1951",
-      "blueScore" : 2,
+      "blueScore" : 32,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11443,7 +11443,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "1"
@@ -11513,7 +11513,7 @@
       "aggressively_value" : "1",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11542,7 +11542,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "3"
@@ -11552,7 +11552,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -11593,7 +11593,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "1"
@@ -11636,7 +11636,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11665,7 +11665,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -11708,7 +11708,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -11743,7 +11743,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "6"
@@ -11792,7 +11792,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -11821,7 +11821,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -11861,7 +11861,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "6",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -11884,7 +11884,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "2"
@@ -11894,7 +11894,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1969",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -11923,7 +11923,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -11990,7 +11990,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1993",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12022,7 +12022,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -12095,7 +12095,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1989",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -12130,7 +12130,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "1"
@@ -12212,7 +12212,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12253,7 +12253,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "6"
@@ -12263,7 +12263,7 @@
       "aggressively_value" : "4",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12292,7 +12292,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -12302,7 +12302,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -12343,7 +12343,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "4"
@@ -12353,7 +12353,7 @@
       "aggressively_value" : "4",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12382,7 +12382,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -12392,7 +12392,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1980",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12421,7 +12421,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "7"
@@ -12431,7 +12431,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12460,7 +12460,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "7"
@@ -12626,7 +12626,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "1976",
-      "blueScore" : -6,
+      "blueScore" : 24,
       "computer_value" : "1",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12688,7 +12688,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -8,
+      "redScore" : 12,
       "steps" : 18,
       "win" : true,
       "wisely_value" : "7"
@@ -12731,7 +12731,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -12760,7 +12760,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -12770,7 +12770,7 @@
       "aggressively_value" : "6",
       "behavior" : "carefulBehavior",
       "birthYear" : "1976",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12799,7 +12799,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "2"
@@ -12809,7 +12809,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1946",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Ph.D",
@@ -12844,7 +12844,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "5"
@@ -12854,7 +12854,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -12889,7 +12889,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "3"
@@ -12929,7 +12929,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -12964,7 +12964,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "2"
@@ -13001,7 +13001,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13030,7 +13030,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "2"
@@ -13040,7 +13040,7 @@
       "aggressively_value" : "3",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1967",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -13072,7 +13072,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "3"
@@ -13082,7 +13082,7 @@
       "aggressively_value" : "3",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13105,7 +13105,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "5"
@@ -13115,7 +13115,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1970",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -13150,7 +13150,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -13193,7 +13193,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13222,7 +13222,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "3"
@@ -13232,7 +13232,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1956",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13267,7 +13267,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "3"
@@ -13307,7 +13307,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "2002",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -13351,7 +13351,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true,
       "wisely_value" : "6"
@@ -13361,7 +13361,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -13393,7 +13393,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "2"
@@ -13460,7 +13460,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1986",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13495,7 +13495,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "3"
@@ -13535,7 +13535,7 @@
       "aggressively_value" : "4",
       "behavior" : "carefulBehavior",
       "birthYear" : "1979",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -13570,7 +13570,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -13607,7 +13607,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1995",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -13639,7 +13639,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "6"
@@ -13709,7 +13709,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1984",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -13750,7 +13750,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "1"
@@ -13847,7 +13847,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1955",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13876,7 +13876,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -13886,7 +13886,7 @@
       "aggressively_value" : "3",
       "behavior" : "carefulBehavior",
       "birthYear" : "1990",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13915,7 +13915,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -13925,7 +13925,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -13957,7 +13957,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -14054,7 +14054,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1976",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14083,7 +14083,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "7"
@@ -14126,7 +14126,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14155,7 +14155,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -14219,7 +14219,7 @@
       "aggressively_value" : "5",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1983",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14248,7 +14248,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -14258,7 +14258,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1964",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -14290,7 +14290,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -14300,7 +14300,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14329,7 +14329,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -14369,7 +14369,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1977",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -14410,7 +14410,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "4"
@@ -14420,7 +14420,7 @@
       "aggressively_value" : "1",
       "behavior" : "carefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14449,7 +14449,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "1"
@@ -14459,7 +14459,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14482,7 +14482,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "6"
@@ -14492,7 +14492,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1962",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14521,7 +14521,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "3"
@@ -14531,7 +14531,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1985",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -14566,7 +14566,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -14576,7 +14576,7 @@
       "aggressively_value" : "6",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1991",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14608,7 +14608,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "3"
@@ -14618,7 +14618,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14653,7 +14653,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -14663,7 +14663,7 @@
       "aggressively_value" : "5",
       "behavior" : "carefulBehavior",
       "birthYear" : "1982",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -14686,7 +14686,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "4"
@@ -14696,7 +14696,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14725,7 +14725,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -14735,7 +14735,7 @@
       "aggressively_value" : "2",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1972",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14767,7 +14767,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -14777,7 +14777,7 @@
       "aggressively_value" : "2",
       "behavior" : "carefulBehavior",
       "birthYear" : "1978",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14812,7 +14812,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "2"
@@ -14852,7 +14852,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1975",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -14887,7 +14887,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "6"
@@ -14897,7 +14897,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1972",
-      "blueScore" : 2,
+      "blueScore" : 32,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -14935,7 +14935,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "5"
@@ -14945,7 +14945,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1970",
-      "blueScore" : -115,
+      "blueScore" : -85,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -14968,7 +14968,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
+      "redScore" : -75,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "4"
@@ -15230,7 +15230,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1989",
-      "blueScore" : -13,
+      "blueScore" : 17,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -15268,7 +15268,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "4"
@@ -15344,7 +15344,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1980",
-      "blueScore" : -115,
+      "blueScore" : -85,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -15367,7 +15367,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
+      "redScore" : -75,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "1"
@@ -15377,7 +15377,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1995",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -15406,7 +15406,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "3"
@@ -15416,7 +15416,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1989",
-      "blueScore" : -115,
+      "blueScore" : -85,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -15439,7 +15439,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
+      "redScore" : -75,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "2"
@@ -15449,7 +15449,7 @@
       "aggressively_value" : "4",
       "behavior" : "randomBehavior",
       "birthYear" : "1981",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -15493,7 +15493,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true,
       "wisely_value" : "6"
@@ -15641,7 +15641,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1988",
-      "blueScore" : -115,
+      "blueScore" : -85,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -15664,7 +15664,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
+      "redScore" : -75,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "2"
@@ -15749,7 +15749,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1994",
-      "blueScore" : -14,
+      "blueScore" : 16,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -15787,7 +15787,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "6"
@@ -15839,7 +15839,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1976",
-      "blueScore" : -17,
+      "blueScore" : 13,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -15889,7 +15889,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -4,
+      "redScore" : 16,
       "steps" : 14,
       "win" : true,
       "wisely_value" : "6"
@@ -15899,7 +15899,7 @@
       "aggressively_value" : "6",
       "behavior" : "randomBehavior",
       "birthYear" : "1959",
-      "blueScore" : -9,
+      "blueScore" : 21,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -15922,7 +15922,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "6"
@@ -15932,7 +15932,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1961",
-      "blueScore" : -11,
+      "blueScore" : 19,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -15961,7 +15961,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -15971,7 +15971,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1994",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "6",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -15997,7 +15997,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
+      "redScore" : 24,
       "steps" : 6,
       "win" : true,
       "wisely_value" : "6"
@@ -16007,7 +16007,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1979",
-      "blueScore" : -123,
+      "blueScore" : -93,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16054,7 +16054,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -103,
+      "redScore" : -83,
       "steps" : 13,
       "win" : true,
       "wisely_value" : "3"
@@ -16064,7 +16064,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1992",
-      "blueScore" : -115,
+      "blueScore" : -85,
       "computer_value" : "6",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -16087,7 +16087,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -95,
+      "redScore" : -75,
       "steps" : 5,
       "win" : true,
       "wisely_value" : "4"
@@ -16127,7 +16127,7 @@
       "aggressively_value" : "5",
       "behavior" : "randomBehavior",
       "birthYear" : "1982",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16162,7 +16162,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "3"
@@ -16205,7 +16205,7 @@
       "aggressively_value" : "1",
       "behavior" : "randomBehavior",
       "birthYear" : "1969",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16231,7 +16231,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
+      "redScore" : 24,
       "steps" : 6,
       "win" : true,
       "wisely_value" : "2"
@@ -16241,7 +16241,7 @@
       "aggressively_value" : "3",
       "behavior" : "randomBehavior",
       "birthYear" : "1960",
-      "blueScore" : -132,
+      "blueScore" : -102,
       "computer_value" : "5",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -16315,7 +16315,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -112,
+      "redScore" : -92,
       "steps" : 22,
       "win" : true,
       "wisely_value" : "5"
@@ -16391,7 +16391,7 @@
       "aggressively_value" : "2",
       "behavior" : "randomBehavior",
       "birthYear" : "1979",
-      "blueScore" : -13,
+      "blueScore" : 17,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -16420,7 +16420,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -16496,7 +16496,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -16525,7 +16525,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -16535,7 +16535,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1983",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -16564,14 +16564,14 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "1"
     },
     "-MaP8rdVbR1ApYl16Qd4" : {
       "behavior" : "valueIterationBasedBehavior_v2",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -16595,7 +16595,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true
     },
@@ -16604,7 +16604,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1982",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16636,7 +16636,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -16646,7 +16646,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1969",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16678,7 +16678,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "2"
@@ -16769,7 +16769,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1981",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -16801,7 +16801,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -16835,7 +16835,7 @@
     },
     "-MaP90RSU8uI13_JOlhJ" : {
       "behavior" : "valueIterationBasedBehavior_v2",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "log" : [ null, {
         "blue" : "from: a6, action: left",
         "red" : "from: a1, action: right"
@@ -16862,7 +16862,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true
     },
@@ -16871,7 +16871,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1982",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16900,7 +16900,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -16910,7 +16910,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1997",
-      "blueScore" : -2,
+      "blueScore" : 28,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -16957,7 +16957,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
+      "redScore" : 17,
       "steps" : 13,
       "win" : true,
       "wisely_value" : "6"
@@ -16967,7 +16967,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17005,7 +17005,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "7"
@@ -17015,7 +17015,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17047,7 +17047,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -17057,7 +17057,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1978",
-      "blueScore" : -19,
+      "blueScore" : 11,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -17116,7 +17116,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
+      "redScore" : 13,
       "steps" : 17,
       "win" : true,
       "wisely_value" : "6"
@@ -17126,7 +17126,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1994",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17149,7 +17149,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -17159,7 +17159,7 @@
       "aggressively_value" : "3",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17182,7 +17182,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -17192,7 +17192,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1963",
-      "blueScore" : -9,
+      "blueScore" : 21,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -17221,7 +17221,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -17231,7 +17231,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1970",
-      "blueScore" : 2,
+      "blueScore" : 32,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17266,7 +17266,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -17321,7 +17321,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1985",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -17350,7 +17350,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "4"
@@ -17360,7 +17360,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1985",
-      "blueScore" : 2,
+      "blueScore" : 32,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17401,7 +17401,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true,
       "wisely_value" : "6"
@@ -17411,7 +17411,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1991",
-      "blueScore" : -2,
+      "blueScore" : 28,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17467,7 +17467,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -6,
+      "redScore" : 14,
       "steps" : 16,
       "win" : true,
       "wisely_value" : "4"
@@ -17477,7 +17477,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1953",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17512,7 +17512,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "5"
@@ -17522,7 +17522,7 @@
       "aggressively_value" : "3",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1986",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -17554,7 +17554,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "5"
@@ -17564,7 +17564,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1976",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -17593,7 +17593,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -17603,7 +17603,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1986",
-      "blueScore" : -19,
+      "blueScore" : 11,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -17662,7 +17662,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
+      "redScore" : 13,
       "steps" : 17,
       "win" : true,
       "wisely_value" : "2"
@@ -17672,7 +17672,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1992",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17701,7 +17701,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "4"
@@ -17855,7 +17855,7 @@
       "aggressively_value" : "6",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1992",
-      "blueScore" : 4,
+      "blueScore" : 34,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17890,7 +17890,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "7"
@@ -17900,7 +17900,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1991",
-      "blueScore" : -9,
+      "blueScore" : 21,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -17929,7 +17929,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "6"
@@ -17939,7 +17939,7 @@
       "aggressively_value" : "1",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1989",
-      "blueScore" : -11,
+      "blueScore" : 19,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -17974,7 +17974,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "4"
@@ -17984,7 +17984,7 @@
       "aggressively_value" : "5",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1987",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18013,7 +18013,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true,
       "wisely_value" : "5"
@@ -18023,7 +18023,7 @@
       "aggressively_value" : "7",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1993",
-      "blueScore" : -6,
+      "blueScore" : 24,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18079,7 +18079,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : -6,
+      "redScore" : 14,
       "steps" : 16,
       "win" : true,
       "wisely_value" : "5"
@@ -18116,7 +18116,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1965",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -18154,7 +18154,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true,
       "wisely_value" : "2"
@@ -18164,7 +18164,7 @@
       "aggressively_value" : "2",
       "behavior" : "valueIterationBasedBehavior_v2",
       "birthYear" : "1993",
-      "blueScore" : 3,
+      "blueScore" : 33,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "High School",
@@ -18199,7 +18199,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true,
       "wisely_value" : "2"
@@ -18209,7 +18209,7 @@
       "aggressively_value" : "7",
       "behavior" : "aggressiveBehavior",
       "birthYear" : "1901",
-      "blueScore" : 5,
+      "blueScore" : 35,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -18241,7 +18241,7 @@
         "red" : "from: a5, action: right"
       } ],
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true,
       "wisely_value" : "7"
@@ -18251,7 +18251,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1920",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "7",
       "drivinglicense" : "none",
       "education" : "BA",
@@ -18302,7 +18302,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : -4,
+      "redScore" : 16,
       "steps" : 14,
       "win" : true
     },
@@ -18311,7 +18311,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiAggressiveBehavior",
       "birthYear" : "1920",
-      "blueScore" : 3,
+      "blueScore" : 33,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "BA",
@@ -18353,7 +18353,7 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true
     },
@@ -18362,7 +18362,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -9,
+      "blueScore" : 21,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18443,7 +18443,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -14,
+      "redScore" : 6,
       "steps" : 24,
       "win" : true
     },
@@ -18452,7 +18452,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18482,7 +18482,7 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true
     },
@@ -18491,7 +18491,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18527,7 +18527,7 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -18536,7 +18536,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -20,
+      "blueScore" : 10,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18596,7 +18596,7 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : -7,
+      "redScore" : 13,
       "steps" : 17,
       "win" : true
     },
@@ -18605,7 +18605,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1990",
-      "blueScore" : -11,
+      "blueScore" : 19,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -18638,7 +18638,7 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true
     },
@@ -18647,7 +18647,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -18689,7 +18689,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true
     },
@@ -18698,7 +18698,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1978",
-      "blueScore" : 2,
+      "blueScore" : 32,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -18743,7 +18743,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true
     },
@@ -18752,7 +18752,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -16,
+      "blueScore" : 14,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "Master's degree",
@@ -18800,7 +18800,7 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
+      "redScore" : 17,
       "steps" : 13,
       "win" : true
     },
@@ -18956,7 +18956,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -18992,7 +18992,7 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -19001,7 +19001,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -24,
+      "blueScore" : 6,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19073,7 +19073,7 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : -11,
+      "redScore" : 9,
       "steps" : 21,
       "win" : true
     },
@@ -19082,7 +19082,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1995",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19118,7 +19118,7 @@
       } ],
       "predictable_value" : "1",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -19127,7 +19127,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1974",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19172,7 +19172,7 @@
       } ],
       "predictable_value" : "7",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true
     },
@@ -19181,7 +19181,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1987",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19205,7 +19205,7 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true
     },
@@ -19214,7 +19214,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19250,7 +19250,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -19259,7 +19259,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1975",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19295,7 +19295,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -19304,7 +19304,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -14,
+      "blueScore" : 16,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19352,7 +19352,7 @@
       } ],
       "predictable_value" : "2",
       "press-the-read-instructions-button" : true,
-      "redScore" : -3,
+      "redScore" : 17,
       "steps" : 13,
       "win" : true
     },
@@ -19361,7 +19361,7 @@
       "aggressively_value" : "7",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19406,7 +19406,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true
     },
@@ -19415,7 +19415,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1991",
-      "blueScore" : -9,
+      "blueScore" : 21,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19442,7 +19442,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 4,
+      "redScore" : 24,
       "steps" : 6,
       "win" : true
     },
@@ -19451,7 +19451,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1994",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19475,7 +19475,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true
     },
@@ -19484,7 +19484,7 @@
       "aggressively_value" : "4",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1977",
-      "blueScore" : -11,
+      "blueScore" : 19,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19517,7 +19517,7 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 2,
+      "redScore" : 22,
       "steps" : 8,
       "win" : true
     },
@@ -19526,7 +19526,7 @@
       "aggressively_value" : "1",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1996",
-      "blueScore" : -13,
+      "blueScore" : 17,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19565,7 +19565,7 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true
     },
@@ -19574,7 +19574,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1981",
-      "blueScore" : -16,
+      "blueScore" : 14,
       "computer_value" : "7",
       "drivinglicense" : "invalid",
       "education" : "High School",
@@ -19628,7 +19628,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -5,
+      "redScore" : 15,
       "steps" : 15,
       "win" : true
     },
@@ -19670,7 +19670,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1996",
-      "blueScore" : -12,
+      "blueScore" : 18,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19712,7 +19712,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -1,
+      "redScore" : 19,
       "steps" : 11,
       "win" : true
     },
@@ -19721,7 +19721,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1980",
-      "blueScore" : -15,
+      "blueScore" : 15,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19766,7 +19766,7 @@
       } ],
       "predictable_value" : "2",
       "press-the-read-instructions-button" : true,
-      "redScore" : -2,
+      "redScore" : 18,
       "steps" : 12,
       "win" : true
     },
@@ -19775,7 +19775,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1986",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19805,7 +19805,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true
     },
@@ -19814,7 +19814,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1989",
-      "blueScore" : -7,
+      "blueScore" : 23,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19913,7 +19913,7 @@
       } ],
       "predictable_value" : "5",
       "press-the-read-instructions-button" : true,
-      "redScore" : -20,
+      "redScore" : 0,
       "steps" : 30,
       "win" : true
     },
@@ -19922,7 +19922,7 @@
       "aggressively_value" : "3",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1973",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "5",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -19952,7 +19952,7 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true
     },
@@ -19961,7 +19961,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1989",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "6",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -19997,7 +19997,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 1,
+      "redScore" : 21,
       "steps" : 9,
       "win" : true
     },
@@ -20006,7 +20006,7 @@
       "aggressively_value" : "2",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1984",
-      "blueScore" : -10,
+      "blueScore" : 20,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -20036,7 +20036,7 @@
       } ],
       "predictable_value" : "6",
       "press-the-read-instructions-button" : true,
-      "redScore" : 3,
+      "redScore" : 23,
       "steps" : 7,
       "win" : true
     },
@@ -20045,7 +20045,7 @@
       "aggressively_value" : "6",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1983",
-      "blueScore" : -13,
+      "blueScore" : 17,
       "computer_value" : "7",
       "drivinglicense" : "valid",
       "education" : "High School",
@@ -20084,7 +20084,7 @@
       } ],
       "predictable_value" : "3",
       "press-the-read-instructions-button" : true,
-      "redScore" : 0,
+      "redScore" : 20,
       "steps" : 10,
       "win" : true
     },
@@ -20093,7 +20093,7 @@
       "aggressively_value" : "5",
       "behavior" : "semiCarefulBehavior",
       "birthYear" : "1985",
-      "blueScore" : -8,
+      "blueScore" : 22,
       "computer_value" : "4",
       "drivinglicense" : "valid",
       "education" : "BA",
@@ -20117,7 +20117,7 @@
       } ],
       "predictable_value" : "4",
       "press-the-read-instructions-button" : true,
-      "redScore" : 5,
+      "redScore" : 25,
       "steps" : 5,
       "win" : true
     }
