@@ -370,7 +370,7 @@ function copytoclipboard() {
         var current = parseInt(blueState[1]);
         var moreSteps = current-1;
         if(blueState[0] == 'b') {
-        moreSteps++;
+            moreSteps++;
         }
         blueScore += moreSteps*step;
         blueScore += richToDestination;
