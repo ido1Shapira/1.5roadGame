@@ -10466,6 +10466,2191 @@
       "redScore" : 25.0,
       "steps" : 5.0,
       "win" : true
+    },
+    "-Mb8NAdc_-4R4rLLPWJs" : {
+      "behavior" : "aggressiveBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8NCwlIi4KJDrG5yEI" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1993",
+      "blueScore" : -45,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a1, action: stay"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8NHVhDBfXR1RL5yCj" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1967",
+      "blueScore" : 54,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8NMs2_DTzltNHdTNu" : {
+      "behavior" : "randomBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8NWlwSG4zkuBH0YZd" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1998",
+      "blueScore" : -126,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -152,
+      "steps" : 52,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8NfUmU8HCWKRva6IY" : {
+      "behavior" : "semiAggressiveBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8NgdJENdmY4gLMdx_" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb8Ny6y6hyjqlCyc78D" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1996",
+      "blueScore" : -170,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a6, action: down",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: b6, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -196,
+      "steps" : 96,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8O8jSu_HqeP6aOvBI" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1987",
+      "blueScore" : -55,
+      "computer_value" : "3",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "redScore" : -75,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8OPSRVwMYsvTNE4_e" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -75,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "2",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "4"
+    },
+    "-Mb8PuVFq6sccqHfSv_H" : {
+      "behavior" : "aggressiveBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8PvBOIUrIUk0R5KXE" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 54,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-Mb8Q0x-Cy_1KPfxwGI4" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1974",
+      "blueScore" : 13,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 16,
+      "steps" : 14,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8QIsKYF408WkanO04" : {
+      "behavior" : "randomBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8Qa1k-VIePIIID_08" : {
+      "behavior" : "randomBehavior"
+    },
+    "-Mb8QafWTCmhebXXgHm2" : {
+      "behavior" : "randomBehavior"
+    },
+    "-Mb8R3I-EZCxELnq39mm" : {
+      "additional_comments" : "itwasfunthankyou",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 18,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a5, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 23,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8ReG27p88yhzTLi0h" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -56,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -76,
+      "steps" : 6,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8RgaFWFoBM1x_HF_S" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1989",
+      "blueScore" : 22,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 25,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8RvIKxQjYTkAwrqUn" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 12,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a6, action: down",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: b6, action: up",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a5, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 17,
+      "steps" : 13,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8Rw3jGavkvq85FEAA" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1986",
+      "blueScore" : -76,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b2, action: up"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8SOnKnyOr6V-DcHIp" : {
+      "behavior" : "aggressiveBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8TA0BUNYCsBTbQr2U" : {
+      "additional_comments" : "better",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1994",
+      "blueScore" : -76,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb8TvEFY2905178sO-3" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb8UEmB_n7oyMUhmTSc" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb8UHYNs-aUwBSSenP-" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1983",
+      "blueScore" : -76,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -104,
+      "steps" : 4,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb8UeGpFYkXLEFq38u2" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1971",
+      "blueScore" : -76,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b2, action: up"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8UxaHCg9CVCyGKcJe" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1986",
+      "blueScore" : 54,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8V0VLzEkFT-rWqlLx" : {
+      "additional_comments" : "None",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1995",
+      "blueScore" : -27,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: b5, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -65,
+      "steps" : 95,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8VBIFd32eBMcqvmNT" : {
+      "behavior" : "randomBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8VfP4PJ_CS9k9DOo8" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1982",
+      "blueScore" : 55,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "1"
+    },
+    "-Mb8VrEePVhED8IEfaFO" : {
+      "behavior" : "semiCarefulBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8W36QTkRd_uG0VkO8" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1983",
+      "blueScore" : 19,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8WBqMm8sGW66pylDN" : {
+      "additional_comments" : "None",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1995",
+      "blueScore" : -55,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -75,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8WC9gaVehW1P3gEUn" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -76,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8WbmOrt6xozw8c_4R" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1992",
+      "blueScore" : 17,
+      "computer_value" : "4",
+      "drivinglicense" : "none",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 20,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8XfXGX0rxfzmJm8vn" : {
+      "additional_comments" : "better",
+      "aggressively_value" : "5",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1990",
+      "blueScore" : 52,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8Y-IQimXl_04T9J3z" : {
+      "behavior" : "semiCarefulBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8bArU3izPjaa6gX00" : {
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8bu2t6UmGJQf5813c" : {
+      "behavior" : "semiCarefulBehavior",
+      "press-the-read-instructions-button" : true
+    },
+    "-Mb8dWlSTnj0jW9rs3qX" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 19,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-Mb8gELj-iv1FgynRrBB" : {
+      "behavior" : "semiCarefulBehavior"
+    },
+    "-Mb8gH_1DFUjy5JYAmCH" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb8gQ0wKvcib0ssgVXO" : {
+      "behavior" : "semiCarefulBehavior"
+    },
+    "-Mb8gguswoRNGTu5xQmY" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1993",
+      "blueScore" : 55,
+      "computer_value" : "4",
+      "drivinglicense" : "none",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-Mb8iNek059_BPpEujfO" : {
+      "additional_comments" : "Nocomments",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1996",
+      "blueScore" : -120,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "1",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -146,
+      "steps" : 46,
+      "win" : false,
+      "wisely_value" : "4"
+    },
+    "-Mb8jxwRzI9qbfw_V8Hx" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 11,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 14,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8kUFE3IauV3gwXjuy" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1968",
+      "blueScore" : 16,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 19,
+      "steps" : 11,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8nlGkav0LWfnRz7PM" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1982",
+      "blueScore" : -76,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -104,
+      "steps" : 4,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb8o_XeWd2paYvTAGfV" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb8tiVCtVzLLiWRSW2U" : {
+      "behavior" : "semiAggressiveBehavior"
+    },
+    "-Mb96ve_0tdW_Y8EcF_w" : {
+      "behavior" : "aggressiveBehavior"
+    },
+    "-Mb9GmWJhSgjC-qlLMVD" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1994",
+      "blueScore" : 15,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 16,
+      "steps" : 14,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "undefined" : {
+      "press-the-read-instructions-button" : true
     }
   },
   "carefulBehavior" : {
@@ -20120,39 +22305,2143 @@
       "redScore" : 25,
       "steps" : 5,
       "win" : true
+    },
+    "-Mb8NCwlIi4KJDrG5yEI" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1993",
+      "blueScore" : -45,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a1, action: stay"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8NHVhDBfXR1RL5yCj" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1967",
+      "blueScore" : 54,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8NWlwSG4zkuBH0YZd" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1998",
+      "blueScore" : -126,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -152,
+      "steps" : 52,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8Ny6y6hyjqlCyc78D" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1996",
+      "blueScore" : -170,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a6, action: down",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: b6, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -196,
+      "steps" : 96,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8O8jSu_HqeP6aOvBI" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1987",
+      "blueScore" : -55,
+      "computer_value" : "3",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "redScore" : -75,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8OPSRVwMYsvTNE4_e" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -75,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "2",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "4"
+    },
+    "-Mb8PvBOIUrIUk0R5KXE" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 54,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-Mb8Q0x-Cy_1KPfxwGI4" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1974",
+      "blueScore" : 13,
+      "computer_value" : "7",
+      "drivinglicense" : "none",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 16,
+      "steps" : 14,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8R3I-EZCxELnq39mm" : {
+      "additional_comments" : "itwasfunthankyou",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 18,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a5, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 23,
+      "steps" : 7,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8ReG27p88yhzTLi0h" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -56,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -76,
+      "steps" : 6,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8RgaFWFoBM1x_HF_S" : {
+      "additional_comments" : "",
+      "aggressively_value" : "1",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1989",
+      "blueScore" : 22,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 25,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8RvIKxQjYTkAwrqUn" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 12,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a6, action: down",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: b6, action: up",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a5, action: down",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b5, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 17,
+      "steps" : 13,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8Rw3jGavkvq85FEAA" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1986",
+      "blueScore" : -76,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b2, action: up"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8TA0BUNYCsBTbQr2U" : {
+      "additional_comments" : "better",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1994",
+      "blueScore" : -76,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb8UHYNs-aUwBSSenP-" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1983",
+      "blueScore" : -76,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -104,
+      "steps" : 4,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb8UeGpFYkXLEFq38u2" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1971",
+      "blueScore" : -76,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b2, action: up"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -105,
+      "steps" : 5,
+      "win" : false,
+      "wisely_value" : "1"
+    },
+    "-Mb8UxaHCg9CVCyGKcJe" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1986",
+      "blueScore" : 54,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8V0VLzEkFT-rWqlLx" : {
+      "additional_comments" : "None",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1995",
+      "blueScore" : -27,
+      "computer_value" : "4",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: down"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: b1, action: up"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: a4, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b4, action: up"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: b5, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -65,
+      "steps" : 95,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8VfP4PJ_CS9k9DOo8" : {
+      "additional_comments" : "",
+      "aggressively_value" : "7",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1982",
+      "blueScore" : 55,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "Master's degree",
+      "gender" : "male",
+      "generously_value" : "1",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "1"
+    },
+    "-Mb8W36QTkRd_uG0VkO8" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1983",
+      "blueScore" : 19,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "female",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8WBqMm8sGW66pylDN" : {
+      "additional_comments" : "None",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1995",
+      "blueScore" : -55,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -75,
+      "steps" : 5,
+      "win" : true,
+      "wisely_value" : "6"
+    },
+    "-Mb8WC9gaVehW1P3gEUn" : {
+      "additional_comments" : "",
+      "aggressively_value" : "5",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1990",
+      "blueScore" : -76,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "3",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -103,
+      "steps" : 3,
+      "win" : false,
+      "wisely_value" : "6"
+    },
+    "-Mb8WbmOrt6xozw8c_4R" : {
+      "additional_comments" : "",
+      "aggressively_value" : "4",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1992",
+      "blueScore" : 17,
+      "computer_value" : "4",
+      "drivinglicense" : "none",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "3",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 20,
+      "steps" : 10,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8XfXGX0rxfzmJm8vn" : {
+      "additional_comments" : "better",
+      "aggressively_value" : "5",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1990",
+      "blueScore" : 52,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "5",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: a5, action: stay"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 21,
+      "steps" : 9,
+      "win" : true,
+      "wisely_value" : "4"
+    },
+    "-Mb8dWlSTnj0jW9rs3qX" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 19,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "6",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "2"
+    },
+    "-Mb8gguswoRNGTu5xQmY" : {
+      "additional_comments" : "",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "aggressiveBehavior",
+      "birthYear" : "1993",
+      "blueScore" : 55,
+      "computer_value" : "4",
+      "drivinglicense" : "none",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "4",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a2, action: left",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a1, action: stay",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 22,
+      "steps" : 8,
+      "win" : true,
+      "wisely_value" : "7"
+    },
+    "-Mb8iNek059_BPpEujfO" : {
+      "additional_comments" : "Nocomments",
+      "aggressively_value" : "6",
+      "answer-the-quiz" : true,
+      "behavior" : "randomBehavior",
+      "birthYear" : "1996",
+      "blueScore" : -120,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a6, action: stay",
+        "red" : "from: a5, action: down"
+      }, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: stay"
+      }, {
+        "blue" : "from: a5, action: stay",
+        "red" : "from: b5, action: up"
+      } ],
+      "predictable_value" : "1",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -146,
+      "steps" : 46,
+      "win" : false,
+      "wisely_value" : "4"
+    },
+    "-Mb8jxwRzI9qbfw_V8Hx" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1988",
+      "blueScore" : 11,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "5",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 14,
+      "steps" : 16,
+      "win" : true,
+      "wisely_value" : "5"
+    },
+    "-Mb8kUFE3IauV3gwXjuy" : {
+      "additional_comments" : "",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1968",
+      "blueScore" : 16,
+      "computer_value" : "5",
+      "drivinglicense" : "valid",
+      "education" : "BA",
+      "gender" : "female",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: b3, action: stay"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: b3, action: up"
+      }, {
+        "blue" : "from: a4, action: down",
+        "red" : "from: a3, action: stay"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b4, action: stay",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: b4, action: up",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 19,
+      "steps" : 11,
+      "win" : true,
+      "wisely_value" : "3"
+    },
+    "-Mb8nlGkav0LWfnRz7PM" : {
+      "additional_comments" : "",
+      "aggressively_value" : "3",
+      "answer-the-quiz" : true,
+      "behavior" : "semiAggressiveBehavior",
+      "birthYear" : "1982",
+      "blueScore" : -76,
+      "computer_value" : "6",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "2",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a3, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b3, action: up"
+      } ],
+      "predictable_value" : "4",
+      "press-the-read-instructions-button" : true,
+      "redScore" : -104,
+      "steps" : 4,
+      "win" : false,
+      "wisely_value" : "5"
+    },
+    "-Mb9GmWJhSgjC-qlLMVD" : {
+      "additional_comments" : "none",
+      "aggressively_value" : "2",
+      "answer-the-quiz" : true,
+      "behavior" : "semiCarefulBehavior",
+      "birthYear" : "1994",
+      "blueScore" : 15,
+      "computer_value" : "7",
+      "drivinglicense" : "valid",
+      "education" : "High School",
+      "gender" : "male",
+      "generously_value" : "6",
+      "log" : [ null, {
+        "blue" : "from: a6, action: left",
+        "red" : "from: a1, action: stay"
+      }, {
+        "blue" : "from: a5, action: left",
+        "red" : "from: a1, action: right"
+      }, {
+        "blue" : "from: a4, action: stay",
+        "red" : "from: a2, action: down"
+      }, {
+        "blue" : "from: a4, action: left",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: stay"
+      }, {
+        "blue" : "from: a3, action: stay",
+        "red" : "from: b2, action: up"
+      }, {
+        "blue" : "from: a3, action: down",
+        "red" : "from: a2, action: stay"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a2, action: right"
+      }, {
+        "blue" : "from: b3, action: stay",
+        "red" : "from: a3, action: right"
+      }, {
+        "blue" : "from: b3, action: up",
+        "red" : "from: a4, action: right"
+      }, {
+        "blue" : "from: a3, action: left",
+        "red" : "from: a5, action: right"
+      } ],
+      "predictable_value" : "7",
+      "press-the-read-instructions-button" : true,
+      "redScore" : 16,
+      "steps" : 14,
+      "win" : true,
+      "wisely_value" : "6"
     }
   },
   "randomBehavior" : {
-    "a2 a1,a2 a1" : "stay",
-    "a2 a1,a2 b1" : "stay",
-    "a2 a1,a3 a1" : "stay",
-    "a2 a1,a3 b1" : "stay",
-    "a2 a1,b2 a1" : "stay",
-    "a2 a1,b2 b1" : "stay",
-    "a2 a3,a2 a3" : "down",
-    "a2 a3,a2 b3" : "down",
-    "a2 a3,a3 a2" : "down",
-    "a2 a3,a3 b3" : "down",
-    "a2 a3,b2 a2" : "down",
-    "a2 a3,b2 a3" : "down",
-    "a2 a3,b2 b3" : "down",
-    "a2 a4,a2 a3" : "stay",
-    "a2 a4,a2 a4" : "stay",
-    "a2 a4,a2 b4" : "stay",
-    "a2 a4,a3 a4" : "stay",
-    "a2 a4,a3 b4" : "stay",
-    "a2 a4,b2 a3" : "stay",
-    "a2 a4,b2 a4" : "stay",
-    "a2 a4,b2 b4" : "stay",
-    "a2 a5,a2 a4" : "left",
-    "a2 a5,a2 a5" : "left",
-    "a2 a5,a2 b5" : "left",
-    "a2 a5,a3 a4" : "left",
-    "a2 a5,a3 a5" : "left",
-    "a2 a5,a3 b5" : "left",
-    "a2 a5,b2 a4" : "left",
-    "a2 a5,b2 a5" : "left",
-    "a2 a5,b2 b5" : "left",
+    "a2 a1,a2 a1" : "left",
+    "a2 a1,a2 b1" : "left",
+    "a2 a1,a3 a1" : "left",
+    "a2 a1,a3 b1" : "left",
+    "a2 a1,b2 a1" : "left",
+    "a2 a1,b2 b1" : "left",
+    "a2 a3,a2 a3" : "left",
+    "a2 a3,a2 b3" : "left",
+    "a2 a3,a3 a2" : "left",
+    "a2 a3,a3 b3" : "left",
+    "a2 a3,b2 a2" : "left",
+    "a2 a3,b2 a3" : "left",
+    "a2 a3,b2 b3" : "left",
+    "a2 a4,a2 a3" : "down",
+    "a2 a4,a2 a4" : "down",
+    "a2 a4,a2 b4" : "down",
+    "a2 a4,a3 a4" : "down",
+    "a2 a4,a3 b4" : "down",
+    "a2 a4,b2 a3" : "down",
+    "a2 a4,b2 a4" : "down",
+    "a2 a4,b2 b4" : "down",
+    "a2 a5,a2 a4" : "stay",
+    "a2 a5,a2 a5" : "stay",
+    "a2 a5,a2 b5" : "stay",
+    "a2 a5,a3 a4" : "stay",
+    "a2 a5,a3 a5" : "stay",
+    "a2 a5,a3 b5" : "stay",
+    "a2 a5,b2 a4" : "stay",
+    "a2 a5,b2 a5" : "stay",
+    "a2 a5,b2 b5" : "stay",
     "a2 a6,a2 a5" : "left",
     "a2 a6,a2 a6" : "left",
     "a2 a6,a2 b6" : "left",
@@ -20168,27 +24457,27 @@
     "a2 b1,a3 b1" : "stay",
     "a2 b1,b2 a1" : "stay",
     "a2 b1,b2 b1" : "stay",
-    "a2 b2,a2 b2" : "down",
-    "a2 b2,a3 a2" : "down",
-    "a2 b2,a3 b2" : "down",
-    "a2 b2,b2 a2" : "down",
+    "a2 b2,a2 b2" : "stay",
+    "a2 b2,a3 a2" : "stay",
+    "a2 b2,a3 b2" : "stay",
+    "a2 b2,b2 a2" : "stay",
     "a2 b3,a2 a3" : "stay",
     "a2 b3,a2 b3" : "stay",
     "a2 b3,a3 b3" : "stay",
     "a2 b3,b2 a3" : "stay",
     "a2 b3,b2 b3" : "stay",
-    "a2 b4,a2 a4" : "stay",
-    "a2 b4,a2 b4" : "stay",
-    "a2 b4,a3 a4" : "stay",
-    "a2 b4,a3 b4" : "stay",
-    "a2 b4,b2 a4" : "stay",
-    "a2 b4,b2 b4" : "stay",
-    "a2 b5,a2 a5" : "down",
-    "a2 b5,a2 b5" : "down",
-    "a2 b5,a3 a5" : "down",
-    "a2 b5,a3 b5" : "down",
-    "a2 b5,b2 a5" : "down",
-    "a2 b5,b2 b5" : "down",
+    "a2 b4,a2 a4" : "left",
+    "a2 b4,a2 b4" : "left",
+    "a2 b4,a3 a4" : "left",
+    "a2 b4,a3 b4" : "left",
+    "a2 b4,b2 a4" : "left",
+    "a2 b4,b2 b4" : "left",
+    "a2 b5,a2 a5" : "stay",
+    "a2 b5,a2 b5" : "stay",
+    "a2 b5,a3 a5" : "stay",
+    "a2 b5,a3 b5" : "stay",
+    "a2 b5,b2 a5" : "stay",
+    "a2 b5,b2 b5" : "stay",
     "a2 b6,a2 b6" : "down",
     "a2 b6,a3 b6" : "down",
     "a2 b6,b2 b6" : "down",
@@ -20214,14 +24503,14 @@
     "a3 a4,b3 a3" : "left",
     "a3 a4,b3 a4" : "left",
     "a3 a4,b3 b4" : "left",
-    "a3 a5,a3 a4" : "stay",
-    "a3 a5,a3 a5" : "stay",
-    "a3 a5,a3 b5" : "stay",
-    "a3 a5,a4 a5" : "stay",
-    "a3 a5,a4 b5" : "stay",
-    "a3 a5,b3 a4" : "stay",
-    "a3 a5,b3 a5" : "stay",
-    "a3 a5,b3 b5" : "stay",
+    "a3 a5,a3 a4" : "left",
+    "a3 a5,a3 a5" : "left",
+    "a3 a5,a3 b5" : "left",
+    "a3 a5,a4 a5" : "left",
+    "a3 a5,a4 b5" : "left",
+    "a3 a5,b3 a4" : "left",
+    "a3 a5,b3 a5" : "left",
+    "a3 a5,b3 b5" : "left",
     "a3 a6,a3 a5" : "left",
     "a3 a6,a3 a6" : "left",
     "a3 a6,a3 b6" : "left",
@@ -20231,33 +24520,33 @@
     "a3 a6,b3 a5" : "left",
     "a3 a6,b3 a6" : "left",
     "a3 a6,b3 b6" : "left",
-    "a3 b1,a3 a1" : "down",
-    "a3 b1,a3 b1" : "down",
-    "a3 b1,a4 a1" : "down",
-    "a3 b1,a4 b1" : "down",
-    "a3 b1,b3 a1" : "down",
-    "a3 b1,b3 b1" : "down",
-    "a3 b2,a3 a2" : "stay",
-    "a3 b2,a3 b2" : "stay",
-    "a3 b2,a4 a2" : "stay",
-    "a3 b2,a4 b2" : "stay",
-    "a3 b2,b3 a2" : "stay",
-    "a3 b2,b3 b2" : "stay",
-    "a3 b3,a3 b3" : "down",
-    "a3 b3,a4 a3" : "down",
-    "a3 b3,a4 b3" : "down",
-    "a3 b3,b3 a3" : "down",
+    "a3 b1,a3 a1" : "stay",
+    "a3 b1,a3 b1" : "stay",
+    "a3 b1,a4 a1" : "stay",
+    "a3 b1,a4 b1" : "stay",
+    "a3 b1,b3 a1" : "stay",
+    "a3 b1,b3 b1" : "stay",
+    "a3 b2,a3 a2" : "left",
+    "a3 b2,a3 b2" : "left",
+    "a3 b2,a4 a2" : "left",
+    "a3 b2,a4 b2" : "left",
+    "a3 b2,b3 a2" : "left",
+    "a3 b2,b3 b2" : "left",
+    "a3 b3,a3 b3" : "left",
+    "a3 b3,a4 a3" : "left",
+    "a3 b3,a4 b3" : "left",
+    "a3 b3,b3 a3" : "left",
     "a3 b4,a3 a4" : "down",
     "a3 b4,a3 b4" : "down",
     "a3 b4,a4 b4" : "down",
     "a3 b4,b3 a4" : "down",
     "a3 b4,b3 b4" : "down",
-    "a3 b5,a3 a5" : "left",
-    "a3 b5,a3 b5" : "left",
-    "a3 b5,a4 a5" : "left",
-    "a3 b5,a4 b5" : "left",
-    "a3 b5,b3 a5" : "left",
-    "a3 b5,b3 b5" : "left",
+    "a3 b5,a3 a5" : "down",
+    "a3 b5,a3 b5" : "down",
+    "a3 b5,a4 a5" : "down",
+    "a3 b5,a4 b5" : "down",
+    "a3 b5,b3 a5" : "down",
+    "a3 b5,b3 b5" : "down",
     "a3 b6,a3 b6" : "down",
     "a3 b6,a4 b6" : "down",
     "a3 b6,b3 b6" : "down",
@@ -20285,21 +24574,21 @@
     "a4 a3,b4 a2" : "left",
     "a4 a3,b4 a3" : "left",
     "a4 a3,b4 b3" : "left",
-    "a4 a5,a4 a5" : "down",
-    "a4 a5,a4 b5" : "down",
-    "a4 a5,a5 a4" : "down",
-    "a4 a5,a5 b5" : "down",
-    "a4 a5,b4 a4" : "down",
-    "a4 a5,b4 a5" : "down",
-    "a4 a5,b4 b5" : "down",
-    "a4 a6,a4 a5" : "left",
-    "a4 a6,a4 a6" : "left",
-    "a4 a6,a4 b6" : "left",
-    "a4 a6,a5 a6" : "left",
-    "a4 a6,a5 b6" : "left",
-    "a4 a6,b4 a5" : "left",
-    "a4 a6,b4 a6" : "left",
-    "a4 a6,b4 b6" : "left",
+    "a4 a5,a4 a5" : "stay",
+    "a4 a5,a4 b5" : "stay",
+    "a4 a5,a5 a4" : "stay",
+    "a4 a5,a5 b5" : "stay",
+    "a4 a5,b4 a4" : "stay",
+    "a4 a5,b4 a5" : "stay",
+    "a4 a5,b4 b5" : "stay",
+    "a4 a6,a4 a5" : "down",
+    "a4 a6,a4 a6" : "down",
+    "a4 a6,a4 b6" : "down",
+    "a4 a6,a5 a6" : "down",
+    "a4 a6,a5 b6" : "down",
+    "a4 a6,b4 a5" : "down",
+    "a4 a6,b4 a6" : "down",
+    "a4 a6,b4 b6" : "down",
     "a4 b1,a4 a1" : "stay",
     "a4 b1,a4 b1" : "stay",
     "a4 b1,a5 a1" : "stay",
@@ -20312,24 +24601,24 @@
     "a4 b2,a5 b2" : "left",
     "a4 b2,b4 a2" : "left",
     "a4 b2,b4 b2" : "left",
-    "a4 b3,a4 a3" : "stay",
-    "a4 b3,a4 b3" : "stay",
-    "a4 b3,a5 a3" : "stay",
-    "a4 b3,a5 b3" : "stay",
-    "a4 b3,b4 a3" : "stay",
-    "a4 b3,b4 b3" : "stay",
+    "a4 b3,a4 a3" : "left",
+    "a4 b3,a4 b3" : "left",
+    "a4 b3,a5 a3" : "left",
+    "a4 b3,a5 b3" : "left",
+    "a4 b3,b4 a3" : "left",
+    "a4 b3,b4 b3" : "left",
     "a4 b4,a4 b4" : "stay",
     "a4 b4,a5 a4" : "stay",
     "a4 b4,a5 b4" : "stay",
     "a4 b4,b4 a4" : "stay",
-    "a4 b5,a4 a5" : "stay",
-    "a4 b5,a4 b5" : "stay",
-    "a4 b5,a5 b5" : "stay",
-    "a4 b5,b4 a5" : "stay",
-    "a4 b5,b4 b5" : "stay",
-    "a4 b6,a4 b6" : "down",
-    "a4 b6,a5 b6" : "down",
-    "a4 b6,b4 b6" : "down",
+    "a4 b5,a4 a5" : "left",
+    "a4 b5,a4 b5" : "left",
+    "a4 b5,a5 b5" : "left",
+    "a4 b5,b4 a5" : "left",
+    "a4 b5,b4 b5" : "left",
+    "a4 b6,a4 b6" : "stay",
+    "a4 b6,a5 b6" : "stay",
+    "a4 b6,b4 b6" : "stay",
     "a5 a1,a5 a1" : "left",
     "a5 a1,a5 b1" : "left",
     "a5 a1,a6 a1" : "left",
@@ -20370,60 +24659,60 @@
     "a5 a6,b5 a5" : "left",
     "a5 a6,b5 a6" : "left",
     "a5 a6,b5 b6" : "left",
-    "a5 b1,a5 a1" : "down",
-    "a5 b1,a5 b1" : "down",
-    "a5 b1,a6 a1" : "down",
-    "a5 b1,a6 b1" : "down",
-    "a5 b1,b5 a1" : "down",
-    "a5 b1,b5 b1" : "down",
-    "a5 b2,a5 a2" : "down",
-    "a5 b2,a5 b2" : "down",
-    "a5 b2,a6 a2" : "down",
-    "a5 b2,a6 b2" : "down",
-    "a5 b2,b5 a2" : "down",
-    "a5 b2,b5 b2" : "down",
-    "a5 b3,a5 a3" : "stay",
-    "a5 b3,a5 b3" : "stay",
-    "a5 b3,a6 a3" : "stay",
-    "a5 b3,a6 b3" : "stay",
-    "a5 b3,b5 a3" : "stay",
-    "a5 b3,b5 b3" : "stay",
+    "a5 b1,a5 a1" : "stay",
+    "a5 b1,a5 b1" : "stay",
+    "a5 b1,a6 a1" : "stay",
+    "a5 b1,a6 b1" : "stay",
+    "a5 b1,b5 a1" : "stay",
+    "a5 b1,b5 b1" : "stay",
+    "a5 b2,a5 a2" : "left",
+    "a5 b2,a5 b2" : "left",
+    "a5 b2,a6 a2" : "left",
+    "a5 b2,a6 b2" : "left",
+    "a5 b2,b5 a2" : "left",
+    "a5 b2,b5 b2" : "left",
+    "a5 b3,a5 a3" : "left",
+    "a5 b3,a5 b3" : "left",
+    "a5 b3,a6 a3" : "left",
+    "a5 b3,a6 b3" : "left",
+    "a5 b3,b5 a3" : "left",
+    "a5 b3,b5 b3" : "left",
     "a5 b4,a5 a4" : "down",
     "a5 b4,a5 b4" : "down",
     "a5 b4,a6 a4" : "down",
     "a5 b4,a6 b4" : "down",
     "a5 b4,b5 a4" : "down",
     "a5 b4,b5 b4" : "down",
-    "a5 b5,a5 b5" : "left",
-    "a5 b5,a6 a5" : "left",
-    "a5 b5,a6 b5" : "left",
-    "a5 b5,b5 a5" : "left",
+    "a5 b5,a5 b5" : "stay",
+    "a5 b5,a6 a5" : "stay",
+    "a5 b5,a6 b5" : "stay",
+    "a5 b5,b5 a5" : "stay",
     "a5 b6,a5 b6" : "left",
     "a5 b6,a6 b6" : "left",
     "a5 b6,b5 b6" : "left",
-    "a6 a1,a-9 a-9" : "left",
-    "a6 a1,a6 a1" : "left",
-    "a6 a1,a6 b1" : "left",
-    "a6 a1,b6 a1" : "left",
-    "a6 a1,b6 b1" : "left",
+    "a6 a1,a-9 a-9" : "stay",
+    "a6 a1,a6 a1" : "stay",
+    "a6 a1,a6 b1" : "stay",
+    "a6 a1,b6 a1" : "stay",
+    "a6 a1,b6 b1" : "stay",
     "a6 a2,a6 a1" : "stay",
     "a6 a2,a6 a2" : "stay",
     "a6 a2,a6 b2" : "stay",
     "a6 a2,b6 a1" : "stay",
     "a6 a2,b6 a2" : "stay",
     "a6 a2,b6 b2" : "stay",
-    "a6 a3,a6 a2" : "down",
-    "a6 a3,a6 a3" : "down",
-    "a6 a3,a6 b3" : "down",
-    "a6 a3,b6 a2" : "down",
-    "a6 a3,b6 a3" : "down",
-    "a6 a3,b6 b3" : "down",
-    "a6 a4,a6 a3" : "down",
-    "a6 a4,a6 a4" : "down",
-    "a6 a4,a6 b4" : "down",
-    "a6 a4,b6 a3" : "down",
-    "a6 a4,b6 a4" : "down",
-    "a6 a4,b6 b4" : "down",
+    "a6 a3,a6 a2" : "stay",
+    "a6 a3,a6 a3" : "stay",
+    "a6 a3,a6 b3" : "stay",
+    "a6 a3,b6 a2" : "stay",
+    "a6 a3,b6 a3" : "stay",
+    "a6 a3,b6 b3" : "stay",
+    "a6 a4,a6 a3" : "stay",
+    "a6 a4,a6 a4" : "stay",
+    "a6 a4,a6 b4" : "stay",
+    "a6 a4,b6 a3" : "stay",
+    "a6 a4,b6 a4" : "stay",
+    "a6 a4,b6 b4" : "stay",
     "a6 a5,a6 a4" : "stay",
     "a6 a5,a6 a5" : "stay",
     "a6 a5,a6 b5" : "stay",
@@ -20434,14 +24723,14 @@
     "a6 b1,a6 b1" : "down",
     "a6 b1,b6 a1" : "down",
     "a6 b1,b6 b1" : "down",
-    "a6 b2,a6 a2" : "stay",
-    "a6 b2,a6 b2" : "stay",
-    "a6 b2,b6 a2" : "stay",
-    "a6 b2,b6 b2" : "stay",
-    "a6 b3,a6 a3" : "left",
-    "a6 b3,a6 b3" : "left",
-    "a6 b3,b6 a3" : "left",
-    "a6 b3,b6 b3" : "left",
+    "a6 b2,a6 a2" : "left",
+    "a6 b2,a6 b2" : "left",
+    "a6 b2,b6 a2" : "left",
+    "a6 b2,b6 b2" : "left",
+    "a6 b3,a6 a3" : "down",
+    "a6 b3,a6 b3" : "down",
+    "a6 b3,b6 a3" : "down",
+    "a6 b3,b6 b3" : "down",
     "a6 b4,a6 a4" : "down",
     "a6 b4,a6 b4" : "down",
     "a6 b4,b6 a4" : "down",
@@ -20450,71 +24739,71 @@
     "a6 b5,a6 b5" : "left",
     "a6 b5,b6 a5" : "left",
     "a6 b5,b6 b5" : "left",
-    "a6 b6,a6 b6" : "left",
-    "b1 a1,b1 a1" : "up",
+    "a6 b6,a6 b6" : "down",
+    "b1 a1,b1 a1" : "stay",
     "b1 a2,b1 a1" : "up",
     "b1 a2,b1 a2" : "up",
     "b1 a2,b1 b2" : "up",
-    "b1 a3,b1 a2" : "stay",
-    "b1 a3,b1 a3" : "stay",
-    "b1 a3,b1 b3" : "stay",
-    "b1 a4,b1 a3" : "stay",
-    "b1 a4,b1 a4" : "stay",
-    "b1 a4,b1 b4" : "stay",
-    "b1 a5,b1 a4" : "stay",
-    "b1 a5,b1 a5" : "stay",
-    "b1 a5,b1 b5" : "stay",
-    "b1 a6,b1 a5" : "up",
-    "b1 a6,b1 a6" : "up",
-    "b1 a6,b1 b6" : "up",
-    "b1 b2,b1 a2" : "stay",
-    "b1 b2,b1 b2" : "stay",
+    "b1 a3,b1 a2" : "up",
+    "b1 a3,b1 a3" : "up",
+    "b1 a3,b1 b3" : "up",
+    "b1 a4,b1 a3" : "up",
+    "b1 a4,b1 a4" : "up",
+    "b1 a4,b1 b4" : "up",
+    "b1 a5,b1 a4" : "up",
+    "b1 a5,b1 a5" : "up",
+    "b1 a5,b1 b5" : "up",
+    "b1 a6,b1 a5" : "stay",
+    "b1 a6,b1 a6" : "stay",
+    "b1 a6,b1 b6" : "stay",
+    "b1 b2,b1 a2" : "up",
+    "b1 b2,b1 b2" : "up",
     "b1 b3,b1 a3" : "up",
     "b1 b3,b1 b3" : "up",
     "b1 b4,b1 a4" : "up",
     "b1 b4,b1 b4" : "up",
-    "b1 b5,b1 a5" : "up",
-    "b1 b5,b1 b5" : "up",
-    "b1 b6,b1 b6" : "stay",
+    "b1 b5,b1 a5" : "stay",
+    "b1 b5,b1 b5" : "stay",
+    "b1 b6,b1 b6" : "up",
     "b2 a1,a2 a1" : "stay",
     "b2 a1,a2 b1" : "stay",
     "b2 a1,b2 a1" : "stay",
     "b2 a1,b2 b1" : "stay",
-    "b2 a2,a2 a1" : "up",
-    "b2 a2,a2 b2" : "up",
-    "b2 a2,b2 a1" : "up",
-    "b2 a2,b2 a2" : "up",
-    "b2 a3,a2 a3" : "up",
-    "b2 a3,a2 b3" : "up",
-    "b2 a3,b2 a2" : "up",
-    "b2 a3,b2 a3" : "up",
-    "b2 a3,b2 b3" : "up",
-    "b2 a4,a2 a3" : "up",
-    "b2 a4,a2 a4" : "up",
-    "b2 a4,a2 b4" : "up",
-    "b2 a4,b2 a3" : "up",
-    "b2 a4,b2 a4" : "up",
-    "b2 a4,b2 b4" : "up",
-    "b2 a5,a2 a4" : "up",
-    "b2 a5,a2 a5" : "up",
-    "b2 a5,a2 b5" : "up",
-    "b2 a5,b2 a4" : "up",
-    "b2 a5,b2 a5" : "up",
-    "b2 a5,b2 b5" : "up",
-    "b2 a6,a2 a5" : "up",
-    "b2 a6,a2 a6" : "up",
-    "b2 a6,a2 b6" : "up",
-    "b2 a6,b2 a5" : "up",
-    "b2 a6,b2 a6" : "up",
-    "b2 a6,b2 b6" : "up",
+    "b2 a2,a2 a1" : "stay",
+    "b2 a2,a2 b2" : "stay",
+    "b2 a2,b2 a1" : "stay",
+    "b2 a2,b2 a2" : "stay",
+    "b2 a3,a2 a3" : "stay",
+    "b2 a3,a2 b3" : "stay",
+    "b2 a3,b2 a2" : "stay",
+    "b2 a3,b2 a3" : "stay",
+    "b2 a3,b2 b3" : "stay",
+    "b2 a4,a2 a3" : "stay",
+    "b2 a4,a2 a4" : "stay",
+    "b2 a4,a2 b4" : "stay",
+    "b2 a4,b2 a3" : "stay",
+    "b2 a4,b2 a4" : "stay",
+    "b2 a4,b2 b4" : "stay",
+    "b2 a5,a2 a4" : "stay",
+    "b2 a5,a2 a5" : "stay",
+    "b2 a5,a2 b5" : "stay",
+    "b2 a5,b2 a4" : "stay",
+    "b2 a5,b2 a5" : "stay",
+    "b2 a5,b2 b5" : "stay",
+    "b2 a6,a2 a5" : "stay",
+    "b2 a6,a2 a6" : "stay",
+    "b2 a6,a2 b6" : "stay",
+    "b2 a6,b2 a5" : "stay",
+    "b2 a6,b2 a6" : "stay",
+    "b2 a6,b2 b6" : "stay",
     "b2 b1,a2 a1" : "stay",
     "b2 b1,a2 b1" : "stay",
     "b2 b1,b2 a1" : "stay",
     "b2 b1,b2 b1" : "stay",
-    "b2 b3,a2 a3" : "stay",
-    "b2 b3,a2 b3" : "stay",
-    "b2 b3,b2 a3" : "stay",
-    "b2 b3,b2 b3" : "stay",
+    "b2 b3,a2 a3" : "up",
+    "b2 b3,a2 b3" : "up",
+    "b2 b3,b2 a3" : "up",
+    "b2 b3,b2 b3" : "up",
     "b2 b4,a2 a4" : "stay",
     "b2 b4,a2 b4" : "stay",
     "b2 b4,b2 a4" : "stay",
@@ -20523,8 +24812,8 @@
     "b2 b5,a2 b5" : "stay",
     "b2 b5,b2 a5" : "stay",
     "b2 b5,b2 b5" : "stay",
-    "b2 b6,a2 b6" : "stay",
-    "b2 b6,b2 b6" : "stay",
+    "b2 b6,a2 b6" : "up",
+    "b2 b6,b2 b6" : "up",
     "b3 a1,a3 a1" : "stay",
     "b3 a1,a3 b1" : "stay",
     "b3 a1,b3 a1" : "stay",
@@ -20535,76 +24824,76 @@
     "b3 a2,b3 a1" : "up",
     "b3 a2,b3 a2" : "up",
     "b3 a2,b3 b2" : "up",
-    "b3 a3,a3 a2" : "stay",
-    "b3 a3,a3 b3" : "stay",
-    "b3 a3,b3 a2" : "stay",
-    "b3 a3,b3 a3" : "stay",
-    "b3 a4,a3 a4" : "up",
-    "b3 a4,a3 b4" : "up",
-    "b3 a4,b3 a3" : "up",
-    "b3 a4,b3 a4" : "up",
-    "b3 a4,b3 b4" : "up",
-    "b3 a5,a3 a4" : "stay",
-    "b3 a5,a3 a5" : "stay",
-    "b3 a5,a3 b5" : "stay",
-    "b3 a5,b3 a4" : "stay",
-    "b3 a5,b3 a5" : "stay",
-    "b3 a5,b3 b5" : "stay",
-    "b3 a6,a3 a5" : "up",
-    "b3 a6,a3 a6" : "up",
-    "b3 a6,a3 b6" : "up",
-    "b3 a6,b3 a5" : "up",
-    "b3 a6,b3 a6" : "up",
-    "b3 a6,b3 b6" : "up",
-    "b3 b1,a3 a1" : "up",
-    "b3 b1,a3 b1" : "up",
-    "b3 b1,b3 a1" : "up",
-    "b3 b1,b3 b1" : "up",
-    "b3 b2,a3 a2" : "stay",
-    "b3 b2,a3 b2" : "stay",
-    "b3 b2,b3 a2" : "stay",
-    "b3 b2,b3 b2" : "stay",
-    "b3 b4,a3 a4" : "up",
-    "b3 b4,a3 b4" : "up",
-    "b3 b4,b3 a4" : "up",
-    "b3 b4,b3 b4" : "up",
+    "b3 a3,a3 a2" : "up",
+    "b3 a3,a3 b3" : "up",
+    "b3 a3,b3 a2" : "up",
+    "b3 a3,b3 a3" : "up",
+    "b3 a4,a3 a4" : "stay",
+    "b3 a4,a3 b4" : "stay",
+    "b3 a4,b3 a3" : "stay",
+    "b3 a4,b3 a4" : "stay",
+    "b3 a4,b3 b4" : "stay",
+    "b3 a5,a3 a4" : "up",
+    "b3 a5,a3 a5" : "up",
+    "b3 a5,a3 b5" : "up",
+    "b3 a5,b3 a4" : "up",
+    "b3 a5,b3 a5" : "up",
+    "b3 a5,b3 b5" : "up",
+    "b3 a6,a3 a5" : "stay",
+    "b3 a6,a3 a6" : "stay",
+    "b3 a6,a3 b6" : "stay",
+    "b3 a6,b3 a5" : "stay",
+    "b3 a6,b3 a6" : "stay",
+    "b3 a6,b3 b6" : "stay",
+    "b3 b1,a3 a1" : "stay",
+    "b3 b1,a3 b1" : "stay",
+    "b3 b1,b3 a1" : "stay",
+    "b3 b1,b3 b1" : "stay",
+    "b3 b2,a3 a2" : "up",
+    "b3 b2,a3 b2" : "up",
+    "b3 b2,b3 a2" : "up",
+    "b3 b2,b3 b2" : "up",
+    "b3 b4,a3 a4" : "stay",
+    "b3 b4,a3 b4" : "stay",
+    "b3 b4,b3 a4" : "stay",
+    "b3 b4,b3 b4" : "stay",
     "b3 b5,a3 a5" : "up",
     "b3 b5,a3 b5" : "up",
     "b3 b5,b3 a5" : "up",
     "b3 b5,b3 b5" : "up",
-    "b3 b6,a3 b6" : "stay",
-    "b3 b6,b3 b6" : "stay",
-    "b4 a1,a4 a1" : "stay",
-    "b4 a1,a4 b1" : "stay",
-    "b4 a1,b4 a1" : "stay",
-    "b4 a1,b4 b1" : "stay",
-    "b4 a2,a4 a1" : "up",
-    "b4 a2,a4 a2" : "up",
-    "b4 a2,a4 b2" : "up",
-    "b4 a2,b4 a1" : "up",
-    "b4 a2,b4 a2" : "up",
-    "b4 a2,b4 b2" : "up",
-    "b4 a3,a4 a2" : "stay",
-    "b4 a3,a4 a3" : "stay",
-    "b4 a3,a4 b3" : "stay",
-    "b4 a3,b4 a2" : "stay",
-    "b4 a3,b4 a3" : "stay",
-    "b4 a3,b4 b3" : "stay",
+    "b3 b6,a3 b6" : "up",
+    "b3 b6,b3 b6" : "up",
+    "b4 a1,a4 a1" : "up",
+    "b4 a1,a4 b1" : "up",
+    "b4 a1,b4 a1" : "up",
+    "b4 a1,b4 b1" : "up",
+    "b4 a2,a4 a1" : "stay",
+    "b4 a2,a4 a2" : "stay",
+    "b4 a2,a4 b2" : "stay",
+    "b4 a2,b4 a1" : "stay",
+    "b4 a2,b4 a2" : "stay",
+    "b4 a2,b4 b2" : "stay",
+    "b4 a3,a4 a2" : "up",
+    "b4 a3,a4 a3" : "up",
+    "b4 a3,a4 b3" : "up",
+    "b4 a3,b4 a2" : "up",
+    "b4 a3,b4 a3" : "up",
+    "b4 a3,b4 b3" : "up",
     "b4 a4,a4 a3" : "stay",
     "b4 a4,a4 b4" : "stay",
     "b4 a4,b4 a3" : "stay",
     "b4 a4,b4 a4" : "stay",
-    "b4 a5,a4 a5" : "stay",
-    "b4 a5,a4 b5" : "stay",
-    "b4 a5,b4 a4" : "stay",
-    "b4 a5,b4 a5" : "stay",
-    "b4 a5,b4 b5" : "stay",
-    "b4 a6,a4 a5" : "stay",
-    "b4 a6,a4 a6" : "stay",
-    "b4 a6,a4 b6" : "stay",
-    "b4 a6,b4 a5" : "stay",
-    "b4 a6,b4 a6" : "stay",
-    "b4 a6,b4 b6" : "stay",
+    "b4 a5,a4 a5" : "up",
+    "b4 a5,a4 b5" : "up",
+    "b4 a5,b4 a4" : "up",
+    "b4 a5,b4 a5" : "up",
+    "b4 a5,b4 b5" : "up",
+    "b4 a6,a4 a5" : "up",
+    "b4 a6,a4 a6" : "up",
+    "b4 a6,a4 b6" : "up",
+    "b4 a6,b4 a5" : "up",
+    "b4 a6,b4 a6" : "up",
+    "b4 a6,b4 b6" : "up",
     "b4 b1,a4 a1" : "up",
     "b4 b1,a4 b1" : "up",
     "b4 b1,b4 a1" : "up",
@@ -20613,26 +24902,26 @@
     "b4 b2,a4 b2" : "stay",
     "b4 b2,b4 a2" : "stay",
     "b4 b2,b4 b2" : "stay",
-    "b4 b3,a4 a3" : "stay",
-    "b4 b3,a4 b3" : "stay",
-    "b4 b3,b4 a3" : "stay",
-    "b4 b3,b4 b3" : "stay",
-    "b4 b5,a4 a5" : "up",
-    "b4 b5,a4 b5" : "up",
-    "b4 b5,b4 a5" : "up",
-    "b4 b5,b4 b5" : "up",
+    "b4 b3,a4 a3" : "up",
+    "b4 b3,a4 b3" : "up",
+    "b4 b3,b4 a3" : "up",
+    "b4 b3,b4 b3" : "up",
+    "b4 b5,a4 a5" : "stay",
+    "b4 b5,a4 b5" : "stay",
+    "b4 b5,b4 a5" : "stay",
+    "b4 b5,b4 b5" : "stay",
     "b4 b6,a4 b6" : "up",
     "b4 b6,b4 b6" : "up",
-    "b5 a1,a5 a1" : "stay",
-    "b5 a1,a5 b1" : "stay",
-    "b5 a1,b5 a1" : "stay",
-    "b5 a1,b5 b1" : "stay",
-    "b5 a2,a5 a1" : "stay",
-    "b5 a2,a5 a2" : "stay",
-    "b5 a2,a5 b2" : "stay",
-    "b5 a2,b5 a1" : "stay",
-    "b5 a2,b5 a2" : "stay",
-    "b5 a2,b5 b2" : "stay",
+    "b5 a1,a5 a1" : "up",
+    "b5 a1,a5 b1" : "up",
+    "b5 a1,b5 a1" : "up",
+    "b5 a1,b5 b1" : "up",
+    "b5 a2,a5 a1" : "up",
+    "b5 a2,a5 a2" : "up",
+    "b5 a2,a5 b2" : "up",
+    "b5 a2,b5 a1" : "up",
+    "b5 a2,b5 a2" : "up",
+    "b5 a2,b5 b2" : "up",
     "b5 a3,a5 a2" : "stay",
     "b5 a3,a5 a3" : "stay",
     "b5 a3,a5 b3" : "stay",
@@ -20645,10 +24934,10 @@
     "b5 a4,b5 a3" : "stay",
     "b5 a4,b5 a4" : "stay",
     "b5 a4,b5 b4" : "stay",
-    "b5 a5,a5 a4" : "up",
-    "b5 a5,a5 b5" : "up",
-    "b5 a5,b5 a4" : "up",
-    "b5 a5,b5 a5" : "up",
+    "b5 a5,a5 a4" : "stay",
+    "b5 a5,a5 b5" : "stay",
+    "b5 a5,b5 a4" : "stay",
+    "b5 a5,b5 a5" : "stay",
     "b5 a6,a5 a6" : "up",
     "b5 a6,a5 b6" : "up",
     "b5 a6,b5 a5" : "up",
@@ -20658,72 +24947,72 @@
     "b5 b1,a5 b1" : "up",
     "b5 b1,b5 a1" : "up",
     "b5 b1,b5 b1" : "up",
-    "b5 b2,a5 a2" : "up",
-    "b5 b2,a5 b2" : "up",
-    "b5 b2,b5 a2" : "up",
-    "b5 b2,b5 b2" : "up",
-    "b5 b3,a5 a3" : "up",
-    "b5 b3,a5 b3" : "up",
-    "b5 b3,b5 a3" : "up",
-    "b5 b3,b5 b3" : "up",
-    "b5 b4,a5 a4" : "up",
-    "b5 b4,a5 b4" : "up",
-    "b5 b4,b5 a4" : "up",
-    "b5 b4,b5 b4" : "up",
+    "b5 b2,a5 a2" : "stay",
+    "b5 b2,a5 b2" : "stay",
+    "b5 b2,b5 a2" : "stay",
+    "b5 b2,b5 b2" : "stay",
+    "b5 b3,a5 a3" : "stay",
+    "b5 b3,a5 b3" : "stay",
+    "b5 b3,b5 a3" : "stay",
+    "b5 b3,b5 b3" : "stay",
+    "b5 b4,a5 a4" : "stay",
+    "b5 b4,a5 b4" : "stay",
+    "b5 b4,b5 a4" : "stay",
+    "b5 b4,b5 b4" : "stay",
     "b5 b6,a5 b6" : "up",
     "b5 b6,b5 b6" : "up",
-    "b6 a1,a6 a1" : "stay",
-    "b6 a1,a6 b1" : "stay",
-    "b6 a1,b6 a1" : "stay",
-    "b6 a1,b6 b1" : "stay",
+    "b6 a1,a6 a1" : "up",
+    "b6 a1,a6 b1" : "up",
+    "b6 a1,b6 a1" : "up",
+    "b6 a1,b6 b1" : "up",
     "b6 a2,a6 a1" : "stay",
     "b6 a2,a6 a2" : "stay",
     "b6 a2,a6 b2" : "stay",
     "b6 a2,b6 a1" : "stay",
     "b6 a2,b6 a2" : "stay",
     "b6 a2,b6 b2" : "stay",
-    "b6 a3,a6 a2" : "up",
-    "b6 a3,a6 a3" : "up",
-    "b6 a3,a6 b3" : "up",
-    "b6 a3,b6 a2" : "up",
-    "b6 a3,b6 a3" : "up",
-    "b6 a3,b6 b3" : "up",
-    "b6 a4,a6 a3" : "stay",
-    "b6 a4,a6 a4" : "stay",
-    "b6 a4,a6 b4" : "stay",
-    "b6 a4,b6 a3" : "stay",
-    "b6 a4,b6 a4" : "stay",
-    "b6 a4,b6 b4" : "stay",
+    "b6 a3,a6 a2" : "stay",
+    "b6 a3,a6 a3" : "stay",
+    "b6 a3,a6 b3" : "stay",
+    "b6 a3,b6 a2" : "stay",
+    "b6 a3,b6 a3" : "stay",
+    "b6 a3,b6 b3" : "stay",
+    "b6 a4,a6 a3" : "up",
+    "b6 a4,a6 a4" : "up",
+    "b6 a4,a6 b4" : "up",
+    "b6 a4,b6 a3" : "up",
+    "b6 a4,b6 a4" : "up",
+    "b6 a4,b6 b4" : "up",
     "b6 a5,a6 a4" : "up",
     "b6 a5,a6 a5" : "up",
     "b6 a5,a6 b5" : "up",
     "b6 a5,b6 a4" : "up",
     "b6 a5,b6 a5" : "up",
     "b6 a5,b6 b5" : "up",
-    "b6 a6,a6 a5" : "up",
-    "b6 a6,a6 b6" : "up",
-    "b6 a6,b6 a5" : "up",
-    "b6 a6,b6 a6" : "up",
+    "b6 a6,a6 a5" : "stay",
+    "b6 a6,a6 b6" : "stay",
+    "b6 a6,b6 a5" : "stay",
+    "b6 a6,b6 a6" : "stay",
     "b6 b1,a6 a1" : "stay",
     "b6 b1,a6 b1" : "stay",
     "b6 b1,b6 a1" : "stay",
     "b6 b1,b6 b1" : "stay",
-    "b6 b2,a6 a2" : "up",
-    "b6 b2,a6 b2" : "up",
-    "b6 b2,b6 a2" : "up",
-    "b6 b2,b6 b2" : "up",
-    "b6 b3,a6 a3" : "up",
-    "b6 b3,a6 b3" : "up",
-    "b6 b3,b6 a3" : "up",
-    "b6 b3,b6 b3" : "up",
-    "b6 b4,a6 a4" : "stay",
-    "b6 b4,a6 b4" : "stay",
-    "b6 b4,b6 a4" : "stay",
-    "b6 b4,b6 b4" : "stay",
-    "b6 b5,a6 a5" : "up",
-    "b6 b5,a6 b5" : "up",
-    "b6 b5,b6 a5" : "up",
-    "b6 b5,b6 b5" : "up"
+    "b6 b2,a6 a2" : "stay",
+    "b6 b2,a6 b2" : "stay",
+    "b6 b2,b6 a2" : "stay",
+    "b6 b2,b6 b2" : "stay",
+    "b6 b3,a6 a3" : "stay",
+    "b6 b3,a6 b3" : "stay",
+    "b6 b3,b6 a3" : "stay",
+    "b6 b3,b6 b3" : "stay",
+    "b6 b4,a6 a4" : "up",
+    "b6 b4,a6 b4" : "up",
+    "b6 b4,b6 a4" : "up",
+    "b6 b4,b6 b4" : "up",
+    "b6 b5,a6 a5" : "stay",
+    "b6 b5,a6 b5" : "stay",
+    "b6 b5,b6 a5" : "stay",
+    "b6 b5,b6 b5" : "stay"
   },
   "semiAggressiveBehavior" : {
     "a2 a1,a2 a1" : "stay",
@@ -21933,11 +26222,11 @@
   },
   "valueIterationBasedBehavior_v2" : {
     "a2 a1,a2 a1" : "down",
-    "a2 a1,a2 b1" : "down",
+    "a2 a1,a2 b1" : "left",
     "a2 a1,a3 a1" : "down",
     "a2 a1,a3 b1" : "down",
     "a2 a1,b2 a1" : "down",
-    "a2 a1,b2 b1" : "down",
+    "a2 a1,b2 b1" : "left",
     "a2 a3,a2 a3" : "left",
     "a2 a3,a2 b3" : "left",
     "a2 a3,a3 a2" : "left",
@@ -21971,12 +26260,12 @@
     "a2 a6,b2 a5" : "left",
     "a2 a6,b2 a6" : "left",
     "a2 a6,b2 b6" : "left",
-    "a2 b1,a2 a1" : "down",
-    "a2 b1,a2 b1" : "down",
-    "a2 b1,a3 a1" : "down",
-    "a2 b1,a3 b1" : "down",
-    "a2 b1,b2 a1" : "down",
-    "a2 b1,b2 b1" : "down",
+    "a2 b1,a2 a1" : "stay",
+    "a2 b1,a2 b1" : "stay",
+    "a2 b1,a3 a1" : "stay",
+    "a2 b1,a3 b1" : "stay",
+    "a2 b1,b2 a1" : "stay",
+    "a2 b1,b2 b1" : "stay",
     "a2 b2,a2 b2" : "left",
     "a2 b2,a3 a2" : "left",
     "a2 b2,a3 b2" : "left",
@@ -22004,9 +26293,9 @@
     "a3 a1,a3 a1" : "down",
     "a3 a1,a3 b1" : "down",
     "a3 a1,a4 a1" : "down",
-    "a3 a1,a4 b1" : "down",
+    "a3 a1,a4 b1" : "stay",
     "a3 a1,b3 a1" : "down",
-    "a3 a1,b3 b1" : "down",
+    "a3 a1,b3 b1" : "stay",
     "a3 a2,a3 a1" : "down",
     "a3 a2,a3 a2" : "down",
     "a3 a2,a3 b2" : "down",
@@ -22046,12 +26335,12 @@
     "a3 b1,a4 b1" : "down",
     "a3 b1,b3 a1" : "down",
     "a3 b1,b3 b1" : "down",
-    "a3 b2,a3 a2" : "down",
-    "a3 b2,a3 b2" : "down",
-    "a3 b2,a4 a2" : "down",
-    "a3 b2,a4 b2" : "down",
-    "a3 b2,b3 a2" : "down",
-    "a3 b2,b3 b2" : "down",
+    "a3 b2,a3 a2" : "stay",
+    "a3 b2,a3 b2" : "stay",
+    "a3 b2,a4 a2" : "stay",
+    "a3 b2,a4 b2" : "stay",
+    "a3 b2,b3 a2" : "stay",
+    "a3 b2,b3 b2" : "stay",
     "a3 b3,a3 b3" : "left",
     "a3 b3,a4 a3" : "left",
     "a3 b3,a4 b3" : "left",
@@ -22071,20 +26360,20 @@
     "a3 b6,a4 b6" : "left",
     "a3 b6,b3 b6" : "left",
     "a4 a1,a4 a1" : "down",
-    "a4 a1,a4 b1" : "down",
+    "a4 a1,a4 b1" : "left",
     "a4 a1,a5 a1" : "down",
     "a4 a1,a5 b1" : "left",
     "a4 a1,b4 a1" : "down",
-    "a4 a1,b4 b1" : "down",
-    "a4 a2,a4 a1" : "down",
-    "a4 a2,a4 a2" : "down",
-    "a4 a2,a4 b2" : "down",
-    "a4 a2,a5 a1" : "down",
-    "a4 a2,a5 a2" : "down",
-    "a4 a2,a5 b2" : "down",
-    "a4 a2,b4 a1" : "down",
-    "a4 a2,b4 a2" : "down",
-    "a4 a2,b4 b2" : "down",
+    "a4 a1,b4 b1" : "left",
+    "a4 a2,a4 a1" : "stay",
+    "a4 a2,a4 a2" : "stay",
+    "a4 a2,a4 b2" : "stay",
+    "a4 a2,a5 a1" : "stay",
+    "a4 a2,a5 a2" : "stay",
+    "a4 a2,a5 b2" : "stay",
+    "a4 a2,b4 a1" : "stay",
+    "a4 a2,b4 a2" : "stay",
+    "a4 a2,b4 b2" : "stay",
     "a4 a3,a4 a2" : "down",
     "a4 a3,a4 a3" : "down",
     "a4 a3,a4 b3" : "down",
@@ -22109,12 +26398,12 @@
     "a4 a6,b4 a5" : "left",
     "a4 a6,b4 a6" : "left",
     "a4 a6,b4 b6" : "left",
-    "a4 b1,a4 a1" : "down",
-    "a4 b1,a4 b1" : "down",
+    "a4 b1,a4 a1" : "stay",
+    "a4 b1,a4 b1" : "stay",
     "a4 b1,a5 a1" : "down",
-    "a4 b1,a5 b1" : "down",
-    "a4 b1,b4 a1" : "down",
-    "a4 b1,b4 b1" : "down",
+    "a4 b1,a5 b1" : "stay",
+    "a4 b1,b4 a1" : "stay",
+    "a4 b1,b4 b1" : "stay",
     "a4 b2,a4 a2" : "stay",
     "a4 b2,a4 b2" : "stay",
     "a4 b2,a5 a2" : "stay",
@@ -22289,7 +26578,7 @@
     "b2 a1,a2 b1" : "stay",
     "b2 a1,b2 a1" : "stay",
     "b2 a1,b2 b1" : "stay",
-    "b2 a2,a2 a1" : "up",
+    "b2 a2,a2 a1" : "stay",
     "b2 a2,a2 b2" : "up",
     "b2 a2,b2 a1" : "up",
     "b2 a2,b2 a2" : "up",
@@ -22317,8 +26606,8 @@
     "b2 a6,b2 a6" : "up",
     "b2 a6,b2 b6" : "up",
     "b2 b1,a2 a1" : "stay",
-    "b2 b1,a2 b1" : "stay",
-    "b2 b1,b2 a1" : "stay",
+    "b2 b1,a2 b1" : "up",
+    "b2 b1,b2 a1" : "up",
     "b2 b1,b2 b1" : "up",
     "b2 b3,a2 a3" : "up",
     "b2 b3,a2 b3" : "up",
@@ -22336,7 +26625,7 @@
     "b2 b6,b2 b6" : "up",
     "b3 a1,a3 a1" : "stay",
     "b3 a1,a3 b1" : "stay",
-    "b3 a1,b3 a1" : "stay",
+    "b3 a1,b3 a1" : "up",
     "b3 a1,b3 b1" : "stay",
     "b3 a2,a3 a1" : "stay",
     "b3 a2,a3 a2" : "stay",
@@ -22369,10 +26658,10 @@
     "b3 b1,a3 b1" : "stay",
     "b3 b1,b3 a1" : "stay",
     "b3 b1,b3 b1" : "stay",
-    "b3 b2,a3 a2" : "stay",
-    "b3 b2,a3 b2" : "stay",
-    "b3 b2,b3 a2" : "stay",
-    "b3 b2,b3 b2" : "stay",
+    "b3 b2,a3 a2" : "up",
+    "b3 b2,a3 b2" : "up",
+    "b3 b2,b3 a2" : "up",
+    "b3 b2,b3 b2" : "up",
     "b3 b4,a3 a4" : "up",
     "b3 b4,a3 b4" : "up",
     "b3 b4,b3 a4" : "up",
@@ -22387,19 +26676,19 @@
     "b4 a1,a4 b1" : "stay",
     "b4 a1,b4 a1" : "stay",
     "b4 a1,b4 b1" : "stay",
-    "b4 a2,a4 a1" : "stay",
-    "b4 a2,a4 a2" : "stay",
-    "b4 a2,a4 b2" : "stay",
-    "b4 a2,b4 a1" : "stay",
+    "b4 a2,a4 a1" : "up",
+    "b4 a2,a4 a2" : "up",
+    "b4 a2,a4 b2" : "up",
+    "b4 a2,b4 a1" : "up",
     "b4 a2,b4 a2" : "up",
-    "b4 a2,b4 b2" : "stay",
+    "b4 a2,b4 b2" : "up",
     "b4 a3,a4 a2" : "stay",
     "b4 a3,a4 a3" : "stay",
     "b4 a3,a4 b3" : "stay",
     "b4 a3,b4 a2" : "stay",
     "b4 a3,b4 a3" : "stay",
     "b4 a3,b4 b3" : "stay",
-    "b4 a4,a4 a3" : "stay",
+    "b4 a4,a4 a3" : "up",
     "b4 a4,a4 b4" : "up",
     "b4 a4,b4 a3" : "up",
     "b4 a4,b4 a4" : "stay",
@@ -22493,7 +26782,7 @@
     "b6 a2,b6 b2" : "up",
     "b6 a3,a6 a2" : "stay",
     "b6 a3,a6 a3" : "up",
-    "b6 a3,a6 b3" : "stay",
+    "b6 a3,a6 b3" : "up",
     "b6 a3,b6 a2" : "stay",
     "b6 a3,b6 a3" : "up",
     "b6 a3,b6 b3" : "up",
@@ -22610,15 +26899,15 @@
     "a3 a1,a4 b1" : "down",
     "a3 a1,b3 a1" : "down",
     "a3 a1,b3 b1" : "down",
-    "a3 a2,a3 a1" : "left",
-    "a3 a2,a3 a2" : "left",
-    "a3 a2,a3 b2" : "left",
-    "a3 a2,a4 a1" : "left",
-    "a3 a2,a4 a2" : "left",
-    "a3 a2,a4 b2" : "left",
-    "a3 a2,b3 a1" : "left",
-    "a3 a2,b3 a2" : "left",
-    "a3 a2,b3 b2" : "left",
+    "a3 a2,a3 a1" : "down",
+    "a3 a2,a3 a2" : "down",
+    "a3 a2,a3 b2" : "down",
+    "a3 a2,a4 a1" : "down",
+    "a3 a2,a4 a2" : "down",
+    "a3 a2,a4 b2" : "down",
+    "a3 a2,b3 a1" : "down",
+    "a3 a2,b3 a2" : "down",
+    "a3 a2,b3 b2" : "down",
     "a3 a4,a3 a4" : "left",
     "a3 a4,a3 b4" : "left",
     "a3 a4,a4 a3" : "left",
@@ -22892,10 +27181,10 @@
     "b2 a1,a2 b1" : "stay",
     "b2 a1,b2 a1" : "stay",
     "b2 a1,b2 b1" : "stay",
-    "b2 a2,a2 a1" : "up",
-    "b2 a2,a2 b2" : "up",
-    "b2 a2,b2 a1" : "up",
-    "b2 a2,b2 a2" : "up",
+    "b2 a2,a2 a1" : "stay",
+    "b2 a2,a2 b2" : "stay",
+    "b2 a2,b2 a1" : "stay",
+    "b2 a2,b2 a2" : "stay",
     "b2 a3,a2 a3" : "up",
     "b2 a3,a2 b3" : "up",
     "b2 a3,b2 a2" : "up",
