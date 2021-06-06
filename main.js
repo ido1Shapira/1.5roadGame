@@ -365,14 +365,16 @@ function copytoclipboard() {
   }
 
   function updateBlueScore(){
-      var blueState = getBlueState();
-      var current = parseInt(blueState[1]);
-      var moreSteps = current-1;
-      if(blueState[0] == 'b') {
+    if(win == true) {
+        var blueState = getBlueState();
+        var current = parseInt(blueState[1]);
+        var moreSteps = current-1;
+        if(blueState[0] == 'b') {
         moreSteps++;
-      }
-      blueScore += moreSteps*step;
-      blueScore += richToDestination;
+        }
+        blueScore += moreSteps*step;
+        blueScore += richToDestination;
+    }
   }
 
 function finishGame() { //update database
