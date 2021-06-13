@@ -211,7 +211,7 @@ function redMove(to) {
             getDOM("survey_title").innerHTML = "Game ended!<br>You collided with the blue ball. Your score is: "+score+ "<br>Please fill the following survey:";
             finishGame();
         }
-        if(getRedState() == "a6") {
+        if(getRedState() == "a6" && getBlueState() != "a6") {
             win = true;
             score += richToDestination;
             getDOM("survey_title").innerHTML = "Well done, you reached your destination safely!<br>Your score is: "+score+ " point(s).\n"+ "<br>Please fill the following survey:";
@@ -231,8 +231,8 @@ function cheackIfLoss() { //if red and blue ball in the same position
     redState = getRedState(); // Get red ball state
     blueState = getBlueState(); // Get red ball state
 
-    return ((redLastCommand == "right") && (blueLastCommand == "left") &&
-    parseInt(redState[1])-1 == parseInt(blueState[1])) || (redState == blueState); 
+    return ((redLastCommand == "right") && (blueLastCommand == "left") && parseInt(redState[1])-1 == parseInt(blueState[1]))
+    || (redState == blueState)
 }
 
 function moveOnboard(currentPosition, newPosition, color) {
